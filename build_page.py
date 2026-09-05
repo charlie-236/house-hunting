@@ -166,7 +166,8 @@ price_badge_labels = {
 }
 
 def fmt_date(d):
-    return datetime.strptime(d, "%Y-%m-%d").strftime("%-d %B %Y")
+    value = datetime.strptime(d, "%Y-%m-%d")
+    return f"{value.day} {value.strftime('%B %Y')}"
 
 def score_tier(score):
     """Reuse the price-badge colour scale (green/amber/red) for Claude's opinion score."""
@@ -198,8 +199,9 @@ def listing_card(l, seen_dates=None):
     )
     floorplan_url = l.get("floorplan")
     if floorplan_url:
-        thumbs += (f'<img src="{html.escape(floorplan_url)}" loading="lazy" data-full="{html.escape(floorplan_url)}" '
-                   f'class="thumb thumb-fp" onclick="swapMain(this)" alt="Floorplan" title="Floorplan">')
+        thumbs += (f'<button type="button" class="floorplan-selector" aria-label="Open floorplan" '
+                   f"onclick='event.stopPropagation(); openFloorplan({json.dumps(floorplan_url)}); return false;'>"
+                   f'<span aria-hidden="true">📐</span><span>Floor plan</span></button>')
     commute_label, commute_class = badge_labels.get(l["commuteBadge"], ("Unknown", ""))
     price_label, price_class = price_badge_labels.get(l["priceBadge"], ("", ""))
     if floorplan_url:
@@ -261,9 +263,9 @@ def listing_card(l, seen_dates=None):
       <div class="card-media">
         {new_ribbon}
         <div class="status-btns" data-id="{l['id']}">
-          <button class="status-btn" data-key="favorite" title="Favorite">❤️</button>
-          <button class="status-btn" data-key="followedUp" title="Followed up">✅</button>
-          <button class="status-btn" data-key="rejected" title="Not interested">✕</button>
+          <button class="status-btn" data-key="favorite" title="Favorite" aria-pressed="false"><span aria-hidden="true">❤️</span><span class="status-label">Favorite</span></button>
+          <button class="status-btn" data-key="followedUp" title="Followed up" aria-pressed="false"><span aria-hidden="true">✅</span><span class="status-label">Followed up</span></button>
+          <button class="status-btn" data-key="rejected" title="Not interested" aria-pressed="false"><span aria-hidden="true">✕</span><span class="status-label">Reject</span></button>
         </div>
         <img class="main-photo" src="{html.escape(main_photo)}" alt="{html.escape(l['address'])}" loading="lazy" onerror="this.onerror=null;this.style.display='none';this.insertAdjacentHTML('afterend','<div class=&quot;photo-fallback&quot;>Photo unavailable — see listing</div>')">
         <div class="thumbs">{thumbs}</div>
@@ -463,6 +465,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   }}
   .status-btn:hover {{ transform: scale(1.1); opacity: 1; }}
   .status-btn.active {{ filter: none; opacity: 1; background: rgba(20,20,18,0.7); }}
+  .status-label {{ display: none; }}
   .card.status-favorite {{ border-color: #e0455c; border-width: 2px; }}
   .card.status-followedup {{ border-color: var(--accent); border-width: 2px; }}
   .card.status-rejected {{ opacity: 0.45; filter: grayscale(65%); }}
@@ -501,7 +504,13 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   .thumbs {{ display: flex; gap: 4px; padding: 6px; overflow-x: auto; background: var(--surface-2); }}
   .thumb {{ width: 46px; height: 34px; object-fit: cover; border-radius: 4px; cursor: pointer; flex: none; opacity: 0.85; }}
   .thumb:hover {{ opacity: 1; outline: 2px solid var(--accent); }}
-  .thumb-fp {{ object-fit: contain; background: #fff; border: 1.5px solid var(--accent-2); opacity: 1; }}
+  .floorplan-selector {{
+    height: 34px; flex: none; display: inline-flex; align-items: center; gap: 4px;
+    border: 1.5px solid var(--accent-2); border-radius: 5px; padding: 0 8px;
+    background: var(--surface); color: var(--text); font: inherit; font-size: 0.72rem; font-weight: 700;
+    cursor: pointer; white-space: nowrap;
+  }}
+  .floorplan-selector:hover {{ background: var(--border-bg); }}
   .card-body {{ padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; }}
   .card-top {{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }}
   .price {{ font-size: 1.15rem; font-weight: 700; margin-right: auto; }}
@@ -596,12 +605,16 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   .nav-prev {{ left: 10px; }}
   .nav-next {{ right: 10px; }}
   .modal-thumbs {{ display: flex; gap: 6px; padding: 10px 16px; overflow-x: auto; background: var(--surface-2); }}
-  .modal-thumbs img {{
+  .modal-thumb {{
     width: 62px; height: 46px; object-fit: cover; border-radius: 5px; cursor: pointer; flex: none; opacity: 0.7;
-    border: 2px solid transparent;
+    border: 2px solid transparent; padding: 0; background: transparent;
   }}
-  .modal-thumbs img.active {{ opacity: 1; border-color: var(--accent); }}
-  .modal-thumbs img.thumb-fp {{ object-fit: contain; background: #fff; }}
+  .modal-thumb img {{ width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 3px; }}
+  .modal-thumb.active {{ opacity: 1; border-color: var(--accent); }}
+  .modal-thumb.floorplan-selector {{
+    width: auto; padding: 0 10px; background: var(--surface); color: var(--text);
+    border-color: var(--accent-2); opacity: 1;
+  }}
   .modal-info {{ padding: 20px 24px 26px; }}
   .modal-info .price-row {{ display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }}
   .modal-info .price {{ font-size: 1.5rem; margin-right: auto; }}
@@ -685,10 +698,6 @@ HTML = f"""<title>Walthamstow House Hunt</title>
      "is the primary input imprecise" instead of "how wide is the screen",
      which is the actual thing tap-target sizing should key off. */
   @media (pointer: coarse) {{
-    /* 30px circular buttons are below the ~44px minimum comfortable touch
-       size and were easy to mis-tap when three sit side by side. */
-    .status-btn {{ width: 40px; height: 40px; font-size: 1rem; }}
-    .status-btns {{ gap: 8px; top: 8px; right: 8px; }}
     /* Small underlined text links are a poor touch target; button-ize them
        (still side by side above 600px -- see the width query for stacking). */
     .maps-links a {{
@@ -697,6 +706,30 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     }}
     .nav-arrow {{ width: 46px; height: 46px; }}
     .modal-close, .fp-modal-content .modal-close {{ width: 40px; height: 40px; }}
+  }}
+
+  @media (max-width: 600px), (pointer: coarse) {{
+    .card-media {{ display: flex; flex-direction: column; }}
+    .main-photo, .photo-fallback {{ order: 1; }}
+    .thumbs {{ order: 2; min-height: 54px; align-items: center; }}
+    .thumb {{ width: 56px; height: 42px; }}
+    .floorplan-selector {{ height: 42px; padding: 0 12px; font-size: 0.8rem; }}
+    .status-btns {{
+      position: static; order: 3; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px; padding: 8px 10px; background: var(--surface);
+    }}
+    .status-btns.modal-status-btns {{ width: 100%; margin-top: 2px; padding: 0; }}
+    .status-btn {{
+      width: auto; height: 44px; border: 1px solid var(--border); border-radius: 8px; padding: 0 8px;
+      gap: 5px; background: var(--surface-2); color: var(--text); filter: none; opacity: 1; box-shadow: none;
+      font-size: 0.9rem;
+    }}
+    .status-btn:hover {{ transform: none; }}
+    .status-label {{ display: inline; font-size: 0.74rem; font-weight: 700; }}
+    .status-btn[data-key="favorite"].active {{ background: #e0455c; border-color: #e0455c; color: #fff; }}
+    .status-btn[data-key="followedUp"].active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
+    .status-btn[data-key="rejected"].active {{ background: var(--stretch-fg); border-color: var(--stretch-fg); color: #fff; }}
+    .modal-thumb.floorplan-selector {{ min-height: 46px; font-size: 0.78rem; }}
   }}
 
   /* ---- Floorplan-only lightbox (bigger, no gallery/info clutter) ---- */
@@ -849,7 +882,9 @@ HTML = f"""<title>Walthamstow House Hunt</title>
       }}
       if (el.classList.contains('status-btns')) {{
         el.querySelectorAll('.status-btn').forEach(btn => {{
-          btn.classList.toggle('active', !!s[btn.dataset.key]);
+          const active = !!s[btn.dataset.key];
+          btn.classList.toggle('active', active);
+          btn.setAttribute('aria-pressed', String(active));
         }});
       }}
     }});
@@ -1187,10 +1222,12 @@ HTML = f"""<title>Walthamstow House Hunt</title>
 
     // Thumbnail strip
     modalThumbs.innerHTML = currentSlides.map((s, i) =>
-      `<img src="${{s.url}}" class="${{s.isFp ? 'thumb-fp' : ''}}" data-i="${{i}}" alt="${{s.label}}">`
+      s.isFp
+        ? `<button type="button" class="modal-thumb floorplan-selector" data-i="${{i}}" aria-label="Show floorplan"><span aria-hidden="true">📐</span><span>Floor plan</span></button>`
+        : `<button type="button" class="modal-thumb" data-i="${{i}}" aria-label="Show photo ${{i + 1}}"><img src="${{s.url}}" alt=""></button>`
     ).join('');
-    modalThumbs.querySelectorAll('img').forEach(img => {{
-      img.addEventListener('click', () => setSlide(parseInt(img.dataset.i, 10)));
+    modalThumbs.querySelectorAll('.modal-thumb').forEach(thumb => {{
+      thumb.addEventListener('click', () => setSlide(parseInt(thumb.dataset.i, 10)));
     }});
 
     // Info panel
@@ -1218,9 +1255,9 @@ HTML = f"""<title>Walthamstow House Hunt</title>
         <span class="pbadge ${{priceB[1]}}">${{priceB[0]}}</span>
         ${{op ? `<span class="pbadge ${{scoreTier(op.score)}}">🤖 ${{op.score}}/10</span>` : ''}}
         <div class="status-btns modal-status-btns" data-id="${{listing.id}}">
-          <button class="status-btn" data-key="favorite" title="Favorite">❤️</button>
-          <button class="status-btn" data-key="followedUp" title="Followed up">✅</button>
-          <button class="status-btn" data-key="rejected" title="Not interested">✕</button>
+          <button class="status-btn" data-key="favorite" title="Favorite" aria-pressed="false"><span aria-hidden="true">❤️</span><span class="status-label">Favorite</span></button>
+          <button class="status-btn" data-key="followedUp" title="Followed up" aria-pressed="false"><span aria-hidden="true">✅</span><span class="status-label">Followed up</span></button>
+          <button class="status-btn" data-key="rejected" title="Not interested" aria-pressed="false"><span aria-hidden="true">✕</span><span class="status-label">Reject</span></button>
         </div>
       </div>
       <h2>${{listing.address}}</h2>
@@ -1263,7 +1300,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     modalImg.src = slide.url;
     modalImg.alt = slide.label;
     slideLabel.textContent = `${{slide.label}} ${{currentSlideIndex + 1}} / ${{currentSlides.length}}`;
-    modalThumbs.querySelectorAll('img').forEach(img => img.classList.toggle('active', parseInt(img.dataset.i, 10) === currentSlideIndex));
+    modalThumbs.querySelectorAll('.modal-thumb').forEach(thumb => thumb.classList.toggle('active', parseInt(thumb.dataset.i, 10) === currentSlideIndex));
     resetZoom();
   }}
 
@@ -1459,5 +1496,5 @@ HTML = f"""<title>Walthamstow House Hunt</title>
 </script>
 """
 
-OUT_PATH.write_text(HTML)
+OUT_PATH.write_text(HTML, encoding="utf-8")
 print(f"Wrote {OUT_PATH} ({len(HTML):,} bytes) with {len(current_listings)} current listings and {total_ever_seen} total ever seen.")
