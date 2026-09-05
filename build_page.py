@@ -107,7 +107,7 @@ def total_monthly_cost(l, a=DEFAULT_ASSUMPTIONS):
         "ground_unknown": ground_pa is None,
     }
 
-data = json.loads(DATA_PATH.read_text())
+data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
 listings = data["listings"]
 
 # Favorite/followed-up/rejected status lives in its own sidecar file, written by
@@ -117,7 +117,7 @@ listings = data["listings"]
 # values in here means the page shows the right state on first paint even before
 # its one JS fetch to /api/status comes back.
 try:
-    initial_statuses = json.loads(STATUS_PATH.read_text()) if STATUS_PATH.exists() else {}
+    initial_statuses = json.loads(STATUS_PATH.read_text(encoding="utf-8")) if STATUS_PATH.exists() else {}
 except json.JSONDecodeError:
     initial_statuses = {}
 runs = sorted(data["runs"], key=lambda r: r["date"])
