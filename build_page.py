@@ -199,9 +199,9 @@ def listing_card(l, seen_dates=None):
     )
     floorplan_url = l.get("floorplan")
     if floorplan_url:
-        thumbs += (f'<button type="button" class="floorplan-selector" aria-label="Open floorplan" '
-                   f"onclick='event.stopPropagation(); openFloorplan({json.dumps(floorplan_url)}); return false;'>"
-                   f'<span aria-hidden="true">📐</span><span>Floor plan</span></button>')
+        thumbs = (f'<button type="button" class="floorplan-selector" aria-label="Open floorplan" '
+                  f"onclick='event.stopPropagation(); openFloorplan({json.dumps(floorplan_url)}); return false;'>"
+                  f'<span aria-hidden="true">📐</span><span>Floor plan</span></button>') + thumbs
     commute_label, commute_class = badge_labels.get(l["commuteBadge"], ("Unknown", ""))
     price_label, price_class = price_badge_labels.get(l["priceBadge"], ("", ""))
     if floorplan_url:
@@ -1221,11 +1221,15 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     currentSlideIndex = 0;
 
     // Thumbnail strip
-    modalThumbs.innerHTML = currentSlides.map((s, i) =>
-      s.isFp
+    const thumbnailIndexes = currentSlides.map((_, i) => i);
+    const floorplanIndex = currentSlides.findIndex(s => s.isFp);
+    if (floorplanIndex > 0) thumbnailIndexes.unshift(thumbnailIndexes.splice(floorplanIndex, 1)[0]);
+    modalThumbs.innerHTML = thumbnailIndexes.map(i => {{
+      const s = currentSlides[i];
+      return s.isFp
         ? `<button type="button" class="modal-thumb floorplan-selector" data-i="${{i}}" aria-label="Show floorplan"><span aria-hidden="true">📐</span><span>Floor plan</span></button>`
-        : `<button type="button" class="modal-thumb" data-i="${{i}}" aria-label="Show photo ${{i + 1}}"><img src="${{s.url}}" alt=""></button>`
-    ).join('');
+        : `<button type="button" class="modal-thumb" data-i="${{i}}" aria-label="Show photo ${{i + 1}}"><img src="${{s.url}}" alt=""></button>`;
+    }}).join('');
     modalThumbs.querySelectorAll('.modal-thumb').forEach(thumb => {{
       thumb.addEventListener('click', () => setSlide(parseInt(thumb.dataset.i, 10)));
     }});
