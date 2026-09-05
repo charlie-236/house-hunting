@@ -1,0 +1,12 @@
+# server.py writes status.json atomically via a temp file in this directory
+.status-*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+*.swp

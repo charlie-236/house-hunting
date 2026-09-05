@@ -1,0 +1,86 @@
+{
+  "om-20184519": {
+    "followedUp": false,
+    "favorite": false,
+    "rejected": true
+  },
+  "zoopla-73970395": {
+    "followedUp": true,
+    "rejected": false
+  },
+  "om-20182879": {
+    "followedUp": true,
+    "rejected": false,
+    "favorite": true
+  },
+  "om-20185042": {
+    "followedUp": true,
+    "rejected": false
+  },
+  "zoopla-74005762": {
+    "followedUp": false,
+    "favorite": false,
+    "rejected": true
+  },
+  "om-20184402": {
+    "followedUp": true,
+    "rejected": false
+  },
+  "zoopla-73983070": {
+    "followedUp": false,
+    "favorite": false,
+    "rejected": true
+  },
+  "zoopla-73982793": {
+    "favorite": true,
+    "rejected": false
+  },
+  "zoopla-73998664": {
+    "rejected": true,
+    "followedUp": false,
+    "favorite": false
+  },
+  "om-20131040": {
+    "rejected": false,
+    "favorite": true
+  },
+  "zoopla-74098115": {
+    "rejected": true,
+    "followedUp": false,
+    "favorite": false
+  },
+  "zoopla-74089806": {
+    "rejected": true,
+    "followedUp": false,
+    "favorite": false
+  },
+  "zoopla-74091129": {
+    "rejected": false,
+    "followedUp": true
+  },
+  "zoopla-74104420": {
+    "favorite": false,
+    "followedUp": false,
+    "rejected": true
+  },
+  "om-20173489": {
+    "favorite": false,
+    "followedUp": false,
+    "rejected": true
+  },
+  "zoopla-74109978": {
+    "favorite": false,
+    "followedUp": false,
+    "rejected": true
+  },
+  "zoopla-74141949": {
+    "favorite": false,
+    "followedUp": false,
+    "rejected": true
+  },
+  "zoopla-74141459": {
+    "favorite": false,
+    "followedUp": false,
+    "rejected": true
+  }
+}
