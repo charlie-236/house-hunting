@@ -10,7 +10,7 @@
     "stationWalkTarget": "1 mile / 10-15 min walk to an Underground or Overground station",
     "freshness": "Posted within the last 2 weeks (or since the previous run)",
     "opinionCriteria": [
-      "Price vs the £525k guide budget (in-budget / at-edge / over)",
+      "Price vs the \u00c2\u00a3525k guide budget (in-budget / at-edge / over)",
       "Commute quality and reliability to Walthamstow Central (confirmed vs estimated, walk+bus vs walk+train)",
       "Walk distance to the nearest station",
       "Tenure: freehold / share of freehold preferred; for leasehold, years remaining, ground rent, service charge",
@@ -165,7 +165,7 @@
         "zoopla-74141949",
         "zoopla-74102924"
       ],
-      "notesForRun": "Weekly scan, OnTheMarket + Zoopla, browser connected. Areas searched: Walthamstow/E17, Chingford/E4 and Leyton/E10 -- 2-bed and 3-bed facets on OnTheMarket for each, plus Zoopla newest-first (pages 1 and 2) for each. IMPORTANT METHOD NOTE: OnTheMarket's bed-count facet pages turned out to be near-useless for spotting new stock this run -- they returned essentially the same first page as on 29 Aug, including the same 'Reduced yesterday' tag on Cleveland Park Road, because those pages sort by relevance rather than date and the sort parameter is disallowed by OnTheMarket's robots.txt. Zoopla's newest-first sort found roughly 36 listings added in the same window that OnTheMarket's page 1 never surfaced. Treat Zoopla as the source of truth for freshness from here on; OnTheMarket is still useful for confirming a listing is still live (presence), just not for discovering new ones. 11 new listings added and fully scored, all first listed 30 Aug - 4 Sep: 5 in E17 (Kimberley Road, Vallentin Road, Haroldstone Road, Chingford Road/Lloyd Park, Wren House), 3 in E10 (Ruckholt Road, Warren Road, Murchison Road), 3 in E4 (Shingly Place, Cherrydown Close, Stapleford Close). Standouts: Ruckholt Road E10 8/10 (1,121 sq ft three-bed at 379/sq ft, ~240-year lease, underground parking), Shingly Place E4 8/10 (cheapest 3-bed/2-bath in the tracker at 400k), Kimberley Road E17 8/10 (three-bed house with garden under budget) and Vallentin Road E17 8/10 (cheapest move-in-ready two-bed, 177-year lease, fully disclosed terms). 31 existing listings were re-confirmed live and had lastSeen moved to today; nothing existing was edited beyond that and nothing was removed. Excluded on the usual quality bar: shared-ownership (four Priory Court units, Coronation Square, Beck Square); Homewise / 'Home for Life' over-60s lifetime leases (Gloucester Road, Centenary House, Willow Street at 314k); retirement properties; over-budget stock; anything outside the confirmed areas (Melford Road and Millais Road E11, Ashville Road E11, Maryland E15, and St. Marys Road NW10 which Zoopla surfaced as a promoted listing inside the Leyton search -- worth watching for, since promoted results are not area-filtered); and relisted-but-stale entries (Hitcham Road at 450k, first listed 11 Mar; Manston Court, 2 Feb; Cheney Row, 17 Jul). NOT YET ASSESSED: roughly 20 further listings did clear the coarse filters (2-3 bed, under ~525k, posted in the window) but were not individually opened and scored this run, because the week produced far more candidates than a single pass could properly evaluate. They are mostly 475k-525k two-beds of 620-690 sq ft in E17 -- the crowded middle of the market -- plus three E10 auction lots. They are listed in the chat summary for this run and can be assessed on request. Two listings dropped out of current matches this run, having not been found on either portal: York Road E4 and Lea Bridge Road E10. Forest Road E17 was also absent, confirming the suspicion recorded on 29 Aug that it had gone under offer. CORRECTION (same day, after Charlie spotted it): the original pass MISSED the tenure and running-cost data on several of these listings. Two extraction faults were responsible. First, the description text was truncated at 1,500 characters, which cut off the 'Tenure Information' block that some agents put at the END of the description -- that is how Ruckholt Road's approx. £500 per month service charge, £450 ground rent and band C council tax were all missed. Second, and separately, Zoopla renders a STRUCTURED FACTS PANEL further down every listing page (service charge / council tax band / ground rent / ground rent review period) that the extractor never looked at at all; that panel is where Shingly Place's £2,047 service charge and £483 ground rent reviewed every five years were hiding. Both sources must be read on every future run. Consequences: Ruckholt Road E10 is DOWNGRADED from 8/10 to 6/10 -- at £6,450 a year in service charge plus ground rent it carries roughly three times the fixed cost of anything else here, equivalent to about £90,000 of extra mortgage, so it behaves like a £515k property rather than a £425k one and the 'best value in the tracker' claim made when it was flagged was wrong. Shingly Place E4 is downgraded from 8/10 to 7/10 on the discovery of a five-yearly ground rent review, which is a lender-relevant risk. Warren Road E10 keeps 7/10 with its ground rent now confirmed at a negligible £50 a year. Wren House, Haroldstone Road and Chingford Road were re-checked and their charges really are published as 'ask agent', so 'not stated' was accurate for those three. Kimberley Road shows no tenure fields at all, consistent with freehold but still unconfirmed. The 8/10 list for this run is therefore Kimberley Road E17 and Vallentin Road E17 only."
+      "notesForRun": "Weekly scan, OnTheMarket + Zoopla, browser connected. Areas searched: Walthamstow/E17, Chingford/E4 and Leyton/E10 -- 2-bed and 3-bed facets on OnTheMarket for each, plus Zoopla newest-first (pages 1 and 2) for each. IMPORTANT METHOD NOTE: OnTheMarket's bed-count facet pages turned out to be near-useless for spotting new stock this run -- they returned essentially the same first page as on 29 Aug, including the same 'Reduced yesterday' tag on Cleveland Park Road, because those pages sort by relevance rather than date and the sort parameter is disallowed by OnTheMarket's robots.txt. Zoopla's newest-first sort found roughly 36 listings added in the same window that OnTheMarket's page 1 never surfaced. Treat Zoopla as the source of truth for freshness from here on; OnTheMarket is still useful for confirming a listing is still live (presence), just not for discovering new ones. 11 new listings added and fully scored, all first listed 30 Aug - 4 Sep: 5 in E17 (Kimberley Road, Vallentin Road, Haroldstone Road, Chingford Road/Lloyd Park, Wren House), 3 in E10 (Ruckholt Road, Warren Road, Murchison Road), 3 in E4 (Shingly Place, Cherrydown Close, Stapleford Close). Standouts: Ruckholt Road E10 8/10 (1,121 sq ft three-bed at 379/sq ft, ~240-year lease, underground parking), Shingly Place E4 8/10 (cheapest 3-bed/2-bath in the tracker at 400k), Kimberley Road E17 8/10 (three-bed house with garden under budget) and Vallentin Road E17 8/10 (cheapest move-in-ready two-bed, 177-year lease, fully disclosed terms). 31 existing listings were re-confirmed live and had lastSeen moved to today; nothing existing was edited beyond that and nothing was removed. Excluded on the usual quality bar: shared-ownership (four Priory Court units, Coronation Square, Beck Square); Homewise / 'Home for Life' over-60s lifetime leases (Gloucester Road, Centenary House, Willow Street at 314k); retirement properties; over-budget stock; anything outside the confirmed areas (Melford Road and Millais Road E11, Ashville Road E11, Maryland E15, and St. Marys Road NW10 which Zoopla surfaced as a promoted listing inside the Leyton search -- worth watching for, since promoted results are not area-filtered); and relisted-but-stale entries (Hitcham Road at 450k, first listed 11 Mar; Manston Court, 2 Feb; Cheney Row, 17 Jul). NOT YET ASSESSED: roughly 20 further listings did clear the coarse filters (2-3 bed, under ~525k, posted in the window) but were not individually opened and scored this run, because the week produced far more candidates than a single pass could properly evaluate. They are mostly 475k-525k two-beds of 620-690 sq ft in E17 -- the crowded middle of the market -- plus three E10 auction lots. They are listed in the chat summary for this run and can be assessed on request. Two listings dropped out of current matches this run, having not been found on either portal: York Road E4 and Lea Bridge Road E10. Forest Road E17 was also absent, confirming the suspicion recorded on 29 Aug that it had gone under offer. CORRECTION (same day, after Charlie spotted it): the original pass MISSED the tenure and running-cost data on several of these listings. Two extraction faults were responsible. First, the description text was truncated at 1,500 characters, which cut off the 'Tenure Information' block that some agents put at the END of the description -- that is how Ruckholt Road's approx. \u00c2\u00a3500 per month service charge, \u00c2\u00a3450 ground rent and band C council tax were all missed. Second, and separately, Zoopla renders a STRUCTURED FACTS PANEL further down every listing page (service charge / council tax band / ground rent / ground rent review period) that the extractor never looked at at all; that panel is where Shingly Place's \u00c2\u00a32,047 service charge and \u00c2\u00a3483 ground rent reviewed every five years were hiding. Both sources must be read on every future run. Consequences: Ruckholt Road E10 is DOWNGRADED from 8/10 to 6/10 -- at \u00c2\u00a36,450 a year in service charge plus ground rent it carries roughly three times the fixed cost of anything else here, equivalent to about \u00c2\u00a390,000 of extra mortgage, so it behaves like a \u00c2\u00a3515k property rather than a \u00c2\u00a3425k one and the 'best value in the tracker' claim made when it was flagged was wrong. Shingly Place E4 is downgraded from 8/10 to 7/10 on the discovery of a five-yearly ground rent review, which is a lender-relevant risk. Warren Road E10 keeps 7/10 with its ground rent now confirmed at a negligible \u00c2\u00a350 a year. Wren House, Haroldstone Road and Chingford Road were re-checked and their charges really are published as 'ask agent', so 'not stated' was accurate for those three. Kimberley Road shows no tenure fields at all, consistent with freehold but still unconfirmed. The 8/10 list for this run is therefore Kimberley Road E17 and Vallentin Road E17 only."
     },
     {
       "date": "2026-09-05",
@@ -221,6 +221,17 @@
       ],
       "listingIds": [],
       "notesForRun": "Full refresh from the designated local Git working copy. Searched all ten OnTheMarket two- and three-bed facets for Walthamstow, Chingford, Leyton, Highams Park and Blackhorse Road, and Zoopla newest-first pages 1 and 2 for Walthamstow, Leyton and Chingford. Zoopla exact listed dates governed freshness; OnTheMarket was used to reconfirm live stock. No qualifying new listings were posted. Shared ownership, promoted out-of-area listings, price reductions, stale relistings, mismarketed bedroom counts, retirement schemes and unsuitable auction stock remained excluded. 41 existing listings were reconfirmed live and only their lastSeen fields were changed."
+    },
+    {
+      "date": "2026-09-10",
+      "portalsChecked": [
+        "OnTheMarket",
+        "Zoopla"
+      ],
+      "listingIds": [
+        "zoopla-74157174"
+      ],
+      "notesForRun": "Full scan: all ten OnTheMarket facets and Zoopla newest-first pages 1-2 for E17, E4 and E10. One new fully inspected candidate added; floorplan gallery was unavailable, so floorplan is null. Excluded non-qualifying and out-of-area results."
     }
   ],
   "listings": {
@@ -229,7 +240,7 @@
       "address": "Markhouse Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 450000,
-      "priceText": "£450,000",
+      "priceText": "\u00c2\u00a3450,000",
       "beds": 2,
       "baths": 1,
       "type": "Maisonette",
@@ -272,7 +283,7 @@
       "opinion": {
         "score": 8,
         "pros": [
-          "Comfortably under budget (£450k vs £525k guide), leaving room for renovation or costs",
+          "Comfortably under budget (\u00c2\u00a3450k vs \u00c2\u00a3525k guide), leaving room for renovation or costs",
           "Long lease remaining (142-143 years) removes lease-extension risk",
           "Has a private rear garden with patio/decking despite being a first-floor maisonette",
           "Boarded loft adds useful storage",
@@ -295,7 +306,7 @@
       "address": "Falmouth Way, Walthamstow, London E17 9NJ",
       "postcode": "E17 9NJ",
       "price": 400000,
-      "priceText": "£400,000",
+      "priceText": "\u00c2\u00a3400,000",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
@@ -327,7 +338,7 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "Very good price, £125k under budget",
+          "Very good price, \u00c2\u00a3125k under budget",
           "Long 165-year lease",
           "Modern kitchen and bathroom already done",
           "Ample permit parking"
@@ -348,7 +359,7 @@
       "address": "Bodiam Court, Thornbury Way, Walthamstow, London E17",
       "postcode": "E17",
       "price": 485000,
-      "priceText": "£485,000",
+      "priceText": "\u00c2\u00a3485,000",
       "beds": 3,
       "baths": 2,
       "type": "Apartment",
@@ -389,7 +400,7 @@
           "Good commute: ~12-14 min via Wood Street"
         ],
         "cons": [
-          "Leasehold (116 years) — fine now, but apartment service charges tend to rise over time and aren't stated here",
+          "Leasehold (116 years) \u00e2\u20ac\u201d fine now, but apartment service charges tend to rise over time and aren't stated here",
           "No private garden, as with most apartments"
         ]
       },
@@ -404,7 +415,7 @@
       "address": "George Road, Chingford, London E4 8JL",
       "postcode": "E4 8JL",
       "price": 500000,
-      "priceText": "£500,000",
+      "priceText": "\u00c2\u00a3500,000",
       "beds": 2,
       "baths": 1,
       "type": "Terraced house",
@@ -454,9 +465,9 @@
           "Chain-free"
         ],
         "cons": [
-          "Walk to Highams Park is ~20 min / 1 mile — right at the outer edge of the stated station-walk target",
+          "Walk to Highams Park is ~20 min / 1 mile \u00e2\u20ac\u201d right at the outer edge of the stated station-walk target",
           "Only one bathroom",
-          "£500k for a 2-bed is toward the top of what similar houses go for"
+          "\u00c2\u00a3500k for a 2-bed is toward the top of what similar houses go for"
         ]
       },
       "groundRentPA": 0,
@@ -470,7 +481,7 @@
       "address": "Mapleton Road, Chingford, London E4",
       "postcode": "E4",
       "price": 375000,
-      "priceText": "Offers in excess of £375,000",
+      "priceText": "Offers in excess of \u00c2\u00a3375,000",
       "beds": 2,
       "baths": 1,
       "type": "End of terrace house",
@@ -519,7 +530,7 @@
           "Conservatory adds usable living space"
         ],
         "cons": [
-          "Small at 617 sq ft — noticeably smaller than most other candidates",
+          "Small at 617 sq ft \u00e2\u20ac\u201d noticeably smaller than most other candidates",
           "\"Offers in excess of\" guide means the final price is likely to land higher"
         ]
       },
@@ -534,7 +545,7 @@
       "address": "Valley Side, Chingford, London E4 9LG",
       "postcode": "E4 9LG",
       "price": 525000,
-      "priceText": "Offers in excess of £525,000",
+      "priceText": "Offers in excess of \u00c2\u00a3525,000",
       "beds": 3,
       "baths": 1,
       "type": "Semi-detached house",
@@ -585,7 +596,7 @@
           "Real extension potential (subject to planning)"
         ],
         "cons": [
-          "Guide is already at the £525k ceiling with \"offers in excess of\" wording, so the realistic sale price is likely over budget",
+          "Guide is already at the \u00c2\u00a3525k ceiling with \"offers in excess of\" wording, so the realistic sale price is likely over budget",
           "Only one bathroom for three bedrooms"
         ]
       },
@@ -600,7 +611,7 @@
       "address": "Jacks Farm Way, Highams Park, London E4 9LG",
       "postcode": "E4 9LG",
       "price": 575000,
-      "priceText": "£575,000",
+      "priceText": "\u00c2\u00a3575,000",
       "beds": 2,
       "baths": 2,
       "type": "Mid-terrace house",
@@ -652,7 +663,7 @@
           "Freehold and, per the listing, beautifully presented"
         ],
         "cons": [
-          "£50k over the £525k guide budget for only two bedrooms — a meaningful stretch"
+          "\u00c2\u00a350k over the \u00c2\u00a3525k guide budget for only two bedrooms \u00e2\u20ac\u201d a meaningful stretch"
         ]
       },
       "groundRentPA": 0,
@@ -666,7 +677,7 @@
       "address": "Linnett Close, London E4",
       "postcode": "E4",
       "price": 425000,
-      "priceText": "£425,000",
+      "priceText": "\u00c2\u00a3425,000",
       "beds": 2,
       "baths": 1,
       "type": "Terraced house",
@@ -707,7 +718,7 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "Comfortably under budget (£100k below guide)",
+          "Comfortably under budget (\u00c2\u00a3100k below guide)",
           "Freehold and chain-free",
           "Separate WC from the family bathroom",
           "Quiet residential close near Larks Wood"
@@ -727,7 +738,7 @@
       "address": "Grosvenor Heights, North Chingford, London E4 6AG",
       "postcode": "E4 6AG",
       "price": 575000,
-      "priceText": "£575,000",
+      "priceText": "\u00c2\u00a3575,000",
       "beds": 2,
       "baths": 2,
       "type": "Ground floor flat",
@@ -773,9 +784,9 @@
           "Ground floor, so no stairs"
         ],
         "cons": [
-          "£50k over the £525k guide budget",
+          "\u00c2\u00a350k over the \u00c2\u00a3525k guide budget",
           "Leasehold at 101 years remaining is on the shorter side and worth monitoring for lease-extension cost",
-          "Chingford is a terminus, so the commute likely needs a change of train — real-world time may exceed the estimate"
+          "Chingford is a terminus, so the commute likely needs a change of train \u00e2\u20ac\u201d real-world time may exceed the estimate"
         ]
       },
       "groundRentPA": null,
@@ -789,7 +800,7 @@
       "address": "Almack Road, Clapton, London E5",
       "postcode": "E5",
       "price": 475000,
-      "priceText": "£475,000",
+      "priceText": "\u00c2\u00a3475,000",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
@@ -832,12 +843,12 @@
         "score": 6,
         "pros": [
           "Long 176-year lease",
-          "In budget at £475k",
+          "In budget at \u00c2\u00a3475k",
           "Tasteful period features and a newly restored bathroom",
           "Private balcony plus communal gardens"
         ],
         "cons": [
-          "Commute to Walthamstow Central is genuinely unconfirmed — Zoopla's travel-time tool found nothing in this area and it hasn't been checked directly against TfL, which is why it's currently excluded from current matches"
+          "Commute to Walthamstow Central is genuinely unconfirmed \u00e2\u20ac\u201d Zoopla's travel-time tool found nothing in this area and it hasn't been checked directly against TfL, which is why it's currently excluded from current matches"
         ]
       },
       "groundRentPA": null,
@@ -851,7 +862,7 @@
       "address": "Howard Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 475000,
-      "priceText": "£475,000",
+      "priceText": "\u00c2\u00a3475,000",
       "beds": 2,
       "baths": 1,
       "type": "Flat (4th floor, with balcony)",
@@ -876,7 +887,7 @@
       "lon": -0.022,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~8 min / 0.4 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
@@ -885,12 +896,12 @@
         "score": 8,
         "pros": [
           "Zoopla-confirmed commute (the most reliable data point of any listing here)",
-          "In budget at £475k",
+          "In budget at \u00c2\u00a3475k",
           "Lift access, so the 4th floor isn't a real downside",
           "Private balcony with far-reaching views"
         ],
         "cons": [
-          "Tenure length isn't specified — worth confirming before offering",
+          "Tenure length isn't specified \u00e2\u20ac\u201d worth confirming before offering",
           "Only one bathroom"
         ]
       },
@@ -905,7 +916,7 @@
       "address": "Albert Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 500000,
-      "priceText": "£500,000",
+      "priceText": "\u00c2\u00a3500,000",
       "beds": 2,
       "baths": 1,
       "type": "Ground floor flat",
@@ -930,7 +941,7 @@
       "lon": -0.021,
       "nearestStation": "Walthamstow Queen's Road (Overground)",
       "walkToStation": "~5 min / 0.3 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
@@ -939,8 +950,8 @@
         "score": 8,
         "pros": [
           "Zoopla-confirmed commute",
-          "In budget at £500k",
-          "Private rear garden — unusually good for a flat",
+          "In budget at \u00c2\u00a3500k",
+          "Private rear garden \u00e2\u20ac\u201d unusually good for a flat",
           "Walking distance to two different stations, which gives route flexibility"
         ],
         "cons": [
@@ -959,7 +970,7 @@
       "address": "Wellesley Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 650000,
-      "priceText": "£650,000",
+      "priceText": "\u00c2\u00a3650,000",
       "beds": 2,
       "baths": 1,
       "type": "End of terrace house",
@@ -984,7 +995,7 @@
       "lon": -0.02,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~7 min / 0.35 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -997,7 +1008,7 @@
           "Zoopla-confirmed commute"
         ],
         "cons": [
-          "£125k over the £525k guide — a substantial stretch for a 2-bed"
+          "\u00c2\u00a3125k over the \u00c2\u00a3525k guide \u00e2\u20ac\u201d a substantial stretch for a 2-bed"
         ]
       },
       "groundRentPA": 0,
@@ -1011,12 +1022,12 @@
       "address": "Pembroke Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 525000,
-      "priceText": "£525,000",
+      "priceText": "\u00c2\u00a3525,000",
       "beds": 2,
       "baths": 1,
       "type": "Flat (first floor conversion)",
       "tenure": "Leasehold (988 years remaining)",
-      "description": "Approx. 737 sq ft two-double-bedroom first-floor conversion in an attractive double-fronted Victorian building, beautifully refurbished, no onward chain. Service charge ~£100pm. Council Tax Band B.",
+      "description": "Approx. 737 sq ft two-double-bedroom first-floor conversion in an attractive double-fronted Victorian building, beautifully refurbished, no onward chain. Service charge ~\u00c2\u00a3100pm. Council Tax Band B.",
       "agent": "Central Estate Agents",
       "dateAddedText": "14/08/2026",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/73982595/",
@@ -1036,7 +1047,7 @@
       "lon": -0.024,
       "nearestStation": "St James Street (Overground)",
       "walkToStation": "~10 min / 0.5 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "at-budget-edge",
       "firstSeen": "2026-08-24",
@@ -1046,11 +1057,11 @@
         "pros": [
           "Exceptionally long 988-year lease, which effectively removes lease-extension risk entirely",
           "Decent 737 sq ft, beautifully refurbished, no onward chain",
-          "Low service charge (~£100/month)",
+          "Low service charge (~\u00c2\u00a3100/month)",
           "Zoopla-confirmed commute"
         ],
         "cons": [
-          "Sits right at the £525k budget ceiling, leaving no room to negotiate or absorb extra costs"
+          "Sits right at the \u00c2\u00a3525k budget ceiling, leaving no room to negotiate or absorb extra costs"
         ]
       },
       "groundRentPA": null,
@@ -1064,7 +1075,7 @@
       "address": "Alander Mews, Walthamstow, London E17",
       "postcode": "E17",
       "price": 700000,
-      "priceText": "£700,000",
+      "priceText": "\u00c2\u00a3700,000",
       "beds": 3,
       "baths": 1,
       "type": "End of terrace house",
@@ -1089,7 +1100,7 @@
       "lon": -0.0165,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~13 min / 0.65 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1102,7 +1113,7 @@
           "Desirable Walthamstow Village conservation-area location"
         ],
         "cons": [
-          "£175k over the £525k guide — by far the largest budget overshoot of any listing here"
+          "\u00c2\u00a3175k over the \u00c2\u00a3525k guide \u00e2\u20ac\u201d by far the largest budget overshoot of any listing here"
         ]
       },
       "groundRentPA": 0,
@@ -1116,7 +1127,7 @@
       "address": "Forest Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 465000,
-      "priceText": "£465,000",
+      "priceText": "\u00c2\u00a3465,000",
       "beds": 2,
       "baths": 1,
       "type": "Ground floor flat",
@@ -1141,7 +1152,7 @@
       "lon": -0.019,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~12 min / 0.6 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
@@ -1150,8 +1161,8 @@
         "score": 8,
         "pros": [
           "Share of Freehold avoids the usual leasehold pitfalls (ground rent, lease length) entirely",
-          "In budget at £465k",
-          "Own private section of rear garden — unusual for a ground-floor flat",
+          "In budget at \u00c2\u00a3465k",
+          "Own private section of rear garden \u00e2\u20ac\u201d unusual for a ground-floor flat",
           "Zoopla-confirmed commute"
         ],
         "cons": [
@@ -1170,7 +1181,7 @@
       "address": "Attlee Terrace, Prospect Hill, London E17",
       "postcode": "E17",
       "price": 310000,
-      "priceText": "£310,000",
+      "priceText": "\u00c2\u00a3310,000",
       "beds": 2,
       "baths": 1,
       "type": "Maisonette (duplex)",
@@ -1195,7 +1206,7 @@
       "lon": -0.0215,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~6 min / 0.3 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
@@ -1203,12 +1214,12 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "By far the cheapest listing in the set at £310k, leaving huge headroom for a lease extension or renovation",
+          "By far the cheapest listing in the set at \u00c2\u00a3310k, leaving huge headroom for a lease extension or renovation",
           "Chain-free",
-          "Excellent confirmed commute — 6 minute walk to Walthamstow Central"
+          "Excellent confirmed commute \u00e2\u20ac\u201d 6 minute walk to Walthamstow Central"
         ],
         "cons": [
-          "81-year lease is below the ~85-year threshold many mortgage lenders are comfortable with, so a lease extension (a real, likely five-figure cost) should be budgeted for and may complicate mortgage approval — flagged directly on the listing itself"
+          "81-year lease is below the ~85-year threshold many mortgage lenders are comfortable with, so a lease extension (a real, likely five-figure cost) should be budgeted for and may complicate mortgage approval \u00e2\u20ac\u201d flagged directly on the listing itself"
         ]
       },
       "groundRentPA": null,
@@ -1222,7 +1233,7 @@
       "address": "Devonshire Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 675000,
-      "priceText": "£675,000",
+      "priceText": "\u00c2\u00a3675,000",
       "beds": 3,
       "baths": 1,
       "type": "Terraced house (Victorian)",
@@ -1247,7 +1258,7 @@
       "lon": -0.023,
       "nearestStation": "Walthamstow Queen's Road (Overground)",
       "walkToStation": "~8 min / 0.4 mi (per listing)",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1260,7 +1271,7 @@
           "Zoopla-confirmed commute, walking distance to two stations"
         ],
         "cons": [
-          "£150k over the £525k guide — a large stretch for a 3-bed",
+          "\u00c2\u00a3150k over the \u00c2\u00a3525k guide \u00e2\u20ac\u201d a large stretch for a 3-bed",
           "Only one bathroom despite three bedrooms"
         ]
       },
@@ -1275,12 +1286,12 @@
       "address": "44 Knotts Green Road, Leyton, London E10",
       "postcode": "E10",
       "price": 350000,
-      "priceText": "£350,000 (auction guide)",
+      "priceText": "\u00c2\u00a3350,000 (auction guide)",
       "beds": 3,
       "baths": 1,
       "type": "Terraced house (FOR SALE BY AUCTION -- guide price)",
       "tenure": "Freehold",
-      "description": "FOR SALE BY AUCTION on 10 Sept 2026 at 12:00 -- guide price £350,000+ (final price likely higher; auction has its own legal/completion timeline, worth understanding before bidding). Two-storey double-bayed Victorian terraced house, two reception rooms, kitchen, utility room, downstairs WC, three bedrooms and bathroom upstairs, front and rear gardens, potential to extend (STPP). Leyton Midland Road station approx. 0.5 mi south (per listing).",
+      "description": "FOR SALE BY AUCTION on 10 Sept 2026 at 12:00 -- guide price \u00c2\u00a3350,000+ (final price likely higher; auction has its own legal/completion timeline, worth understanding before bidding). Two-storey double-bayed Victorian terraced house, two reception rooms, kitchen, utility room, downstairs WC, three bedrooms and bathroom upstairs, front and rear gardens, potential to extend (STPP). Leyton Midland Road station approx. 0.5 mi south (per listing).",
       "agent": "Strettons Auctions - Residential",
       "dateAddedText": "18/08/2026",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74005762/",
@@ -1300,11 +1311,11 @@
       "lon": -0.009,
       "nearestStation": "Leyton Midland Road (Overground)",
       "walkToStation": "~10 min / 0.5 mi (per listing)",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "opinion": {
         "score": 5,
         "pros": [
@@ -1313,7 +1324,7 @@
           "Zoopla-confirmed commute"
         ],
         "cons": [
-          "Sold by auction (10 Sept 2026) — the £350k is only a guide, so the actual sale price is very likely to land meaningfully higher",
+          "Sold by auction (10 Sept 2026) \u00e2\u20ac\u201d the \u00c2\u00a3350k is only a guide, so the actual sale price is very likely to land meaningfully higher",
           "Auctions carry their own tight legal/completion timeline (typically ~28 days), which is a real practical complication compared to a normal purchase"
         ]
       },
@@ -1328,12 +1339,12 @@
       "address": "Tower Hamlets Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 800000,
-      "priceText": "£800,000",
+      "priceText": "\u00c2\u00a3800,000",
       "beds": 3,
       "baths": 1,
       "type": "Terraced house",
       "tenure": "Freehold",
-      "description": "Nestled in the charming Poets Corner conservation area, potential to extend (STPP), on-street residents' permit parking, double glazing & gas central heating, loft room/office, private rear garden, walking distance to Lloyd Park, catchment for desired schools. Walthamstow Central tube station: 0.4 mile (per listing). Well above the £525k budget guide.",
+      "description": "Nestled in the charming Poets Corner conservation area, potential to extend (STPP), on-street residents' permit parking, double glazing & gas central heating, loft room/office, private rear garden, walking distance to Lloyd Park, catchment for desired schools. Walthamstow Central tube station: 0.4 mile (per listing). Well above the \u00c2\u00a3525k budget guide.",
       "agent": "Kings Group - Walthamstow",
       "dateAddedText": "18/08/2026",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74006623/",
@@ -1353,7 +1364,7 @@
       "lon": -0.0175,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~8 min / 0.4 mi (per listing)",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1366,7 +1377,7 @@
           "Catchment for sought-after schools, exceptional walk to Walthamstow Central (0.4 mi)"
         ],
         "cons": [
-          "£275k over the £525k guide -- by far the largest budget overshoot of any listing in the set, more than half again the guide price"
+          "\u00c2\u00a3275k over the \u00c2\u00a3525k guide -- by far the largest budget overshoot of any listing in the set, more than half again the guide price"
         ]
       },
       "groundRentPA": 0,
@@ -1380,12 +1391,12 @@
       "address": "Lea Bridge Road, Leyton, London E10",
       "postcode": "E10",
       "price": 350000,
-      "priceText": "£350,000",
+      "priceText": "\u00c2\u00a3350,000",
       "beds": 2,
       "baths": 1,
       "type": "Maisonette",
       "tenure": "Leasehold",
-      "description": "Well-presented two-bedroom maisonette with original features, set between the independent shops and cafés of Walthamstow Village and Leyton, with Hollow Ponds also within easy reach. Walking distance to Leyton Midland Road.",
+      "description": "Well-presented two-bedroom maisonette with original features, set between the independent shops and caf\u00c3\u00a9s of Walthamstow Village and Leyton, with Hollow Ponds also within easy reach. Walking distance to Leyton Midland Road.",
       "agent": "The Stow Brothers - Walthamstow",
       "dateAddedText": "18/08/2026",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74009249/",
@@ -1405,20 +1416,20 @@
       "lon": -0.0195,
       "nearestStation": "Leyton Midland Road (Overground)",
       "walkToStation": "~9 min / 0.45 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "opinion": {
         "score": 6,
         "pros": [
-          "Well under budget at £350k",
+          "Well under budget at \u00c2\u00a3350k",
           "Zoopla-confirmed commute",
           "Pleasant location near Hollow Ponds and independent shops"
         ],
         "cons": [
-          "Lease length isn't stated in the listing data — worth checking directly, given how much lease length matters for other candidates in this set"
+          "Lease length isn't stated in the listing data \u00e2\u20ac\u201d worth checking directly, given how much lease length matters for other candidates in this set"
         ]
       },
       "groundRentPA": null,
@@ -1432,7 +1443,7 @@
       "address": "Church Hill, Walthamstow, London E17",
       "postcode": "E17",
       "price": 600000,
-      "priceText": "£600,000",
+      "priceText": "\u00c2\u00a3600,000",
       "beds": 3,
       "baths": 1,
       "type": "Ground floor flat",
@@ -1457,7 +1468,7 @@
       "lon": -0.021,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~4 min / 0.2 mi",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1471,7 +1482,7 @@
           "Garden section, immaculately presented"
         ],
         "cons": [
-          "£75k over the £525k guide for a 3-bed — a real gap, though smaller than several other over-budget options",
+          "\u00c2\u00a375k over the \u00c2\u00a3525k guide for a 3-bed \u00e2\u20ac\u201d a real gap, though smaller than several other over-budget options",
           "Only one bathroom"
         ]
       },
@@ -1486,7 +1497,7 @@
       "address": "Devonshire Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 700000,
-      "priceText": "£700,000",
+      "priceText": "\u00c2\u00a3700,000",
       "beds": 3,
       "baths": 1,
       "type": "Terraced house (Victorian)",
@@ -1511,7 +1522,7 @@
       "lon": -0.023,
       "nearestStation": "Walthamstow Queen's Road (Overground)",
       "walkToStation": "~8 min / 0.4 mi (same street as 74005583)",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1520,10 +1531,10 @@
         "score": 3,
         "pros": [
           "Freehold with genuine extension and loft-conversion potential (STPP)",
-          "No onward chain — a project for someone wanting to add value"
+          "No onward chain \u00e2\u20ac\u201d a project for someone wanting to add value"
         ],
         "cons": [
-          "£175k over the £525k guide, and needs modernisation throughout on top of that price — total cost of ownership will land well above the £525k guide"
+          "\u00c2\u00a3175k over the \u00c2\u00a3525k guide, and needs modernisation throughout on top of that price \u00e2\u20ac\u201d total cost of ownership will land well above the \u00c2\u00a3525k guide"
         ]
       },
       "groundRentPA": 0,
@@ -1537,7 +1548,7 @@
       "address": "Church Hill, Walthamstow, London E17",
       "postcode": "E17",
       "price": 600000,
-      "priceText": "£600,000",
+      "priceText": "\u00c2\u00a3600,000",
       "beds": 3,
       "baths": 1,
       "type": "Ground floor flat",
@@ -1562,7 +1573,7 @@
       "lon": -0.021,
       "nearestStation": "Walthamstow Central",
       "walkToStation": "~4 min / 0.2 mi (same street as 74016011)",
-      "commuteToWMC": "Confirmed ≤15 min via Zoopla",
+      "commuteToWMC": "Confirmed \u00e2\u2030\u00a415 min via Zoopla",
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
@@ -1576,7 +1587,7 @@
           "Zoopla-confirmed commute, 4-minute walk to Walthamstow Central"
         ],
         "cons": [
-          "£75k over the £525k guide for a 3-bed flat"
+          "\u00c2\u00a375k over the \u00c2\u00a3525k guide for a 3-bed flat"
         ]
       },
       "groundRentPA": 0,
@@ -1590,12 +1601,12 @@
       "address": "Warren Road, Chingford, London E4",
       "postcode": "E4",
       "price": 350000,
-      "priceText": "£350,000",
+      "priceText": "\u00c2\u00a3350,000",
       "beds": 2,
       "baths": 1,
       "type": "Garden flat",
       "tenure": "Not stated on listing (verify)",
-      "description": "Chain-free two-bedroom garden flat with a private garage and private garden, in a popular residential pocket of North Chingford. Guide price £350,000-£400,000 -- offers may exceed the guide.\n\nUser confirmed 2026-08-24: Chingford/Highams Park commute to Walthamstow Central is fine (direct Overground branch).",
+      "description": "Chain-free two-bedroom garden flat with a private garage and private garden, in a popular residential pocket of North Chingford. Guide price \u00c2\u00a3350,000-\u00c2\u00a3400,000 -- offers may exceed the guide.\n\nUser confirmed 2026-08-24: Chingford/Highams Park commute to Walthamstow Central is fine (direct Overground branch).",
       "agent": "Nest Seekers International",
       "dateAddedText": "11/08/2026",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/73953070/",
@@ -1619,17 +1630,17 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "opinion": {
         "score": 6,
         "pros": [
           "Excellent price, well under budget even at the top of its guide range",
           "Chain-free",
-          "Both a private garage and a private garden — an unusual combination at this price"
+          "Both a private garage and a private garden \u00e2\u20ac\u201d an unusual combination at this price"
         ],
         "cons": [
-          "Tenure isn't stated on the listing at all — freehold vs leasehold materially changes the assessment and must be confirmed directly with the agent",
-          "\"Guide price\" wording means the eventual price may exceed £350k"
+          "Tenure isn't stated on the listing at all \u00e2\u20ac\u201d freehold vs leasehold materially changes the assessment and must be confirmed directly with the agent",
+          "\"Guide price\" wording means the eventual price may exceed \u00c2\u00a3350k"
         ]
       },
       "groundRentPA": null,
@@ -1643,7 +1654,7 @@
       "address": "Hall Gardens, Chingford, London E4",
       "postcode": "E4",
       "price": 335000,
-      "priceText": "£335,000",
+      "priceText": "\u00c2\u00a3335,000",
       "beds": 2,
       "baths": 1,
       "type": "Ground floor maisonette",
@@ -1682,7 +1693,7 @@
           "Quiet cul-de-sac setting"
         ],
         "cons": [
-          "Leasehold length isn't stated — needs checking",
+          "Leasehold length isn't stated \u00e2\u20ac\u201d needs checking",
           "~14 min / 0.7 mi walk to Highams Park is toward the outer edge of the walk target"
         ]
       },
@@ -1697,7 +1708,7 @@
       "address": "York Road, Chingford, London E4",
       "postcode": "E4",
       "price": 525000,
-      "priceText": "£525,000",
+      "priceText": "\u00c2\u00a3525,000",
       "beds": 2,
       "baths": 1,
       "type": "End of terrace house",
@@ -1726,16 +1737,16 @@
       "commuteBadge": "borderline",
       "priceBadge": "at-budget-edge",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "opinion": {
         "score": 6,
         "pros": [
           "Freehold",
-          "Off-street parking for two cars — genuinely useful and uncommon",
+          "Off-street parking for two cars \u00e2\u20ac\u201d genuinely useful and uncommon",
           "South-west facing garden, open-plan living space combining two receptions"
         ],
         "cons": [
-          "Priced exactly at the £525k ceiling, leaving no room to negotiate or absorb extra costs",
+          "Priced exactly at the \u00c2\u00a3525k ceiling, leaving no room to negotiate or absorb extra costs",
           "A premium for a 2-bed compared to similarly priced Walthamstow options"
         ]
       },
@@ -1750,7 +1761,7 @@
       "address": "The Ridgeway, Chingford, London E4",
       "postcode": "E4",
       "price": 350000,
-      "priceText": "£350,000",
+      "priceText": "\u00c2\u00a3350,000",
       "beds": 2,
       "baths": 1,
       "type": "Ground floor maisonette",
@@ -1779,17 +1790,17 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "opinion": {
         "score": 6,
         "pros": [
           "Very good price, well under budget",
           "Own entrance rather than a shared communal one",
-          "Small block — less service-charge complexity than a large development"
+          "Small block \u00e2\u20ac\u201d less service-charge complexity than a large development"
         ],
         "cons": [
-          "Leasehold length isn't stated — needs checking",
-          "Listing description is fairly generic/thin compared to others — worth a closer look at photos and floorplan before drawing conclusions"
+          "Leasehold length isn't stated \u00e2\u20ac\u201d needs checking",
+          "Listing description is fairly generic/thin compared to others \u00e2\u20ac\u201d worth a closer look at photos and floorplan before drawing conclusions"
         ]
       },
       "groundRentPA": null,
@@ -1803,7 +1814,7 @@
       "address": "Lea Bridge Lofts, 363a Lea Bridge Road, Leyton, London E10 7LA",
       "postcode": "E10",
       "price": 450000,
-      "priceText": "Guide £450,000-£500,000",
+      "priceText": "Guide \u00c2\u00a3450,000-\u00c2\u00a3500,000",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -1848,24 +1859,24 @@
           "Generous 1,119 sq ft -- notably larger than most other candidates at this price",
           "Recently renovated, warehouse-conversion character (exposed beams, skylights, high ceilings)",
           "Private roof terrace plus dedicated parking -- rare combination in this budget",
-          "Comfortably within the £525k guide budget"
+          "Comfortably within the \u00c2\u00a3525k guide budget"
         ],
         "cons": [
           "Commute is the weak point here: nearest station (Lea Bridge) doesn't have a direct one-seat route to Walthamstow Central -- needs verifying in person (bus or a change) before treating this as a confirmed pass",
-          "Lease is 125 years remaining (confirmed with agent) — comfortable, but the ground rent review clause is still an outstanding query",
-          "Service charge £1,500/yr (£125/mo) plus £200/yr ground rent — a real addition to monthly cost, and the review clause is unknown"
+          "Lease is 125 years remaining (confirmed with agent) \u00e2\u20ac\u201d comfortable, but the ground rent review clause is still an outstanding query",
+          "Service charge \u00c2\u00a31,500/yr (\u00c2\u00a3125/mo) plus \u00c2\u00a3200/yr ground rent \u00e2\u20ac\u201d a real addition to monthly cost, and the review clause is unknown"
         ]
       },
       "leaseYearsRemaining": 125,
-      "groundRentReview": "UNKNOWN — outstanding query with agent",
-      "commuteWarning": "Commute badge NOT verified via the Zoopla travel-time method. Lea Bridge station does not serve Walthamstow Central directly — the route is the 158 bus or a ~20 min walk. Check on TfL Journey Planner before treating this badge as a pass."
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d outstanding query with agent",
+      "commuteWarning": "Commute badge NOT verified via the Zoopla travel-time method. Lea Bridge station does not serve Walthamstow Central directly \u00e2\u20ac\u201d the route is the 158 bus or a ~20 min walk. Check on TfL Journey Planner before treating this badge as a pass."
     },
     "om-20184519": {
       "id": "om-20184519",
       "address": "17B Oliver Road, Leyton, London E10 5JY",
       "postcode": "E10",
       "price": 275000,
-      "priceText": "Guide price £275,000 (auction)",
+      "priceText": "Guide price \u00c2\u00a3275,000 (auction)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -1907,7 +1918,7 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "Well under budget at a £275k guide, even allowing for auction prices typically landing above guide",
+          "Well under budget at a \u00c2\u00a3275k guide, even allowing for auction prices typically landing above guide",
           "Very long lease (990 years) and peppercorn ground rent removes lease-related risk entirely",
           "Private rear garden access, vacant with no chain -- straightforward to complete quickly",
           "990-year lease and low guide price leave real headroom for a refurb budget"
@@ -1928,7 +1939,7 @@
       "address": "Hornbeam Grove, Chingford, London E4 7BE",
       "postcode": "E4",
       "price": 400000,
-      "priceText": "£400,000",
+      "priceText": "\u00c2\u00a3400,000",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 1,
@@ -1977,7 +1988,7 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "Freehold, well under budget at £400k -- no ground rent or service charge",
+          "Freehold, well under budget at \u00c2\u00a3400k -- no ground rent or service charge",
           "Right by Chingford station -- one of the best walk times in the whole set (~5 min)",
           "3 bedrooms for the price, plus freehold gives real extension/loft potential (STPP)",
           "Quiet road overlooking woodland"
@@ -1997,7 +2008,7 @@
       "address": "Station Approach, Hoe Street, Walthamstow, London E17 9NJ",
       "postcode": "E17",
       "price": 600000,
-      "priceText": "£600,000",
+      "priceText": "\u00c2\u00a3600,000",
       "priceBadge": "above-budget",
       "beds": 2,
       "baths": 2,
@@ -2038,8 +2049,8 @@
           "Long lease (242 years)"
         ],
         "cons": [
-          "£75k over the £525k guide budget",
-          "Service charge alone is £3,722/yr (~£310/mo) plus £400/yr ground rent -- meaningfully raises the real monthly cost versus the price tag",
+          "\u00c2\u00a375k over the \u00c2\u00a3525k guide budget",
+          "Service charge alone is \u00c2\u00a33,722/yr (~\u00c2\u00a3310/mo) plus \u00c2\u00a3400/yr ground rent -- meaningfully raises the real monthly cost versus the price tag",
           "Kept here for comparison rather than as an in-budget candidate"
         ]
       },
@@ -2052,7 +2063,7 @@
       "address": "Stainforth Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 465000,
-      "priceText": "£465,000 (offers over)",
+      "priceText": "\u00c2\u00a3465,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 2,
@@ -2064,9 +2075,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
-      "commuteToWMC": "~10 min (walk only) — listing states a short stroll to Walthamstow Central",
+      "commuteToWMC": "~10 min (walk only) \u00e2\u20ac\u201d listing states a short stroll to Walthamstow Central",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
       "walkToStation": "~10 min / 0.5 mi",
       "lat": 51.5785,
@@ -2074,7 +2085,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "UNKNOWN — lease terms not stated; confirm before offering",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d lease terms not stated; confirm before offering",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/af8e45dccf9bc719de0201da3a31e01fd1eb389f.jpg",
       "photos": [
@@ -2092,18 +2103,18 @@
       "opinion": {
         "score": 8,
         "pros": [
-          "£60k under the £525k guide, in the single best-connected pocket of E17",
-          "Two bathrooms including an en-suite — unusual for a two-bed at this price",
+          "\u00c2\u00a360k under the \u00c2\u00a3525k guide, in the single best-connected pocket of E17",
+          "Two bathrooms including an en-suite \u00e2\u20ac\u201d unusual for a two-bed at this price",
           "Private balcony plus access to communal gardens",
           "Chain free, and a share of the freehold is due to follow, which would remove lease risk entirely",
           "EPC B keeps running costs down, and Walthamstow Central is a walk rather than a train"
         ],
         "cons": [
-          "The share of freehold is contingent on the developer selling the last flat in the block — until that happens it is an ordinary leasehold on undisclosed terms",
+          "The share of freehold is contingent on the developer selling the last flat in the block \u00e2\u20ac\u201d until that happens it is an ordinary leasehold on undisclosed terms",
           "No lease length, ground rent or service charge stated anywhere in the listing",
           "No square footage given, so hard to compare on space",
           "Second floor with no private garden",
-          "'Offers over' £465,000, so expect to pay more"
+          "'Offers over' \u00c2\u00a3465,000, so expect to pay more"
         ]
       }
     },
@@ -2112,7 +2123,7 @@
       "address": "Frederic Street, Walthamstow, London E17",
       "postcode": "E17",
       "price": 400000,
-      "priceText": "£400,000 (offers over)",
+      "priceText": "\u00c2\u00a3400,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -2124,9 +2135,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
-      "commuteToWMC": "~10 min (walk + 1 stop) — listing puts St James Street a stone's throw away",
+      "commuteToWMC": "~10 min (walk + 1 stop) \u00e2\u20ac\u201d listing puts St James Street a stone's throw away",
       "nearestStation": "St James Street (Overground)",
       "walkToStation": "~4 min / 0.2 mi",
       "lat": 51.58,
@@ -2134,7 +2145,7 @@
       "groundRentPA": 0,
       "serviceChargePA": 2128,
       "leaseYearsRemaining": 975,
-      "groundRentReview": "Peppercorn ground rent — no review risk",
+      "groundRentReview": "Peppercorn ground rent \u00e2\u20ac\u201d no review risk",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/1db113a0dd43b694f10a1344387f787eaaf1ce12.jpg",
       "photos": [
@@ -2152,17 +2163,17 @@
       "opinion": {
         "score": 8,
         "pros": [
-          "£125k under budget, the largest headroom of any move-in-ready flat in the current set",
-          "975-year lease at a peppercorn ground rent — about as good as tenure gets short of freehold, and fully disclosed",
+          "\u00c2\u00a3125k under budget, the largest headroom of any move-in-ready flat in the current set",
+          "975-year lease at a peppercorn ground rent \u00e2\u20ac\u201d about as good as tenure gets short of freehold, and fully disclosed",
           "818 sq ft is genuinely generous for a two-bed, with one bedroom at 14ft",
-          "Separate utility room plus hallway storage — rare in a flat this size",
+          "Separate utility room plus hallway storage \u00e2\u20ac\u201d rare in a flat this size",
           "Private balcony, and St James Street is a few minutes' walk, one stop from Walthamstow Central"
         ],
         "cons": [
-          "Service charge of £177.34/month (£2,128/yr) is the real running cost and offsets some of the low asking price",
+          "Service charge of \u00c2\u00a3177.34/month (\u00c2\u00a32,128/yr) is the real running cost and offsets some of the low asking price",
           "Only one bathroom for two bedrooms",
-          "Third floor — the listing doesn't mention a lift, so check",
-          "'Offers over' £400,000 on a well-priced flat means competition is likely",
+          "Third floor \u00e2\u20ac\u201d the listing doesn't mention a lift, so check",
+          "'Offers over' \u00c2\u00a3400,000 on a well-priced flat means competition is likely",
           "Modern block, so limited scope to add value through improvement"
         ]
       }
@@ -2172,19 +2183,19 @@
       "address": "Palmerston Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 475000,
-      "priceText": "£475,000 (guide, £475,000–£510,000)",
+      "priceText": "\u00c2\u00a3475,000 (guide, \u00c2\u00a3475,000\u00e2\u20ac\u201c\u00c2\u00a3510,000)",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 1,
       "type": "Maisonette",
       "tenure": "Leasehold (lease length, ground rent and service charge not stated)",
-      "description": "Three-bedroom end-terraced maisonette of approximately 1,097 sq ft (£433/sq ft) with an impressive bay-windowed front lounge, separate kitchen, large family bathroom, an additional separate WC on the upper floor, and a substantial top-floor principal bedroom with a Juliet balcony. EPC C.",
+      "description": "Three-bedroom end-terraced maisonette of approximately 1,097 sq ft (\u00c2\u00a3433/sq ft) with an impressive bay-windowed front lounge, separate kitchen, large family bathroom, an additional separate WC on the upper floor, and a substantial top-floor principal bedroom with a Juliet balcony. EPC C.",
       "agent": "Nested",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74069779/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 26/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
       "commuteToWMC": "~8 min (walk only)",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -2194,7 +2205,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "UNKNOWN — lease terms not stated; the key query on this one",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d lease terms not stated; the key query on this one",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/bc7f7067afaae194962f932c3c50b1f7e9e7bb75.jpg",
       "photos": [
@@ -2212,17 +2223,17 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "1,097 sq ft at £433/sq ft — the best space-per-pound of anything current",
+          "1,097 sq ft at \u00c2\u00a3433/sq ft \u00e2\u20ac\u201d the best space-per-pound of anything current",
           "A genuine three-bed within budget at the guide, walking distance to Walthamstow Central",
           "Extra separate WC alongside the family bathroom, which matters with three bedrooms",
           "Impressive bay-windowed reception and a top-floor principal bedroom with Juliet balcony"
         ],
         "cons": [
-          "Guide range runs to £510,000, so realistically this lands near the top of budget",
-          "Leasehold with no lease length, ground rent or service charge disclosed — the single biggest unknown here",
+          "Guide range runs to \u00c2\u00a3510,000, so realistically this lands near the top of budget",
+          "Leasehold with no lease length, ground rent or service charge disclosed \u00e2\u20ac\u201d the single biggest unknown here",
           "Only one full bathroom for three bedrooms",
           "Marketed as an opportunity to personalise, so budget for works on top",
-          "No private garden — a Juliet balcony only"
+          "No private garden \u00e2\u20ac\u201d a Juliet balcony only"
         ]
       }
     },
@@ -2231,19 +2242,19 @@
       "address": "Butterfields, Walthamstow, London E17",
       "postcode": "E17",
       "price": 425000,
-      "priceText": "£425,000 (offers over)",
+      "priceText": "\u00c2\u00a3425,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Maisonette",
-      "tenure": "Leasehold (114 years remaining, £250 pa ground rent)",
+      "tenure": "Leasehold (114 years remaining, \u00c2\u00a3250 pa ground rent)",
       "description": "Double-fronted maisonette of approximately 532 sq ft on the outskirts of Walthamstow Village, with its own private entrance, a spacious reception room, a separate modern shaker-style kitchen, two double bedrooms with built-in storage, and a generous 26ft sole-use rear garden with a shed. Council Tax band B, EPC C.",
       "agent": "Central Estate Agents",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74084632/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 27/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
       "commuteToWMC": "~12 min (walk + 1 stop)",
       "nearestStation": "Wood Street (Overground)",
@@ -2253,7 +2264,7 @@
       "groundRentPA": 250,
       "serviceChargePA": null,
       "leaseYearsRemaining": 114,
-      "groundRentReview": "UNKNOWN — £250 pa now, but no review clause stated; worth checking on a 114-year lease",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d \u00c2\u00a3250 pa now, but no review clause stated; worth checking on a 114-year lease",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/f74f3002535a3ab8d57251c6b0a793369d2d8550.jpg",
       "photos": [
@@ -2271,16 +2282,16 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "Own private entrance and a 26ft sole-use rear garden — rare for a maisonette at this price",
+          "Own private entrance and a 26ft sole-use rear garden \u00e2\u20ac\u201d rare for a maisonette at this price",
           "Both bedrooms are genuine doubles with built-in storage",
           "Council Tax band B keeps ongoing costs low",
           "Walthamstow Village on the doorstep, Wood Street a short walk"
         ],
         "cons": [
-          "532 sq ft is by some distance the smallest in the current set — £799/sq ft",
-          "114-year lease is adequate rather than long, and £250/yr ground rent is on the high side",
+          "532 sq ft is by some distance the smallest in the current set \u00e2\u20ac\u201d \u00c2\u00a3799/sq ft",
+          "114-year lease is adequate rather than long, and \u00c2\u00a3250/yr ground rent is on the high side",
           "Only one bathroom",
-          "'Offers over' £425,000 is punchy for the floor area",
+          "'Offers over' \u00c2\u00a3425,000 is punchy for the floor area",
           "Limited scope to extend given the footprint"
         ]
       }
@@ -2290,7 +2301,7 @@
       "address": "Liden Close, Walthamstow, London E17",
       "postcode": "E17",
       "price": 180000,
-      "priceText": "From £180,000 (auction guide)",
+      "priceText": "From \u00c2\u00a3180,000 (auction guide)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -2302,9 +2313,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~15-18 min (walk + 1 stop) — estimated, not verified",
+      "commuteToWMC": "~15-18 min (walk + 1 stop) \u00e2\u20ac\u201d estimated, not verified",
       "nearestStation": "St James Street (Overground)",
       "walkToStation": "~12 min / 0.6 mi",
       "lat": 51.573,
@@ -2312,7 +2323,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": 62,
-      "groundRentReview": "UNKNOWN — but the 62-year lease term is the dominant issue, not the ground rent",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d but the 62-year lease term is the dominant issue, not the ground rent",
       "commuteWarning": null,
       "floorplan": null,
       "photos": [
@@ -2332,11 +2343,11 @@
           "Ground floor, vacant, and chain free"
         ],
         "cons": [
-          "Approximately 62 years left on the lease — below the 80-year threshold, so marriage value applies and most mainstream lenders will not lend on it without an extension",
+          "Approximately 62 years left on the lease \u00e2\u20ac\u201d below the 80-year threshold, so marriage value applies and most mainstream lenders will not lend on it without an extension",
           "Extending a lease this short is expensive and has to be priced in before bidding",
           "Auction guide is a minimum expectation, not a price; sale is 15 September",
           "Needs modernisation throughout",
-          "The particulars' location section describes Waltham Cross in Hertfordshire, which is plainly wrong for an E17 flat — treat the write-up with caution"
+          "The particulars' location section describes Waltham Cross in Hertfordshire, which is plainly wrong for an E17 flat \u00e2\u20ac\u201d treat the write-up with caution"
         ]
       }
     },
@@ -2345,21 +2356,21 @@
       "address": "Oliver Road (Johnston Court), Leyton, London E10",
       "postcode": "E10",
       "price": 350000,
-      "priceText": "£350,000 (offers over)",
+      "priceText": "\u00c2\u00a3350,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 2,
       "type": "Flat",
       "tenure": "Leasehold (lease length, ground rent and service charge not stated)",
-      "description": "Well-presented 770 sq ft (£455/sq ft) two-bedroom apartment in the Johnston Court development, with a bright open-plan living room and kitchen, a principal bedroom with en-suite shower room plus a separate family bathroom, a balcony, a secure underground parking space, and views towards Leyton Orient's Brisbane Road stadium. EPC C.",
+      "description": "Well-presented 770 sq ft (\u00c2\u00a3455/sq ft) two-bedroom apartment in the Johnston Court development, with a bright open-plan living room and kitchen, a principal bedroom with en-suite shower room plus a separate family bathroom, a balcony, a secure underground parking space, and views towards Leyton Orient's Brisbane Road stadium. EPC C.",
       "agent": "Portico - Leyton",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74092549/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~18 min (walk + change) — no direct route from Leyton to Walthamstow Central",
+      "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d no direct route from Leyton to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
       "walkToStation": "~7 min / 0.35 mi",
       "lat": 51.562,
@@ -2367,8 +2378,8 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "UNKNOWN — modern development, so the service charge is likely material; get it in writing",
-      "commuteWarning": "Leyton is on the Central line, which does not serve Walthamstow Central directly — the route needs a change or a bus. Check TfL Journey Planner before treating this badge as a pass.",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d modern development, so the service charge is likely material; get it in writing",
+      "commuteWarning": "Leyton is on the Central line, which does not serve Walthamstow Central directly \u00e2\u20ac\u201d the route needs a change or a bus. Check TfL Journey Planner before treating this badge as a pass.",
       "floorplan": "https://lid.zoocdn.com/u/1024/768/8bbdd8a6dc241ca83dce5f290d0bbd199b7c2084.jpg",
       "photos": [
         "https://lid.zoocdn.com/u/1024/768/b798ce855bc29a8b2af52dec28cb7ad5c1afe93f.jpg",
@@ -2384,16 +2395,16 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "£175k under budget — the biggest headroom of any non-auction listing this run",
+          "\u00c2\u00a3175k under budget \u00e2\u20ac\u201d the biggest headroom of any non-auction listing this run",
           "770 sq ft with two bathrooms, including an en-suite to the principal bedroom",
           "Secure underground parking space included",
           "Private balcony, and a short walk to Leyton Central line"
         ],
         "cons": [
           "Lease length, ground rent and service charge all undisclosed, on a modern development where the service charge is usually significant",
-          "Walthamstow Central needs a change — outside the 10-15 minute target",
+          "Walthamstow Central needs a change \u00e2\u20ac\u201d outside the 10-15 minute target",
           "Overlooks Leyton Orient's ground, so check matchday noise and parking restrictions",
-          "'Offers over' £350,000 pricing"
+          "'Offers over' \u00c2\u00a3350,000 pricing"
         ]
       }
     },
@@ -2402,19 +2413,19 @@
       "address": "Livingstone Court, Leyton, London E10",
       "postcode": "E10",
       "price": 390000,
-      "priceText": "£390,000",
+      "priceText": "\u00c2\u00a3390,000",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 1,
       "type": "Flat",
       "tenure": "Leasehold (lease length, ground rent and service charge not stated)",
-      "description": "Chain-free three-bedroom flat arranged over two floors, offering 948 sq ft (£411/sq ft) of internal space, with a bright reception room, a separate modern kitchen with fitted appliances, three generously sized bedrooms and a small private balcony. Also listed on OnTheMarket as 20208450.",
+      "description": "Chain-free three-bedroom flat arranged over two floors, offering 948 sq ft (\u00c2\u00a3411/sq ft) of internal space, with a bright reception room, a separate modern kitchen with fitted appliances, three generously sized bedrooms and a small private balcony. Also listed on OnTheMarket as 20208450.",
       "agent": "Foxtons - Walthamstow",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74068087/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 26/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
       "commuteToWMC": "~17 min (walk + 2 stops, change at Blackhorse Road)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -2424,7 +2435,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "UNKNOWN — lease terms not stated; confirm before offering",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d lease terms not stated; confirm before offering",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/10d463c8823217074e1fc9bf6be1e87f6e26c400.png",
       "photos": [
@@ -2441,7 +2452,7 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "A three-bed at £390k — £135k under budget, and £411/sq ft is the cheapest per-foot of anything current",
+          "A three-bed at \u00c2\u00a3390k \u00e2\u20ac\u201d \u00c2\u00a3135k under budget, and \u00c2\u00a3411/sq ft is the cheapest per-foot of anything current",
           "948 sq ft arranged over two floors, so it lives more like a house than a flat",
           "Chain free",
           "Close to Leyton Midland Road for the Overground, with green space and good schools nearby"
@@ -2449,7 +2460,7 @@
         "cons": [
           "Leasehold with no lease length, ground rent or service charge stated",
           "One bathroom for three bedrooms",
-          "Only a small balcony — no garden",
+          "Only a small balcony \u00e2\u20ac\u201d no garden",
           "Walthamstow Central needs a change at Blackhorse Road",
           "Purpose-built block, so limited scope to add value"
         ]
@@ -2460,7 +2471,7 @@
       "address": "Rushcroft Road, Chingford, London E4",
       "postcode": "E4",
       "price": 525000,
-      "priceText": "£525,000",
+      "priceText": "\u00c2\u00a3525,000",
       "priceBadge": "at-budget-edge",
       "beds": 3,
       "baths": 1,
@@ -2474,7 +2485,7 @@
       "firstSeen": "2026-08-29",
       "lastSeen": "2026-09-07",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk/bus + train) — buses into Walthamstow, or Highams Park on the direct branch",
+      "commuteToWMC": "~20 min (walk/bus + train) \u00e2\u20ac\u201d buses into Walthamstow, or Highams Park on the direct branch",
       "nearestStation": "Highams Park (Overground)",
       "walkToStation": "~15 min / 0.75 mi",
       "lat": 51.6135,
@@ -2500,15 +2511,15 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "Freehold three-bed house that is already beautifully presented — almost every other in-budget E4 house this run needs modernising",
+          "Freehold three-bed house that is already beautifully presented \u00e2\u20ac\u201d almost every other in-budget E4 house this run needs modernising",
           "60ft south-facing garden, with a through reception and kitchen both opening onto it",
           "Modern first-floor bathroom, so no immediate works",
           "Potential to extend (STPP), and supermarkets within a few minutes' walk"
         ],
         "cons": [
-          "Sits exactly at the £525k cap with no headroom at all",
+          "Sits exactly at the \u00c2\u00a3525k cap with no headroom at all",
           "One bathroom for three bedrooms",
-          "On the Chingford Road / Highams Park border — the station walk is longer than the listing implies, so verify the commute",
+          "On the Chingford Road / Highams Park border \u00e2\u20ac\u201d the station walk is longer than the listing implies, so verify the commute",
           "Quick access to the A406 cuts both ways; check traffic noise"
         ]
       }
@@ -2518,7 +2529,7 @@
       "address": "Willow Street, Chingford, London E4",
       "postcode": "E4",
       "price": 475000,
-      "priceText": "£475,000",
+      "priceText": "\u00c2\u00a3475,000",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -2530,9 +2541,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 27/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk + 10 min train) — Chingford branch, user-confirmed OK in practice",
+      "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
       "walkToStation": "~8 min / 0.4 mi",
       "lat": 51.629,
@@ -2558,11 +2569,11 @@
           "Freehold period house with two separate receptions and a large rear garden",
           "Chain free, with clear rear-extension potential (STPP)",
           "Close to Chingford station on the direct branch to Walthamstow Central",
-          "£50k of budget headroom, unusual for a freehold house in E4"
+          "\u00c2\u00a350k of budget headroom, unusual for a freehold house in E4"
         ],
         "cons": [
-          "In need of modernisation throughout, and £50k will not go far on a house this size",
-          "Only two bedrooms, at house money — the dining room would have to become a third",
+          "In need of modernisation throughout, and \u00c2\u00a350k will not go far on a house this size",
+          "Only two bedrooms, at house money \u00e2\u20ac\u201d the dining room would have to become a third",
           "The listing openly uses 'Virtual Stager' images showing styling potential rather than actual condition; judge from the unstaged photos only",
           "~20 min door to door to Walthamstow Central, at the edge of the target"
         ]
@@ -2574,7 +2585,7 @@
       "address": "Harcourt House, Castle Avenue, Highams Park, London E4",
       "postcode": "E4",
       "price": 389995,
-      "priceText": "£389,995 (guide)",
+      "priceText": "\u00c2\u00a3389,995 (guide)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -2586,9 +2597,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 27/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~16 min (walk + 7 min train) — Chingford branch, user-confirmed OK in practice",
+      "commuteToWMC": "~16 min (walk + 7 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Highams Park (Overground)",
       "walkToStation": "~8 min / 0.4 mi",
       "lat": 51.6095,
@@ -2596,7 +2607,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "UNKNOWN — 'a long lease' is unquantified; get the exact term, ground rent and service charge",
+      "groundRentReview": "UNKNOWN \u00e2\u20ac\u201d 'a long lease' is unquantified; get the exact term, ground rent and service charge",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/0be4f063a456c25c3b7ca9e330bfa1b56337bf58.jpg",
       "photos": [
@@ -2614,13 +2625,13 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "£135k under budget in a well-regarded Highams Park development",
+          "\u00c2\u00a3135k under budget in a well-regarded Highams Park development",
           "Top floor with far-reaching views and large picture windows",
           "Well-kept communal grounds, gas central heating and double glazing already in place",
           "Easy walk to Highams Park on the direct branch to Walthamstow Central"
         ],
         "cons": [
-          "'A long lease' is unquantified — no lease term, ground rent or service charge disclosed anywhere",
+          "'A long lease' is unquantified \u00e2\u20ac\u201d no lease term, ground rent or service charge disclosed anywhere",
           "No square footage stated",
           "The garage is on a separate lease, so it is an extra cost rather than included",
           "Top floor with no mention of a lift, and no private outdoor space"
@@ -2632,7 +2643,7 @@
       "address": "32 Antlers Hill, Chingford, London E4",
       "postcode": "E4",
       "price": 210000,
-      "priceText": "£210,000 (auction guide)",
+      "priceText": "\u00c2\u00a3210,000 (auction guide)",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 1,
@@ -2644,9 +2655,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk + 10 min train) — Chingford branch, user-confirmed OK in practice",
+      "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
       "walkToStation": "~12 min / 0.6 mi",
       "lat": 51.641,
@@ -2663,13 +2674,13 @@
       "opinion": {
         "score": 5,
         "pros": [
-          "Freehold three-bed semi with front and rear gardens at a £210k guide — vast headroom against budget even after a full refurbishment",
+          "Freehold three-bed semi with front and rear gardens at a \u00c2\u00a3210k guide \u00e2\u20ac\u201d vast headroom against budget even after a full refurbishment",
           "Vacant possession, no chain",
           "Council Tax band A, the lowest in the whole set",
           "Close to Epping Forest and within reach of Chingford station"
         ],
         "cons": [
-          "The guide is a minimum expectation, not a price — a freehold Chingford semi will very likely be bid well above £210k",
+          "The guide is a minimum expectation, not a price \u00e2\u20ac\u201d a freehold Chingford semi will very likely be bid well above \u00c2\u00a3210k",
           "Requires modernisation throughout",
           "Only one photograph published, so the condition is effectively unknown without a viewing",
           "Auction terms mean fast completion and non-refundable costs if a survey turns up problems",
@@ -2682,21 +2693,21 @@
       "address": "Ruckholt Road, Leyton, London E10",
       "postcode": "E10",
       "price": 425000,
-      "priceText": "£425,000 (offers over)",
+      "priceText": "\u00c2\u00a3425,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 2,
       "type": "Flat",
-      "tenure": "Leasehold (approx. 240 years remaining, £450 pa ground rent, approx. £500 pcm / £6,000 pa service charge)",
-      "description": "Chain-free second-floor apartment of 1,121 sq ft (£379/sq ft) in a modern development a few years old, with a spacious entrance hallway, contemporary lounge with floor-to-ceiling windows and semi open-plan fitted kitchen with integrated appliances, a master bedroom with en-suite shower room, two further double bedrooms, a modern three-piece bathroom, and a private balcony overlooking the communal gardens. Includes an underground parking space, concierge service and a communal work hub. Running costs are high: service charge approx. £500 per month (£6,000 a year) plus £450 a year ground rent, with Council Tax band C at £2,025 a year.",
+      "tenure": "Leasehold (approx. 240 years remaining, \u00c2\u00a3450 pa ground rent, approx. \u00c2\u00a3500 pcm / \u00c2\u00a36,000 pa service charge)",
+      "description": "Chain-free second-floor apartment of 1,121 sq ft (\u00c2\u00a3379/sq ft) in a modern development a few years old, with a spacious entrance hallway, contemporary lounge with floor-to-ceiling windows and semi open-plan fitted kitchen with integrated appliances, a master bedroom with en-suite shower room, two further double bedrooms, a modern three-piece bathroom, and a private balcony overlooking the communal gardens. Includes an underground parking space, concierge service and a communal work hub. Running costs are high: service charge approx. \u00c2\u00a3500 per month (\u00c2\u00a36,000 a year) plus \u00c2\u00a3450 a year ground rent, with Council Tax band C at \u00c2\u00a32,025 a year.",
       "agent": "OC Homes",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74109978/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~18 min (walk + change) — Leyton is Central line, no direct route to Walthamstow Central",
+      "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d Leyton is Central line, no direct route to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
       "walkToStation": "~8 min / 0.4 mi",
       "lat": 51.5595,
@@ -2704,8 +2715,8 @@
       "groundRentPA": 450,
       "serviceChargePA": 6000,
       "leaseYearsRemaining": 240,
-      "groundRentReview": "Ground rent £450 pa; review terms not published — ask. Council Tax Waltham Forest band C, £2,025 pa.",
-      "commuteWarning": "Leyton (Central line) does not serve Walthamstow Central directly — the route needs a change or a bus. Verify on TfL Journey Planner before treating this as a pass.",
+      "groundRentReview": "Ground rent \u00c2\u00a3450 pa; review terms not published \u00e2\u20ac\u201d ask. Council Tax Waltham Forest band C, \u00c2\u00a32,025 pa.",
+      "commuteWarning": "Leyton (Central line) does not serve Walthamstow Central directly \u00e2\u20ac\u201d the route needs a change or a bus. Verify on TfL Journey Planner before treating this as a pass.",
       "floorplan": "https://lid.zoocdn.com/u/1024/768/ad75e9a7a2bc6d1567a63eb8ad4f072230606f34.jpg",
       "photos": [
         "https://lid.zoocdn.com/u/1024/768/2e035d8729265ae88ce1771b1c3364210a325055.jpg",
@@ -2722,16 +2733,16 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "1,121 sq ft three-bed at £379/sq ft — still the best raw space-per-pound in the tracker",
+          "1,121 sq ft three-bed at \u00c2\u00a3379/sq ft \u00e2\u20ac\u201d still the best raw space-per-pound in the tracker",
           "Circa 240-year lease removes lease-extension risk entirely",
           "Underground parking space included, plus en-suite to the master and a private balcony",
           "Only a few years old, well presented, and chain free",
-          "£100k under the headline budget, which leaves room to absorb the running costs if the space is worth it to you"
+          "\u00c2\u00a3100k under the headline budget, which leaves room to absorb the running costs if the space is worth it to you"
         ],
         "cons": [
-          "Service charge of approximately £500 PER MONTH — £6,000 a year, roughly three times the next highest in this tracker and about 1.4% of the purchase price every year",
-          "£450 a year ground rent on top, so £6,450 a year in fixed charges before council tax",
-          "That £537/month of fixed cost services roughly £90,000 of extra mortgage at current rates — on a total-cost basis this behaves more like a £515k property than a £425k one, which erases most of the apparent bargain",
+          "Service charge of approximately \u00c2\u00a3500 PER MONTH \u00e2\u20ac\u201d \u00c2\u00a36,000 a year, roughly three times the next highest in this tracker and about 1.4% of the purchase price every year",
+          "\u00c2\u00a3450 a year ground rent on top, so \u00c2\u00a36,450 a year in fixed charges before council tax",
+          "That \u00c2\u00a3537/month of fixed cost services roughly \u00c2\u00a390,000 of extra mortgage at current rates \u00e2\u20ac\u201d on a total-cost basis this behaves more like a \u00c2\u00a3515k property than a \u00c2\u00a3425k one, which erases most of the apparent bargain",
           "Concierge and communal work hub are exactly what drives a service charge this high, and such charges tend to rise rather than fall",
           "Leyton is Central line, so Walthamstow Central still needs a change or a bus"
         ]
@@ -2742,19 +2753,19 @@
       "address": "Warren Road, Leyton, London E10",
       "postcode": "E10",
       "price": 400000,
-      "priceText": "£400,000",
+      "priceText": "\u00c2\u00a3400,000",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
-      "tenure": "Share of freehold (£50 pa ground rent; service charge not published)",
-      "description": "Recently redecorated two-bedroom apartment with a modern neutral finish and generous windows, offered move-in ready. In the heart of Leyton with local shops, cafés and restaurants close by, Leyton Underground (Central line) within walking distance and the green space of Coronation Gardens nearby.",
+      "tenure": "Share of freehold (\u00c2\u00a350 pa ground rent; service charge not published)",
+      "description": "Recently redecorated two-bedroom apartment with a modern neutral finish and generous windows, offered move-in ready. In the heart of Leyton with local shops, caf\u00c3\u00a9s and restaurants close by, Leyton Underground (Central line) within walking distance and the green space of Coronation Gardens nearby.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74108331/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change from Leyton)",
       "nearestStation": "Leyton (Central line)",
@@ -2764,7 +2775,7 @@
       "groundRentPA": 50,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Ground rent only £50 pa — negligible. Service charge still shown as 'ask agent'. Council Tax band D.",
+      "groundRentReview": "Ground rent only \u00c2\u00a350 pa \u00e2\u20ac\u201d negligible. Service charge still shown as 'ask agent'. Council Tax band D.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/8c3e50bfaf42bec2d22ef9e1261a4ab670239e9e.jpg",
       "photos": [
@@ -2781,12 +2792,12 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "£125k under budget with a share of the freehold — no lease-extension risk and a say in the building",
+          "\u00c2\u00a3125k under budget with a share of the freehold \u00e2\u20ac\u201d no lease-extension risk and a say in the building",
           "Recently redecorated throughout, so genuinely move-in ready with no works budget needed",
           "Leyton Underground within walking distance, and Coronation Gardens nearby"
         ],
         "cons": [
-          "No square footage stated anywhere — the main gap, and it matters at this price",
+          "No square footage stated anywhere \u00e2\u20ac\u201d the main gap, and it matters at this price",
           "Service charge is still 'ask agent' on the listing, so the running cost is unquantified",
           "No outdoor space mentioned",
           "One bathroom, and Walthamstow Central needs a change from Leyton"
@@ -2798,21 +2809,21 @@
       "address": "Murchison Road, Leyton, London E10",
       "postcode": "E10",
       "price": 510000,
-      "priceText": "£510,000",
+      "priceText": "\u00c2\u00a3510,000",
       "priceBadge": "at-budget-edge",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
-      "tenure": "Share of freehold (117 years remaining, £300 pa ground rent, no service charge)",
-      "description": "Spacious two double bedroom Abraham garden flat with a modern kitchen/living area and patio doors opening onto a maintained private garden, wooden flooring throughout, a feature fireplace, bay window and generous under-stair storage. Quiet E10 community close to the shops, cafés and restaurants of Francis Road; Leytonstone and Leyton stations less than a mile away. Council Tax band B.",
+      "tenure": "Share of freehold (117 years remaining, \u00c2\u00a3300 pa ground rent, no service charge)",
+      "description": "Spacious two double bedroom Abraham garden flat with a modern kitchen/living area and patio doors opening onto a maintained private garden, wooden flooring throughout, a feature fireplace, bay window and generous under-stair storage. Quiet E10 community close to the shops, caf\u00c3\u00a9s and restaurants of Francis Road; Leytonstone and Leyton stations less than a mile away. Council Tax band B.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74141459/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk + change) — stations are under a mile but not close",
+      "commuteToWMC": "~20 min (walk + change) \u00e2\u20ac\u201d stations are under a mile but not close",
       "nearestStation": "Leyton Midland Road (Overground)",
       "walkToStation": "~12 min / 0.6 mi",
       "lat": 51.5665,
@@ -2820,7 +2831,7 @@
       "groundRentPA": 300,
       "serviceChargePA": 0,
       "leaseYearsRemaining": 117,
-      "groundRentReview": "QUERY THIS — £300 pa ground rent alongside a share of freehold is unusual; ask who collects it and whether it can be extinguished",
+      "groundRentReview": "QUERY THIS \u00e2\u20ac\u201d \u00c2\u00a3300 pa ground rent alongside a share of freehold is unusual; ask who collects it and whether it can be extinguished",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/b63931a603c348d6b559c207c775005fb3392548.jpg",
       "photos": [
@@ -2835,14 +2846,14 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "Share of freehold with a zero service charge — unusually low fixed running costs",
+          "Share of freehold with a zero service charge \u00e2\u20ac\u201d unusually low fixed running costs",
           "Private maintained garden with patio doors straight off the living space",
           "Period features retained: feature fireplace, bay window, plus good under-stair storage",
           "Francis Road amenities close by, and Council Tax band B"
         ],
         "cons": [
-          "£510k for a two-bed is at the very top of the budget and expensive for E10",
-          "£300 a year ground rent on a share of freehold is an oddity worth querying before offering",
+          "\u00c2\u00a3510k for a two-bed is at the very top of the budget and expensive for E10",
+          "\u00c2\u00a3300 a year ground rent on a share of freehold is an oddity worth querying before offering",
           "117 years is adequate but not a long lease",
           "No square footage stated",
           "Stations are 'less than a mile' rather than close, and Walthamstow Central needs a change"
@@ -2854,19 +2865,19 @@
       "address": "Kimberley Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 500000,
-      "priceText": "£500,000 (offers over)",
+      "priceText": "\u00c2\u00a3500,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 1,
       "type": "House",
-      "tenure": "Not stated in the listing — confirm freehold before offering",
+      "tenure": "Not stated in the listing \u00e2\u20ac\u201d confirm freehold before offering",
       "description": "Three-bedroom family home in good decorative condition, with two spacious reception rooms on the ground floor, a fitted kitchen with ample storage and worktop space, three well-proportioned bedrooms and a family bathroom upstairs, and a private rear garden. Ready to move straight into while still offering scope to personalise over time.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74104420/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 31/08/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
       "commuteToWMC": "~15 min (walk + 1 stop from Blackhorse Road)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -2876,7 +2887,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Zoopla's facts panel shows no tenure, service charge or ground rent fields at all, which is consistent with a freehold house — but it is not stated explicitly, so confirm freehold with the agent. Council tax band not yet confirmed by the council.",
+      "groundRentReview": "Zoopla's facts panel shows no tenure, service charge or ground rent fields at all, which is consistent with a freehold house \u00e2\u20ac\u201d but it is not stated explicitly, so confirm freehold with the agent. Council tax band not yet confirmed by the council.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/25e73355fbbe00f908424b752cd70a86235c1852.jpg",
       "photos": [
@@ -2893,17 +2904,17 @@
       "opinion": {
         "score": 8,
         "pros": [
-          "A three-bedroom house with its own private garden inside budget in E17 — the rarest combination in this whole tracker",
+          "A three-bedroom house with its own private garden inside budget in E17 \u00e2\u20ac\u201d the rarest combination in this whole tracker",
           "Two separate reception rooms give real flexibility",
           "Presented in good decorative condition, so move-in ready rather than a project",
-          "£25k of headroom, and still scope to add value by personalising over time"
+          "\u00c2\u00a325k of headroom, and still scope to add value by personalising over time"
         ],
         "cons": [
-          "Tenure is not stated anywhere in the listing — confirm it is freehold before going further",
-          "Zoopla labels it a 'detached house', which for a £500k E17 street looks like an agent error; check what you are actually buying",
+          "Tenure is not stated anywhere in the listing \u00e2\u20ac\u201d confirm it is freehold before going further",
+          "Zoopla labels it a 'detached house', which for a \u00c2\u00a3500k E17 street looks like an agent error; check what you are actually buying",
           "Only one bathroom for three bedrooms",
           "No square footage given",
-          "'Offers over' £500,000 — and note £500k is the first-time-buyer stamp duty cliff, so going above it is doubly expensive"
+          "'Offers over' \u00c2\u00a3500,000 \u00e2\u20ac\u201d and note \u00c2\u00a3500k is the first-time-buyer stamp duty cliff, so going above it is doubly expensive"
         ]
       }
     },
@@ -2912,13 +2923,13 @@
       "address": "Vallentin Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 350000,
-      "priceText": "£350,000",
+      "priceText": "\u00c2\u00a3350,000",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
-      "tenure": "Leasehold (177 years remaining, £10 pa ground rent, £1,351 pa service charge)",
-      "description": "Chain-free second-floor flat of approximately 660 sq ft in a well-maintained development, with an impressive reception room lit by a wide window, a separate modern fitted kitchen with integrated appliances and a dedicated dining area, and two genuine double bedrooms — the principal with built-in storage, the second currently arranged as a home office. Council Tax band B.",
+      "tenure": "Leasehold (177 years remaining, \u00c2\u00a310 pa ground rent, \u00c2\u00a31,351 pa service charge)",
+      "description": "Chain-free second-floor flat of approximately 660 sq ft in a well-maintained development, with an impressive reception room lit by a wide window, a separate modern fitted kitchen with integrated appliances and a dedicated dining area, and two genuine double bedrooms \u00e2\u20ac\u201d the principal with built-in storage, the second currently arranged as a home office. Council Tax band B.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74125404/",
       "sourcePortal": "Zoopla",
@@ -2934,7 +2945,7 @@
       "groundRentPA": 10,
       "serviceChargePA": 1351,
       "leaseYearsRemaining": 177,
-      "groundRentReview": "£10 pa is a token ground rent — negligible risk, but confirm the review clause",
+      "groundRentReview": "\u00c2\u00a310 pa is a token ground rent \u00e2\u20ac\u201d negligible risk, but confirm the review clause",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/1ae611603ddacb3cf0049c0f8585c36d5240a9ca.jpg",
       "photos": [
@@ -2951,9 +2962,9 @@
       "opinion": {
         "score": 8,
         "pros": [
-          "£175k under budget — the cheapest genuinely move-in-ready two-bed in the tracker",
-          "177-year lease at a token £10 ground rent, and unlike most listings here the terms are fully disclosed",
-          "£112.58/month service charge is modest for a maintained development",
+          "\u00c2\u00a3175k under budget \u00e2\u20ac\u201d the cheapest genuinely move-in-ready two-bed in the tracker",
+          "177-year lease at a token \u00c2\u00a310 ground rent, and unlike most listings here the terms are fully disclosed",
+          "\u00c2\u00a3112.58/month service charge is modest for a maintained development",
           "Both bedrooms are genuine doubles, principal with built-in storage",
           "Chain free, Council Tax band B, and walking distance to Walthamstow Central with no train needed"
         ],
@@ -2970,19 +2981,19 @@
       "address": "Haroldstone Road, Walthamstow, London E17",
       "postcode": "E17",
       "price": 395000,
-      "priceText": "£395,000",
+      "priceText": "\u00c2\u00a3395,000",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
-      "tenure": "Leasehold — a NEW LEASE will be granted on completion (terms not stated)",
+      "tenure": "Leasehold \u00e2\u20ac\u201d a NEW LEASE will be granted on completion (terms not stated)",
       "description": "Chain-free two-bedroom first-floor flat in a Victorian conversion, with a comfortable reception room, two bedrooms, a bathroom and a 16ft kitchen/diner, double glazing throughout, and some period character retained. A new lease will be granted to the purchaser upon completion. Conveniently placed for St James Street station, with Walthamstow Wetlands within easy reach. EPC awaited.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74113236/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
       "commuteToWMC": "~12 min (walk + 1 stop)",
       "nearestStation": "St James Street (Overground)",
@@ -2992,7 +3003,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' — genuinely unpublished, not an extraction gap. Council Tax band B. Get all three in writing before offering.",
+      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' \u00e2\u20ac\u201d genuinely unpublished, not an extraction gap. Council Tax band B. Get all three in writing before offering.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/f51c4f65fd12f140cd8ec2365f2e1ac1d3aba4c0.jpg",
       "photos": [
@@ -3009,14 +3020,14 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "£130k under budget",
-          "A brand-new lease granted on completion sidesteps lease-length risk entirely — better tenure than most leaseholds here, provided the terms are good",
+          "\u00c2\u00a3130k under budget",
+          "A brand-new lease granted on completion sidesteps lease-length risk entirely \u00e2\u20ac\u201d better tenure than most leaseholds here, provided the terms are good",
           "16ft kitchen/diner is generous for a flat this size",
           "Chain free, with period character retained",
           "St James Street a short walk, one stop from Walthamstow Central"
         ],
         "cons": [
-          "The new lease's length, ground rent and service charge are all unstated — the whole benefit rests on terms you cannot see yet",
+          "The new lease's length, ground rent and service charge are all unstated \u00e2\u20ac\u201d the whole benefit rests on terms you cannot see yet",
           "EPC not yet done, so running costs are unknown at offer stage",
           "No square footage given",
           "First floor with no outdoor space mentioned, and one bathroom"
@@ -3028,21 +3039,21 @@
       "address": "Chingford Road (Lloyd Park), Walthamstow, London E17",
       "postcode": "E17",
       "price": 385000,
-      "priceText": "£385,000 (offers over)",
+      "priceText": "\u00c2\u00a3385,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Flat",
       "tenure": "Leasehold (terms not stated)",
-      "description": "Chain-free first-floor Victorian conversion of 688 sq ft (£560/sq ft) combining period charm with bright, well-presented accommodation: two well-proportioned bedrooms, a separate modern kitchen, sleek bathroom and contemporary décor, plus a private rear garden. Elevated first-floor position gives good natural light and privacy. Moments from Lloyd Park.",
+      "description": "Chain-free first-floor Victorian conversion of 688 sq ft (\u00c2\u00a3560/sq ft) combining period charm with bright, well-presented accommodation: two well-proportioned bedrooms, a separate modern kitchen, sleek bathroom and contemporary d\u00c3\u00a9cor, plus a private rear garden. Elevated first-floor position gives good natural light and privacy. Moments from Lloyd Park.",
       "agent": "Foxtons - Walthamstow",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74137314/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~14-16 min (walk) — listing claims a short walk to Walthamstow Central",
+      "commuteToWMC": "~14-16 min (walk) \u00e2\u20ac\u201d listing claims a short walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
       "walkToStation": "~14 min / 0.7 mi",
       "lat": 51.592,
@@ -3050,7 +3061,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' — genuinely unpublished, not an extraction gap. Council Tax band TBC. Get all three in writing before offering.",
+      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' \u00e2\u20ac\u201d genuinely unpublished, not an extraction gap. Council Tax band TBC. Get all three in writing before offering.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/59acc2f76f42d26cae6dd43ad70d164a02888f21.png",
       "photos": [
@@ -3067,16 +3078,16 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "£140k under budget",
-          "Private rear garden — genuinely rare for a first-floor conversion",
-          "Chain free, well presented, with period character and contemporary décor",
+          "\u00c2\u00a3140k under budget",
+          "Private rear garden \u00e2\u20ac\u201d genuinely rare for a first-floor conversion",
+          "Chain free, well presented, with period character and contemporary d\u00c3\u00a9cor",
           "Lloyd Park on the doorstep, and a walk rather than a train to Walthamstow Central"
         ],
         "cons": [
-          "£560/sq ft is expensive per foot for the area — you are paying for presentation",
+          "\u00c2\u00a3560/sq ft is expensive per foot for the area \u00e2\u20ac\u201d you are paying for presentation",
           "Lease length, ground rent and service charge all undisclosed",
           "Garden is reached from a first-floor flat, so not the same as ground-floor access",
-          "Chingford Road is a busy arterial route — check traffic noise",
+          "Chingford Road is a busy arterial route \u00e2\u20ac\u201d check traffic noise",
           "One bathroom"
         ]
       }
@@ -3086,19 +3097,19 @@
       "address": "Wren House, Walthamstow, London E17",
       "postcode": "E17",
       "price": 525000,
-      "priceText": "£525,000",
+      "priceText": "\u00c2\u00a3525,000",
       "priceBadge": "at-budget-edge",
       "beds": 3,
       "baths": 2,
       "type": "Flat",
       "tenure": "Leasehold (terms not stated)",
-      "description": "Beautifully presented three-bedroom apartment of 949 sq ft (£553/sq ft) in a stylish new development with lift, porter and gym. Generous reception room with space to dine and entertain, open-plan kitchen with sleek fixtures, main bedroom with en-suite shower room, two further well-proportioned bedrooms with ample storage, family bathroom, private balcony and communal gardens. Blackhorse Road tube close by, with Lloyd Park and Lee Valley Park nearby.",
+      "description": "Beautifully presented three-bedroom apartment of 949 sq ft (\u00c2\u00a3553/sq ft) in a stylish new development with lift, porter and gym. Generous reception room with space to dine and entertain, open-plan kitchen with sleek fixtures, main bedroom with en-suite shower room, two further well-proportioned bedrooms with ample storage, family bathroom, private balcony and communal gardens. Blackhorse Road tube close by, with Lloyd Park and Lee Valley Park nearby.",
       "agent": "Foxtons - Walthamstow",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74124358/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 02/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "pass",
       "commuteToWMC": "~10 min (walk + 1 stop, Victoria line)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -3108,7 +3119,7 @@
       "groundRentPA": null,
       "serviceChargePA": null,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' — genuinely unpublished, not an extraction gap. Council Tax band TBC. Get all three in writing before offering.",
+      "groundRentReview": "Zoopla's facts panel shows service charge and ground rent both as 'ask agent' \u00e2\u20ac\u201d genuinely unpublished, not an extraction gap. Council Tax band TBC. Get all three in writing before offering.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/1bd9cdc0dc13e257f1e8cf921c97ff50ada9d876.png",
       "photos": [
@@ -3125,13 +3136,13 @@
       "opinion": {
         "score": 6,
         "pros": [
-          "Three bedrooms and two bathrooms with the best commute of any 3-bed in the set — Blackhorse Road is a ~6 min walk and one Victoria line stop from Walthamstow Central",
+          "Three bedrooms and two bathrooms with the best commute of any 3-bed in the set \u00e2\u20ac\u201d Blackhorse Road is a ~6 min walk and one Victoria line stop from Walthamstow Central",
           "Lift and porter, which solves the stairs problem most flats here have",
           "Private balcony plus communal gardens, and move-in ready"
         ],
         "cons": [
-          "£553/sq ft — the most expensive per foot of anything in the tracker",
-          "Sits exactly at the £525k cap with no headroom at all",
+          "\u00c2\u00a3553/sq ft \u00e2\u20ac\u201d the most expensive per foot of anything in the tracker",
+          "Sits exactly at the \u00c2\u00a3525k cap with no headroom at all",
           "Lease terms undisclosed, and a lift-porter-gym block means a service charge that could be several thousand a year",
           "949 sq ft is tight for three bedrooms at this price",
           "New-build premium may not hold on resale"
@@ -3143,21 +3154,21 @@
       "address": "Shingly Place, Chingford, London E4",
       "postcode": "E4",
       "price": 400000,
-      "priceText": "£400,000 (offers over)",
+      "priceText": "\u00c2\u00a3400,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 3,
       "baths": 2,
       "type": "Flat",
-      "tenure": "Leasehold (£483 pa ground rent reviewed every 5 years, £2,047 pa service charge; lease length not stated)",
-      "description": "Chain-free three-bedroom top-floor purpose-built apartment just off The Ridgeway, with a generously sized reception room, modern open-plan kitchen/diner, three well-proportioned bedrooms including a main bedroom with en-suite, a separate family bathroom, a large private balcony, access to well-maintained communal gardens and allocated parking. Chingford Overground within easy reach. Service charge £2,047 a year, ground rent £483 a year reviewed every five years, Council Tax band D.",
+      "tenure": "Leasehold (\u00c2\u00a3483 pa ground rent reviewed every 5 years, \u00c2\u00a32,047 pa service charge; lease length not stated)",
+      "description": "Chain-free three-bedroom top-floor purpose-built apartment just off The Ridgeway, with a generously sized reception room, modern open-plan kitchen/diner, three well-proportioned bedrooms including a main bedroom with en-suite, a separate family bathroom, a large private balcony, access to well-maintained communal gardens and allocated parking. Chingford Overground within easy reach. Service charge \u00c2\u00a32,047 a year, ground rent \u00c2\u00a3483 a year reviewed every five years, Council Tax band D.",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74108142/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk + 10 min train) — Chingford branch, user-confirmed OK in practice",
+      "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
       "walkToStation": "~10 min / 0.5 mi",
       "lat": 51.626,
@@ -3165,7 +3176,7 @@
       "groundRentPA": 483,
       "serviceChargePA": 2047,
       "leaseYearsRemaining": null,
-      "groundRentReview": "Reviewed EVERY 5 YEARS — get the review formula in writing; escalating ground rents can block mortgage lending. Council Tax band D.",
+      "groundRentReview": "Reviewed EVERY 5 YEARS \u00e2\u20ac\u201d get the review formula in writing; escalating ground rents can block mortgage lending. Council Tax band D.",
       "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1024/768/3d00f94b5bb06552c5cdd9d59a634868fd8bdd19.jpg",
       "photos": [
@@ -3183,15 +3194,15 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "A three-bed with two bathrooms at £400k — £125k under budget and the cheapest 3-bed/2-bath anywhere in the tracker",
+          "A three-bed with two bathrooms at \u00c2\u00a3400k \u00e2\u20ac\u201d \u00c2\u00a3125k under budget and the cheapest 3-bed/2-bath anywhere in the tracker",
           "En-suite to the main bedroom plus a separate family bathroom",
           "Large private balcony and well-maintained communal gardens",
           "Allocated parking included",
           "Chain free, and on the direct Chingford branch to Walthamstow Central"
         ],
         "cons": [
-          "Ground rent of £483 a year is reviewed EVERY FIVE YEARS — the review formula matters enormously, because an escalating or doubling clause can make a flat difficult to mortgage and hard to resell",
-          "Service charge £2,047 a year (£171/month) — reasonable for a block with parking and grounds, but real money",
+          "Ground rent of \u00c2\u00a3483 a year is reviewed EVERY FIVE YEARS \u00e2\u20ac\u201d the review formula matters enormously, because an escalating or doubling clause can make a flat difficult to mortgage and hard to resell",
+          "Service charge \u00c2\u00a32,047 a year (\u00c2\u00a3171/month) \u00e2\u20ac\u201d reasonable for a block with parking and grounds, but real money",
           "Lease length still not stated anywhere; ask before offering",
           "No square footage given, so hard to compare directly against Ruckholt Road",
           "Top floor with no mention of a lift, and ~20 min door to door to Walthamstow Central"
@@ -3203,21 +3214,21 @@
       "address": "Cherrydown Close, Chingford, London E4",
       "postcode": "E4",
       "price": 475000,
-      "priceText": "£475,000 (offers over)",
+      "priceText": "\u00c2\u00a3475,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
       "type": "Semi-detached bungalow",
       "tenure": "Freehold",
-      "description": "Chain-free two/three bedroom semi-detached chalet bungalow of 1,147 sq ft (£414/sq ft) in a quiet cul-de-sac. Versatile accommodation: entrance hallway, ground-floor bedroom and WC, two reception rooms (front lounge and back dining room), kitchen leading to a sunroom, with the generously sized master bedroom and family bathroom upstairs. Large garden and a detached 19'8 garage. Needs modernisation, with great potential (STPP).",
+      "description": "Chain-free two/three bedroom semi-detached chalet bungalow of 1,147 sq ft (\u00c2\u00a3414/sq ft) in a quiet cul-de-sac. Versatile accommodation: entrance hallway, ground-floor bedroom and WC, two reception rooms (front lounge and back dining room), kitchen leading to a sunroom, with the generously sized master bedroom and family bathroom upstairs. Large garden and a detached 19'8 garage. Needs modernisation, with great potential (STPP).",
       "agent": "Zoopla-listed agent",
       "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74141949/",
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20-22 min (walk/bus + 10 min train) — Chingford branch",
+      "commuteToWMC": "~20-22 min (walk/bus + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
       "walkToStation": "~15 min / 0.75 mi",
       "lat": 51.6215,
@@ -3243,14 +3254,14 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "1,147 sq ft freehold — the largest freehold property in the current set, on a quiet cul-de-sac",
+          "1,147 sq ft freehold \u00e2\u20ac\u201d the largest freehold property in the current set, on a quiet cul-de-sac",
           "Genuinely versatile layout with a ground-floor bedroom and WC, useful for accessibility or a home office",
           "Detached 19'8 garage plus a large garden",
           "Chain free, with clear scope to add value (STPP) given the plot and the bungalow form"
         ],
         "cons": [
-          "Needs modernisation throughout, and £50k of remaining budget will not cover a house this size",
-          "Marketed as 'two/three bedroom' — treat it as a two-bed until you have seen the layout",
+          "Needs modernisation throughout, and \u00c2\u00a350k of remaining budget will not cover a house this size",
+          "Marketed as 'two/three bedroom' \u00e2\u20ac\u201d treat it as a two-bed until you have seen the layout",
           "One bathroom",
           "Chingford station is a walk or short bus, so ~20 min door to door",
           "Chalet bungalows have a narrower resale market than houses"
@@ -3262,7 +3273,7 @@
       "address": "Stapleford Close, Chingford, London E4",
       "postcode": "E4",
       "price": 375000,
-      "priceText": "£375,000 (offers over)",
+      "priceText": "\u00c2\u00a3375,000 (offers over)",
       "priceBadge": "in-budget",
       "beds": 2,
       "baths": 1,
@@ -3274,9 +3285,9 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 30/08/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
-      "commuteToWMC": "~20 min (walk + 10 min train) — Chingford branch",
+      "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
       "walkToStation": "~14 min / 0.7 mi",
       "lat": 51.627,
@@ -3301,13 +3312,13 @@
       "opinion": {
         "score": 7,
         "pros": [
-          "A freehold house with off-street parking and a 30ft garden at £375k — £150k under budget",
+          "A freehold house with off-street parking and a 30ft garden at \u00c2\u00a3375k \u00e2\u20ac\u201d \u00c2\u00a3150k under budget",
           "Freehold means no lease, no ground rent and no service charge at all",
           "Modern fitted kitchen and contemporary first-floor bathroom, so move-in ready",
           "Chain free, in a quiet residential setting"
         ],
         "cons": [
-          "544 sq ft is very small for a house — the smallest in the current set, and about £689/sq ft",
+          "544 sq ft is very small for a house \u00e2\u20ac\u201d the smallest in the current set, and about \u00c2\u00a3689/sq ft",
           "Only two bedrooms, the second better suited as a nursery or office",
           "One bathroom",
           "Limited scope to extend on a small plot",
@@ -3315,349 +3326,349 @@
         ]
       }
     },
-      "zoopla-74134281": {
-        "id": "zoopla-74134281",
-        "address": "Priory Court, Walthamstow, London E17",
-        "postcode": "E17",
-        "price": 500000,
-        "priceText": "£500,000 (offers in region of)",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Flat",
-        "tenure": "Leasehold (approx. 105 years remaining; £10 pa ground rent with no review period; £500 pa service charge)",
-        "description": "Ground-floor two-bedroom apartment set back from the road, with a characterful reception room, fitted kitchen with granite worktops and Villeroy & Boch butler sink, family bathroom and storage. Exceptionally large mature private garden with terrace, greenhouse and shed, plus private off-street parking for three cars. The vendor states Blackhorse Road is around a mile away and Walthamstow Central around 1.2 km.",
-        "agent": "Purplebricks",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74134281/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 03/09/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "pass",
-        "commuteToWMC": "~15 min walk",
-        "nearestStation": "Walthamstow Central (Victoria line + Overground)",
-        "walkToStation": "~15 min / 0.7 mi",
-        "lat": 51.588,
-        "lon": -0.030,
-        "groundRentPA": 10,
-        "serviceChargePA": 500,
-        "leaseYearsRemaining": 105,
-        "groundRentReview": "No review period stated in the full description. Zoopla's structured facts panel says ask agent for terms, so obtain the lease and service-charge accounts before offering.",
-        "commuteWarning": null,
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/f2116460dc9d547ab1476d8c35f555da6361e8bd.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/747ad5ce86786bcb632eb3f0070cd4a4317ee421.jpg",
-          "https://lid.zoocdn.com/u/1024/768/109ca6b2e1155de003362ca26ae0b61b1a929798.jpg",
-          "https://lid.zoocdn.com/u/1024/768/0b732d72c68cfcc6f29669eeb6dcd3958345b556.jpg"
+    "zoopla-74134281": {
+      "id": "zoopla-74134281",
+      "address": "Priory Court, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 500000,
+      "priceText": "\u00c2\u00a3500,000 (offers in region of)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (approx. 105 years remaining; \u00c2\u00a310 pa ground rent with no review period; \u00c2\u00a3500 pa service charge)",
+      "description": "Ground-floor two-bedroom apartment set back from the road, with a characterful reception room, fitted kitchen with granite worktops and Villeroy & Boch butler sink, family bathroom and storage. Exceptionally large mature private garden with terrace, greenhouse and shed, plus private off-street parking for three cars. The vendor states Blackhorse Road is around a mile away and Walthamstow Central around 1.2 km.",
+      "agent": "Purplebricks",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74134281/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 03/09/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~15 min walk",
+      "nearestStation": "Walthamstow Central (Victoria line + Overground)",
+      "walkToStation": "~15 min / 0.7 mi",
+      "lat": 51.588,
+      "lon": -0.03,
+      "groundRentPA": 10,
+      "serviceChargePA": 500,
+      "leaseYearsRemaining": 105,
+      "groundRentReview": "No review period stated in the full description. Zoopla's structured facts panel says ask agent for terms, so obtain the lease and service-charge accounts before offering.",
+      "commuteWarning": null,
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/f2116460dc9d547ab1476d8c35f555da6361e8bd.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/747ad5ce86786bcb632eb3f0070cd4a4317ee421.jpg",
+        "https://lid.zoocdn.com/u/1024/768/109ca6b2e1155de003362ca26ae0b61b1a929798.jpg",
+        "https://lid.zoocdn.com/u/1024/768/0b732d72c68cfcc6f29669eeb6dcd3958345b556.jpg"
+      ],
+      "opinion": {
+        "score": 8,
+        "pros": [
+          "A very large private mature garden, greenhouse and terrace are unusually generous for a two-bed flat",
+          "Private off-street parking for three cars",
+          "\u00c2\u00a325k under budget with modest disclosed annual charges of \u00c2\u00a3510",
+          "Ground floor, set back from the road, with an easy walk to Walthamstow Central"
         ],
-        "opinion": {
-          "score": 8,
-          "pros": [
-            "A very large private mature garden, greenhouse and terrace are unusually generous for a two-bed flat",
-            "Private off-street parking for three cars",
-            "£25k under budget with modest disclosed annual charges of £510",
-            "Ground floor, set back from the road, with an easy walk to Walthamstow Central"
-          ],
-          "cons": [
-            "The structured facts panel conflicts with the vendor description and leaves the lease terms to confirm",
-            "Only one bathroom and no floor area is stated",
-            "The £500k asking price leaves less renovation headroom than the cheaper Warner flats"
-          ]
-        }
-      },
-      "zoopla-74132063": {
-        "id": "zoopla-74132063",
-        "address": "Leucha Road, Walthamstow, London E17",
-        "postcode": "E17",
-        "price": 475000,
-        "priceText": "£475,000 (offers over)",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Flat",
-        "tenure": "Leasehold (87 years remaining; agent says extension to 178 years; £10 pa ground rent; £290 pa service charge)",
-        "description": "663 sq ft ground-floor Warner flat with original stripped floors, fireplace and coving, a larger principal bedroom with fitted wardrobes and garden doors, second bedroom, modern kitchen with solid-oak worktops, bathroom and utility area. Full-width south-facing sole-use garden. The agent places St James Street within a short walk and Blackhorse Road within easy reach.",
-        "agent": "Central Estate Agents",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74132063/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 03/09/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "pass",
-        "commuteToWMC": "~15 min (walk + 1 stop from St James Street)",
-        "nearestStation": "St James Street (Overground)",
-        "walkToStation": "~8 min / 0.4 mi",
-        "lat": 51.584,
-        "lon": -0.032,
-        "groundRentPA": 10,
-        "serviceChargePA": 290,
-        "leaseYearsRemaining": 87,
-        "groundRentReview": "Structured facts panel shows next review as ask agent. The agent advertises an extension to 178 years; confirm whether it is completed and included in the price.",
-        "commuteWarning": null,
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/c70bb2151ac0e5479650723c0a67017e24ba3a50.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/1a27f83804399d20dab448a8b4f78af97eb6c772.jpg",
-          "https://lid.zoocdn.com/u/1024/768/208b09829a033de2e7192c6f90204831011ce100.jpg",
-          "https://lid.zoocdn.com/u/1024/768/c666f5b008f962d6a3b3a20aa6cf6f074c29c42f.jpg"
+        "cons": [
+          "The structured facts panel conflicts with the vendor description and leaves the lease terms to confirm",
+          "Only one bathroom and no floor area is stated",
+          "The \u00c2\u00a3500k asking price leaves less renovation headroom than the cheaper Warner flats"
+        ]
+      }
+    },
+    "zoopla-74132063": {
+      "id": "zoopla-74132063",
+      "address": "Leucha Road, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 475000,
+      "priceText": "\u00c2\u00a3475,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (87 years remaining; agent says extension to 178 years; \u00c2\u00a310 pa ground rent; \u00c2\u00a3290 pa service charge)",
+      "description": "663 sq ft ground-floor Warner flat with original stripped floors, fireplace and coving, a larger principal bedroom with fitted wardrobes and garden doors, second bedroom, modern kitchen with solid-oak worktops, bathroom and utility area. Full-width south-facing sole-use garden. The agent places St James Street within a short walk and Blackhorse Road within easy reach.",
+      "agent": "Central Estate Agents",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74132063/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 03/09/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~15 min (walk + 1 stop from St James Street)",
+      "nearestStation": "St James Street (Overground)",
+      "walkToStation": "~8 min / 0.4 mi",
+      "lat": 51.584,
+      "lon": -0.032,
+      "groundRentPA": 10,
+      "serviceChargePA": 290,
+      "leaseYearsRemaining": 87,
+      "groundRentReview": "Structured facts panel shows next review as ask agent. The agent advertises an extension to 178 years; confirm whether it is completed and included in the price.",
+      "commuteWarning": null,
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/c70bb2151ac0e5479650723c0a67017e24ba3a50.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/1a27f83804399d20dab448a8b4f78af97eb6c772.jpg",
+        "https://lid.zoocdn.com/u/1024/768/208b09829a033de2e7192c6f90204831011ce100.jpg",
+        "https://lid.zoocdn.com/u/1024/768/c666f5b008f962d6a3b3a20aa6cf6f074c29c42f.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Sole-use south-facing garden and classic Warner features",
+          "Very low disclosed fixed charges of \u00c2\u00a3300 a year",
+          "663 sq ft is a useful size for a two-bed and St James Street is nearby"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "Sole-use south-facing garden and classic Warner features",
-            "Very low disclosed fixed charges of £300 a year",
-            "663 sq ft is a useful size for a two-bed and St James Street is nearby"
-          ],
-          "cons": [
-            "The currently stated 87-year lease is short enough to affect mortgageability and resale",
-            "The claimed lease extension needs written confirmation",
-            "One bathroom and £475k is not a bargain for the size"
-          ]
-        }
-      },
-      "zoopla-74121165": {
-        "id": "zoopla-74121165",
-        "address": "St Stephens Close, Walthamstow Village, London E17",
-        "postcode": "E17",
-        "price": 425000,
-        "priceText": "£425,000",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Flat",
-        "tenure": "Leasehold (terms not stated)",
-        "description": "698 sq ft split-level two-bedroom flat with a generous reception opening onto a private balcony, separate fitted kitchen with storage, a large principal bedroom, a useful second bedroom and family bathroom. The agent describes it as close to Walthamstow Central, the High Street and local amenities.",
-        "agent": "Foxtons - Walthamstow",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74121165/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 02/09/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "pass",
-        "commuteToWMC": "~8 min walk",
-        "nearestStation": "Walthamstow Central (Victoria line + Overground)",
-        "walkToStation": "~8 min / 0.4 mi",
-        "lat": 51.585,
-        "lon": -0.010,
-        "groundRentPA": null,
-        "serviceChargePA": null,
-        "leaseYearsRemaining": null,
-        "groundRentReview": "Zoopla's structured facts panel records tenure, service charge, ground rent and review date as ask agent; Council Tax is TBC.",
-        "commuteWarning": null,
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/cc98da2d33dd737bfb37381a24f2b54bff09d912.png",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/48d77a614a8837e4102eda2e76c581dc0a2599fd.jpg",
-          "https://lid.zoocdn.com/u/1024/768/48736419e8da89a11d9291f202aef5a96120e8e9.jpg",
-          "https://lid.zoocdn.com/u/1024/768/bd565e22f7a0f9369d92b021e70406a4061a4b47.jpg"
+        "cons": [
+          "The currently stated 87-year lease is short enough to affect mortgageability and resale",
+          "The claimed lease extension needs written confirmation",
+          "One bathroom and \u00c2\u00a3475k is not a bargain for the size"
+        ]
+      }
+    },
+    "zoopla-74121165": {
+      "id": "zoopla-74121165",
+      "address": "St Stephens Close, Walthamstow Village, London E17",
+      "postcode": "E17",
+      "price": 425000,
+      "priceText": "\u00c2\u00a3425,000",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (terms not stated)",
+      "description": "698 sq ft split-level two-bedroom flat with a generous reception opening onto a private balcony, separate fitted kitchen with storage, a large principal bedroom, a useful second bedroom and family bathroom. The agent describes it as close to Walthamstow Central, the High Street and local amenities.",
+      "agent": "Foxtons - Walthamstow",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74121165/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 02/09/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~8 min walk",
+      "nearestStation": "Walthamstow Central (Victoria line + Overground)",
+      "walkToStation": "~8 min / 0.4 mi",
+      "lat": 51.585,
+      "lon": -0.01,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "Zoopla's structured facts panel records tenure, service charge, ground rent and review date as ask agent; Council Tax is TBC.",
+      "commuteWarning": null,
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/cc98da2d33dd737bfb37381a24f2b54bff09d912.png",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/48d77a614a8837e4102eda2e76c581dc0a2599fd.jpg",
+        "https://lid.zoocdn.com/u/1024/768/48736419e8da89a11d9291f202aef5a96120e8e9.jpg",
+        "https://lid.zoocdn.com/u/1024/768/bd565e22f7a0f9369d92b021e70406a4061a4b47.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "\u00c2\u00a3100k under budget and a sizeable 698 sq ft",
+          "Private balcony, separate kitchen and flexible second bedroom",
+          "Short walk to Walthamstow Central"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "£100k under budget and a sizeable 698 sq ft",
-            "Private balcony, separate kitchen and flexible second bedroom",
-            "Short walk to Walthamstow Central"
-          ],
-          "cons": [
-            "Every tenure and running-cost field is genuinely unpublished",
-            "One bathroom and no private garden",
-            "A split-level flat may mean stairs and block-management costs to check"
-          ]
-        }
-      },
-      "zoopla-74104443": {
-        "id": "zoopla-74104443",
-        "address": "Higham Hill Road, London E17",
-        "postcode": "E17",
-        "price": 500000,
-        "priceText": "£500,000 (offers over)",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Terraced house",
-        "tenure": "Not stated",
-        "description": "Two-bedroom terraced house in good condition with two reception rooms, two generous double bedrooms and a private rear garden. The agent places it within reach of Walthamstow Central, Lloyd Park, the Wetlands and the Lee Valley.",
-        "agent": "Bairstow Eves - Walthamstow Sales",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74104443/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 31/08/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "borderline",
-        "commuteToWMC": "~20 min (walk or local bus)",
-        "nearestStation": "Blackhorse Road (Victoria line + Overground)",
-        "walkToStation": "~15 min / 0.7 mi",
-        "lat": 51.596,
-        "lon": -0.035,
-        "groundRentPA": null,
-        "serviceChargePA": null,
-        "leaseYearsRemaining": null,
-        "groundRentReview": "No tenure, service charge, ground rent or Council Tax band was published; Zoopla records tenure as ask agent.",
-        "commuteWarning": "The nearest practical rail option and Walthamstow Central are both a meaningful walk or bus journey.",
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/4b9a2bc7c9c75c119876b3e85eb28235feb1c25a.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/c50fa911392e13d38407008d7d87d2f615d8d1e9.jpg",
-          "https://lid.zoocdn.com/u/1024/768/0cc338d45437e3c3d487b78437cb958437175f3d.jpg",
-          "https://lid.zoocdn.com/u/1024/768/d5c5661975356478a73438a39c58e723dccb0e12.jpg"
+        "cons": [
+          "Every tenure and running-cost field is genuinely unpublished",
+          "One bathroom and no private garden",
+          "A split-level flat may mean stairs and block-management costs to check"
+        ]
+      }
+    },
+    "zoopla-74104443": {
+      "id": "zoopla-74104443",
+      "address": "Higham Hill Road, London E17",
+      "postcode": "E17",
+      "price": 500000,
+      "priceText": "\u00c2\u00a3500,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Terraced house",
+      "tenure": "Not stated",
+      "description": "Two-bedroom terraced house in good condition with two reception rooms, two generous double bedrooms and a private rear garden. The agent places it within reach of Walthamstow Central, Lloyd Park, the Wetlands and the Lee Valley.",
+      "agent": "Bairstow Eves - Walthamstow Sales",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74104443/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 31/08/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20 min (walk or local bus)",
+      "nearestStation": "Blackhorse Road (Victoria line + Overground)",
+      "walkToStation": "~15 min / 0.7 mi",
+      "lat": 51.596,
+      "lon": -0.035,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "No tenure, service charge, ground rent or Council Tax band was published; Zoopla records tenure as ask agent.",
+      "commuteWarning": "The nearest practical rail option and Walthamstow Central are both a meaningful walk or bus journey.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/4b9a2bc7c9c75c119876b3e85eb28235feb1c25a.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/c50fa911392e13d38407008d7d87d2f615d8d1e9.jpg",
+        "https://lid.zoocdn.com/u/1024/768/0cc338d45437e3c3d487b78437cb958437175f3d.jpg",
+        "https://lid.zoocdn.com/u/1024/768/d5c5661975356478a73438a39c58e723dccb0e12.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "A house with two receptions and a private garden at \u00c2\u00a3500k",
+          "Two double bedrooms and presented in good condition",
+          "Scope to tailor a house rather than a flat"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "A house with two receptions and a private garden at £500k",
-            "Two double bedrooms and presented in good condition",
-            "Scope to tailor a house rather than a flat"
-          ],
-          "cons": [
-            "Borderline commute caps the score",
-            "No tenure, Council Tax or fixed-charge information is published",
-            "One bathroom and no stated floor area"
-          ]
-        }
-      },
-      "zoopla-74104439": {
-        "id": "zoopla-74104439",
-        "address": "Markhouse Road, Walthamstow, London E17",
-        "postcode": "E17",
-        "price": 450000,
-        "priceText": "£450,000",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Flat",
-        "tenure": "Not stated",
-        "description": "First-floor Warner flat with two generous double bedrooms, fitted kitchen, bathroom and its own section of rear garden. The agent describes the accommodation as bright, spacious and in fantastic condition, within reach of Walthamstow Central and St James Street.",
-        "agent": "Bairstow Eves - Walthamstow Sales",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74104439/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 31/08/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-07",
-        "commuteBadge": "borderline",
-        "commuteToWMC": "~18 min (walk or local bus)",
-        "nearestStation": "St James Street (Overground)",
-        "walkToStation": "~10 min / 0.5 mi",
-        "lat": 51.579,
-        "lon": -0.030,
-        "groundRentPA": null,
-        "serviceChargePA": null,
-        "leaseYearsRemaining": null,
-        "groundRentReview": "No tenure, service charge, ground rent or Council Tax band was published; Zoopla records tenure as ask agent.",
-        "commuteWarning": "The direct journey to Walthamstow Central is an estimated walk or bus rather than a nearby one-stop rail link.",
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/0b8377aac6c845faf23e37c7a314a2bc29af04b8.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/0301ad7fefec7485d03ddc68317d23f1e65cd58d.jpg",
-          "https://lid.zoocdn.com/u/1024/768/4edbe6608ba84d6c14c5fabb08010d849a9891a5.jpg",
-          "https://lid.zoocdn.com/u/1024/768/f0d535e6307c817376bb14e4c0df029df8cc43e9.jpg"
+        "cons": [
+          "Borderline commute caps the score",
+          "No tenure, Council Tax or fixed-charge information is published",
+          "One bathroom and no stated floor area"
+        ]
+      }
+    },
+    "zoopla-74104439": {
+      "id": "zoopla-74104439",
+      "address": "Markhouse Road, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 450000,
+      "priceText": "\u00c2\u00a3450,000",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Not stated",
+      "description": "First-floor Warner flat with two generous double bedrooms, fitted kitchen, bathroom and its own section of rear garden. The agent describes the accommodation as bright, spacious and in fantastic condition, within reach of Walthamstow Central and St James Street.",
+      "agent": "Bairstow Eves - Walthamstow Sales",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74104439/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 31/08/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-07",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~18 min (walk or local bus)",
+      "nearestStation": "St James Street (Overground)",
+      "walkToStation": "~10 min / 0.5 mi",
+      "lat": 51.579,
+      "lon": -0.03,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "No tenure, service charge, ground rent or Council Tax band was published; Zoopla records tenure as ask agent.",
+      "commuteWarning": "The direct journey to Walthamstow Central is an estimated walk or bus rather than a nearby one-stop rail link.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/0b8377aac6c845faf23e37c7a314a2bc29af04b8.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/0301ad7fefec7485d03ddc68317d23f1e65cd58d.jpg",
+        "https://lid.zoocdn.com/u/1024/768/4edbe6608ba84d6c14c5fabb08010d849a9891a5.jpg",
+        "https://lid.zoocdn.com/u/1024/768/f0d535e6307c817376bb14e4c0df029df8cc43e9.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "\u00c2\u00a375k under budget for a well-presented Warner with two double bedrooms",
+          "Private garden section and period character",
+          "St James Street is walkable"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "£75k under budget for a well-presented Warner with two double bedrooms",
-            "Private garden section and period character",
-            "St James Street is walkable"
-          ],
-          "cons": [
-            "Borderline commute caps the score",
-            "Every tenure and running-cost field is unpublished",
-            "First-floor garden access is less useful than a ground-floor garden"
-          ]
-        }
-      },
-      "zoopla-74143295": {
-        "id": "zoopla-74143295",
-        "address": "Claude Road, Leyton, London E10",
-        "postcode": "E10",
-        "price": 375000,
-        "priceText": "£375,000-£400,000 (guide price)",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Flat",
-        "tenure": "Leasehold (141 years remaining; ground rent and service charge not stated)",
-        "description": "Chain-free first-floor period conversion with two double bedrooms, bright reception room, separate fitted kitchen and bathroom. 585 sq ft, moments from Francis Road and Leyton High Road. The agent positions it as a first purchase or buy-to-let opportunity.",
-        "agent": "Rooted",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74143295/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 04/09/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "borderline",
-        "commuteToWMC": "~20 min (walk + bus/train)",
-        "nearestStation": "Leyton (Central line)",
-        "walkToStation": "~10 min / 0.5 mi",
-        "lat": 51.564,
-        "lon": -0.010,
-        "groundRentPA": null,
-        "serviceChargePA": null,
-        "leaseYearsRemaining": 141,
-        "groundRentReview": "Zoopla's structured facts panel records ground rent, service charge and the next review as ask agent. Council Tax band has not yet been confirmed.",
-        "commuteWarning": "The journey to Walthamstow Central requires a cross-area connection and is not a quick direct rail ride.",
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/dbde086423492fbe11ac1e75435671abc7d36f0d.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/c6f85d270c929d7e6e1113b2815c8c7faeb79108.jpg",
-          "https://lid.zoocdn.com/u/1024/768/c0a4d7ce1a0ce305803e857262fe3f6d51810272.jpg",
-          "https://lid.zoocdn.com/u/1024/768/32447c15f9057a0e4372765888ad4555ee57568b.jpg"
+        "cons": [
+          "Borderline commute caps the score",
+          "Every tenure and running-cost field is unpublished",
+          "First-floor garden access is less useful than a ground-floor garden"
+        ]
+      }
+    },
+    "zoopla-74143295": {
+      "id": "zoopla-74143295",
+      "address": "Claude Road, Leyton, London E10",
+      "postcode": "E10",
+      "price": 375000,
+      "priceText": "\u00c2\u00a3375,000-\u00c2\u00a3400,000 (guide price)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (141 years remaining; ground rent and service charge not stated)",
+      "description": "Chain-free first-floor period conversion with two double bedrooms, bright reception room, separate fitted kitchen and bathroom. 585 sq ft, moments from Francis Road and Leyton High Road. The agent positions it as a first purchase or buy-to-let opportunity.",
+      "agent": "Rooted",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74143295/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 04/09/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20 min (walk + bus/train)",
+      "nearestStation": "Leyton (Central line)",
+      "walkToStation": "~10 min / 0.5 mi",
+      "lat": 51.564,
+      "lon": -0.01,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": 141,
+      "groundRentReview": "Zoopla's structured facts panel records ground rent, service charge and the next review as ask agent. Council Tax band has not yet been confirmed.",
+      "commuteWarning": "The journey to Walthamstow Central requires a cross-area connection and is not a quick direct rail ride.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/dbde086423492fbe11ac1e75435671abc7d36f0d.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/c6f85d270c929d7e6e1113b2815c8c7faeb79108.jpg",
+        "https://lid.zoocdn.com/u/1024/768/c0a4d7ce1a0ce305803e857262fe3f6d51810272.jpg",
+        "https://lid.zoocdn.com/u/1024/768/32447c15f9057a0e4372765888ad4555ee57568b.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Guide price is \u00c2\u00a3125k-\u00c2\u00a3150k under budget",
+          "Long 141-year lease, chain free and two genuine double bedrooms",
+          "Separate kitchen and period-conversion character"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "Guide price is £125k-£150k under budget",
-            "Long 141-year lease, chain free and two genuine double bedrooms",
-            "Separate kitchen and period-conversion character"
-          ],
-          "cons": [
-            "585 sq ft is compact for two double bedrooms",
-            "Borderline commute caps the score",
-            "Service charge, ground rent, review mechanism and Council Tax are unpublished"
-          ]
-        }
-      },
-      "zoopla-74150519": {
-        "id": "zoopla-74150519",
-        "address": "Soper Close, Chingford, London E4",
-        "postcode": "E4",
-        "price": 500000,
-        "priceText": "£500,000 (offers over)",
-        "priceBadge": "in-budget",
-        "beds": 2,
-        "baths": 1,
-        "type": "Bungalow",
-        "tenure": "Freehold",
-        "description": "Immaculate two-bedroom bungalow in a quiet residential close, with spacious lounge, private garden and an attached garage/additional room. The agent describes it as ready to move into and EPC rated C.",
-        "agent": "Your Move - Walthamstow",
-        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74150519/",
-        "sourcePortal": "Zoopla",
-        "dateAddedText": "Added 04/09/2026",
-        "firstSeen": "2026-09-05",
-        "lastSeen": "2026-09-09",
-        "commuteBadge": "borderline",
-        "commuteToWMC": "~20-25 min (walk/bus + Chingford branch)",
-        "nearestStation": "Chingford (Overground terminus)",
-        "walkToStation": "~18 min / 0.9 mi",
-        "lat": 51.630,
-        "lon": -0.008,
-        "groundRentPA": 0,
-        "serviceChargePA": 0,
-        "leaseYearsRemaining": null,
-        "groundRentReview": null,
-        "commuteWarning": "Chingford is user-confirmed in scope, but this location is a meaningful walk or bus from the station.",
-        "floorplan": "https://lid.zoocdn.com/u/1024/768/8116a3c19760af15f060aeeb94273257bfcc1a70.jpg",
-        "photos": [
-          "https://lid.zoocdn.com/u/1024/768/1f1ddc59c7d23421fdc251c9a397066b6cd3d8c9.jpg",
-          "https://lid.zoocdn.com/u/1024/768/94427990d33f8858d3d69d6bccc6aa0d246e6239.jpg",
-          "https://lid.zoocdn.com/u/1024/768/66776721a30f5df8ff1cdd56d6359e3dbbbce388.jpg"
+        "cons": [
+          "585 sq ft is compact for two double bedrooms",
+          "Borderline commute caps the score",
+          "Service charge, ground rent, review mechanism and Council Tax are unpublished"
+        ]
+      }
+    },
+    "zoopla-74150519": {
+      "id": "zoopla-74150519",
+      "address": "Soper Close, Chingford, London E4",
+      "postcode": "E4",
+      "price": 500000,
+      "priceText": "\u00c2\u00a3500,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Bungalow",
+      "tenure": "Freehold",
+      "description": "Immaculate two-bedroom bungalow in a quiet residential close, with spacious lounge, private garden and an attached garage/additional room. The agent describes it as ready to move into and EPC rated C.",
+      "agent": "Your Move - Walthamstow",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74150519/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 04/09/2026",
+      "firstSeen": "2026-09-05",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20-25 min (walk/bus + Chingford branch)",
+      "nearestStation": "Chingford (Overground terminus)",
+      "walkToStation": "~18 min / 0.9 mi",
+      "lat": 51.63,
+      "lon": -0.008,
+      "groundRentPA": 0,
+      "serviceChargePA": 0,
+      "leaseYearsRemaining": null,
+      "groundRentReview": null,
+      "commuteWarning": "Chingford is user-confirmed in scope, but this location is a meaningful walk or bus from the station.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/8116a3c19760af15f060aeeb94273257bfcc1a70.jpg",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/1f1ddc59c7d23421fdc251c9a397066b6cd3d8c9.jpg",
+        "https://lid.zoocdn.com/u/1024/768/94427990d33f8858d3d69d6bccc6aa0d246e6239.jpg",
+        "https://lid.zoocdn.com/u/1024/768/66776721a30f5df8ff1cdd56d6359e3dbbbce388.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Freehold bungalow: no lease, ground rent or service charge",
+          "Private garden and a versatile garage/additional room",
+          "Presented in excellent condition at \u00c2\u00a325k under budget"
         ],
-        "opinion": {
-          "score": 7,
-          "pros": [
-            "Freehold bungalow: no lease, ground rent or service charge",
-            "Private garden and a versatile garage/additional room",
-            "Presented in excellent condition at £25k under budget"
-          ],
-          "cons": [
-            "Borderline commute caps the score",
-            "Only two bedrooms and one bathroom",
-            "No floor area is published, so the garage/additional room needs viewing"
-          ]
-        }
+        "cons": [
+          "Borderline commute caps the score",
+          "Only two bedrooms and one bathroom",
+          "No floor area is published, so the garage/additional room needs viewing"
+        ]
+      }
     },
     "zoopla-74156911": {
       "id": "zoopla-74156911",
@@ -3676,7 +3687,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 06/09/2026",
       "firstSeen": "2026-09-06",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + Overground + Victoria line change)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -3707,6 +3718,56 @@
           "The interchange at Blackhorse Road makes the Walthamstow Central commute borderline",
           "Service charge and ground-rent review terms are unpublished",
           "First-floor garden access and one bathroom"
+        ]
+      }
+    },
+    "zoopla-74157174": {
+      "id": "zoopla-74157174",
+      "address": "Warner Road, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 525000,
+      "priceText": "\u00a3525,000 (guide price)",
+      "priceBadge": "at-budget-edge",
+      "beds": 2,
+      "baths": 1,
+      "type": "Maisonette",
+      "tenure": "Leasehold (approx. 155 years; charges not stated)",
+      "description": "Chain-free ground-floor ex-Warner maisonette of 653 sq ft with own front door, separate reception, open-plan kitchen/diner, two bedrooms, family bathroom, utility area and private south-facing rear garden. About 0.3 miles from both Blackhorse Road and St James Street, and 0.6 miles from Walthamstow Central.",
+      "agent": "Yopa",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74157174/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 06/09/2026",
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~12 min (walk + 1 stop, Victoria line)",
+      "nearestStation": "Blackhorse Road (Victoria line + Overground)",
+      "walkToStation": "~6 min / 0.3 mi",
+      "lat": 51.586,
+      "lon": -0.033,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": 155,
+      "groundRentReview": "Zoopla's facts panel records all charge and review terms as ask agent.",
+      "commuteWarning": null,
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/f6b3d9c2d9deb6dda4b13f0c844b1fda5ad6ec51.jpg",
+        "https://lid.zoocdn.com/u/1024/768/71cf70139beae1e4979ffbe4cdf65aa7bef2e916.jpg",
+        "https://lid.zoocdn.com/u/1024/768/be306abaa33d905db9267cdb90c1cee1d4dbfcaf.jpg"
+      ],
+      "opinion": {
+        "score": 8,
+        "pros": [
+          "Chain-free ground-floor Warner with private south-facing garden and own front door",
+          "653 sq ft, separate reception plus kitchen/diner and utility area",
+          "Strong walk-and-one-stop Victoria line commute",
+          "Approximate 155-year lease"
+        ],
+        "cons": [
+          "At the \u00a3525k cap",
+          "Service charge, ground rent and review terms are unpublished",
+          "EPC D and one bathroom"
         ]
       }
     }
