@@ -240,6 +240,19 @@
       ],
       "listingIds": [],
       "notesForRun": "Partial refresh: Zoopla newest-first pages 1-2 checked for Walthamstow, Leyton and Chingford; no qualifying new listing identified. OnTheMarket facets could not be completed due to browser session interruption."
+    },
+    {
+      "date": "2026-09-13",
+      "portalsChecked": [
+        "OnTheMarket",
+        "Zoopla"
+      ],
+      "listingIds": [
+        "zoopla-74225273",
+        "zoopla-74224949",
+        "zoopla-74226627"
+      ],
+      "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. Three new listings fully inspected and added. Floorplan galleries returned no aria-labelled images, so no floorplan URLs were inferred. Existing live listings reconfirmed from Zoopla only had lastSeen changed."
     }
   ],
   "listings": {
@@ -1428,7 +1441,7 @@
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1638,7 +1651,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1745,7 +1758,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "at-budget-edge",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1798,7 +1811,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "opinion": {
         "score": 6,
         "pros": [
@@ -2376,7 +2389,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d no direct route from Leyton to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
@@ -2433,7 +2446,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 26/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~17 min (walk + 2 stops, change at Blackhorse Road)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -2605,7 +2618,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 27/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~16 min (walk + 7 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Highams Park (Overground)",
@@ -2663,7 +2676,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
@@ -2713,7 +2726,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d Leyton is Central line, no direct route to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
@@ -2773,7 +2786,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change from Leyton)",
       "nearestStation": "Leyton (Central line)",
@@ -2829,7 +2842,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + change) \u00e2\u20ac\u201d stations are under a mile but not close",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -3001,7 +3014,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~12 min (walk + 1 stop)",
       "nearestStation": "St James Street (Overground)",
@@ -3059,7 +3072,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~14-16 min (walk) \u00e2\u20ac\u201d listing claims a short walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3117,7 +3130,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 02/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~10 min (walk + 1 stop, Victoria line)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -3174,7 +3187,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3234,7 +3247,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20-22 min (walk/bus + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3293,7 +3306,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 30/08/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3351,7 +3364,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min walk",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3401,7 +3414,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min (walk + 1 stop from St James Street)",
       "nearestStation": "St James Street (Overground)",
@@ -3450,7 +3463,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 02/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~8 min walk",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3597,7 +3610,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + bus/train)",
       "nearestStation": "Leyton (Central line)",
@@ -3646,7 +3659,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20-25 min (walk/bus + Chingford branch)",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3695,7 +3708,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 06/09/2026",
       "firstSeen": "2026-09-06",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + Overground + Victoria line change)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -3746,7 +3759,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 06/09/2026",
       "firstSeen": "2026-09-10",
-      "lastSeen": "2026-09-11",
+      "lastSeen": "2026-09-13",
       "commuteBadge": "pass",
       "commuteToWMC": "~12 min (walk + 1 stop, Victoria line)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -3776,6 +3789,150 @@
           "At the \u00a3525k cap",
           "Service charge, ground rent and review terms are unpublished",
           "EPC D and one bathroom"
+        ]
+      }
+    },
+    "zoopla-74225273": {
+      "id": "zoopla-74225273",
+      "address": "The Drive, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 375000,
+      "priceText": "\u00a3375,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 3,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (120 years remaining; \u00a31,680 pa service charge; \u00a310 pa ground rent)",
+      "description": "826 sq ft chain-free split-level three-bedroom flat over second and third floors, with 24-foot open-plan reception/dining/kitchen, south-facing private balcony, three bedrooms, bathroom, additional WC and storage shed. Modern fitted kitchen and Village-outskirts setting.",
+      "agent": "Central Estate Agents",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74225273/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 12/09/2026",
+      "firstSeen": "2026-09-13",
+      "lastSeen": "2026-09-13",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~18 min walk/bus",
+      "nearestStation": "Walthamstow Central (Victoria line + Overground)",
+      "walkToStation": "~18 min / 0.9 mi",
+      "lat": 51.592,
+      "lon": -0.016,
+      "groundRentPA": 10,
+      "serviceChargePA": 1680,
+      "leaseYearsRemaining": 120,
+      "groundRentReview": "Zoopla's facts panel shows next ground-rent review as ask agent; Council Tax band C.",
+      "commuteWarning": "Village outskirts means a realistically borderline trip to Walthamstow Central.",
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/77e4fcfe435e232580b4064d4004f0003c4e78ca.jpg",
+        "https://lid.zoocdn.com/u/1024/768/4244b17df22e08d86a7821029ce48dd7487e558f.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "\u00a3150k under budget for 826 sq ft and three proper bedrooms",
+          "Chain free, private south-facing balcony and a 24-foot living/kitchen space",
+          "120-year lease with fully disclosed low ground rent"
+        ],
+        "cons": [
+          "Second/third-floor split-level layout, with no lift mentioned",
+          "\u00a31,680 annual service charge is material",
+          "Borderline walk/bus commute and one full bathroom"
+        ]
+      }
+    },
+    "zoopla-74224949": {
+      "id": "zoopla-74224949",
+      "address": "Hepworth Place, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 520000,
+      "priceText": "\u00a3520,000",
+      "priceBadge": "at-budget-edge",
+      "beds": 2,
+      "baths": null,
+      "type": "Flat",
+      "tenure": "Leasehold (terms and charges not stated)",
+      "description": "New-build two-bedroom apartment at Hepworth Place, of 775 sq ft, with open-plan kitchen/living/dining room, private balcony, integrated appliances, luxury flooring, built-in storage, secure cycle storage and 10-year warranty.",
+      "agent": "Countryside - Hepworth Place",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74224949/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 12/09/2026",
+      "firstSeen": "2026-09-13",
+      "lastSeen": "2026-09-13",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~15 min walk",
+      "nearestStation": "Walthamstow Central (Victoria line + Overground)",
+      "walkToStation": "~15 min / 0.7 mi",
+      "lat": 51.591,
+      "lon": -0.038,
+      "groundRentPA": null,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "Zoopla's facts panel marks tenure, service charge, ground rent, review date and Council Tax as ask agent.",
+      "commuteWarning": null,
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/27bf29a68972e1cf9065d982c7f57b1e30f7951b.jpg"
+      ],
+      "opinion": {
+        "score": 6,
+        "pros": [
+          "775 sq ft for a two-bed with private balcony, integrated appliances and warranty",
+          "Passable walk to Walthamstow Central",
+          "Secure cycle storage and energy-efficient new-build specification"
+        ],
+        "cons": [
+          "\u00a3520k is effectively at the full budget cap",
+          "All tenure, annual-charge and Council Tax information is unpublished",
+          "New-build premium and no bathroom count published"
+        ]
+      }
+    },
+    "zoopla-74226627": {
+      "id": "zoopla-74226627",
+      "address": "Tyndall Road, Leyton, London E10",
+      "postcode": "E10",
+      "price": 525000,
+      "priceText": "\u00a3525,000 (offers over)",
+      "priceBadge": "at-budget-edge",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Share of freehold (no ground rent; service charge not stated)",
+      "description": "644 sq ft semi-detached two-bedroom garden apartment with share of freehold, 33-foot open-plan kitchen/lounge, two flexible double bedrooms, bathroom, vaulted skylight and landscaped private courtyard. Immaculately presented, near Francis Road and roughly ten minutes from Leyton tube.",
+      "agent": "E10 Homes",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74226627/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 12/09/2026",
+      "firstSeen": "2026-09-13",
+      "lastSeen": "2026-09-13",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20 min (walk + Central/Victoria line change)",
+      "nearestStation": "Leyton (Central line)",
+      "walkToStation": "~10 min / 0.5 mi",
+      "lat": 51.565,
+      "lon": -0.012,
+      "groundRentPA": 0,
+      "serviceChargePA": null,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "Share of freehold with no ground rent. Zoopla's facts panel says service charge and commonhold details: ask agent; Council Tax band B.",
+      "commuteWarning": "Cross-area interchange makes the Walthamstow Central commute realistically borderline.",
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/9acb14f74fc5a539dd3b23291f68f50760d45a45.jpg",
+        "https://lid.zoocdn.com/u/1024/768/8cbfa9cb66d530faab508350fc5a496d33b92f07.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Share of freehold and no ground rent",
+          "Private landscaped courtyard plus 33-foot kitchen/lounge",
+          "Immaculate condition and a flexible second bedroom near Francis Road"
+        ],
+        "cons": [
+          "At the \u00a3525k cap for 644 sq ft",
+          "Borderline commute caps the score",
+          "Service charge and shared-freehold obligations need confirming",
+          "One bathroom"
         ]
       }
     }
