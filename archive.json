@@ -271,6 +271,21 @@
       ],
       "listingIds": [],
       "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. No qualifying new listings posted. Existing live listings reconfirmed had only lastSeen changed."
+    },
+    {
+      "date": "2026-09-15",
+      "portalsChecked": [
+        "OnTheMarket",
+        "Zoopla"
+      ],
+      "listingIds": [
+        "zoopla-74246550",
+        "zoopla-74246153",
+        "zoopla-74242361",
+        "zoopla-74246435",
+        "zoopla-74242130"
+      ],
+      "notesForRun": "Same-day follow-up after new listings appeared. All ten OnTheMarket facets and Zoopla newest-first pages 1-2 across E17, E4 and E10 were checked. Five new qualifying listings were inspected and added. Floorplan gallery extraction returned no aria-labelled images, so no floorplan URLs were inferred."
     }
   ],
   "listings": {
@@ -3951,6 +3966,243 @@
           "Borderline commute caps the score",
           "Service charge and shared-freehold obligations need confirming",
           "One bathroom"
+        ]
+      }
+    },
+    "zoopla-74246550": {
+      "id": "zoopla-74246550",
+      "address": "Tristram Close, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 360000,
+      "priceText": "\u00a3360,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (171 years; \u00a31,410 pa service charge; \u00a310 pa ground rent)",
+      "description": "766 sq ft first-floor flat with two double bedrooms, separate kitchen, generous reception/diner and bathroom. Close to Wood Street station and Epping Forest.",
+      "agent": "The Stow Brothers - Walthamstow",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74246550/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 15/09/2026",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-09-15",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~15 min (walk + 1 stop, Overground)",
+      "nearestStation": "Wood Street (Overground)",
+      "walkToStation": "~8 min / 0.4 mi",
+      "lat": 51.597,
+      "lon": -0.02,
+      "groundRentPA": 10,
+      "serviceChargePA": 1410,
+      "leaseYearsRemaining": 171,
+      "groundRentReview": "Council Tax band C. Zoopla records ground-rent review date as ask agent.",
+      "commuteWarning": null,
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/f35acadefabdac55225265acf7cf11b980427794.jpg",
+        "https://lid.zoocdn.com/u/1024/768/2a3a5f6c7ba58eaac02e2d8e0577e5c8c41d4e48.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "\u00a3165k under budget for a bright 766 sq ft two-bed",
+          "Two genuine double bedrooms and generous reception/diner",
+          "Wood Street Overground and Epping Forest are close"
+        ],
+        "cons": [
+          "First-floor flat with no private outdoor space mentioned",
+          "\u00a31,410 annual service charge",
+          "Ground-rent review mechanism needs confirming"
+        ]
+      }
+    },
+    "zoopla-74246153": {
+      "id": "zoopla-74246153",
+      "address": "Clarkson Crescent, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 450000,
+      "priceText": "\u00a3450,000 (offers over)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 2,
+      "type": "Flat",
+      "tenure": "Leasehold (244 years; \u00a32,215 pa service charge; ground rent not stated)",
+      "description": "793 sq ft first-floor contemporary apartment with open-plan kitchen/lounge/diner, 17-foot covered balcony, two bedrooms, en-suite shower room, bathroom, lift and level access. Close to Wood Street station.",
+      "agent": "The Stow Brothers - Walthamstow",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74246153/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 15/09/2026",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-09-15",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~15 min (walk + 1 stop, Overground)",
+      "nearestStation": "Wood Street (Overground)",
+      "walkToStation": "~8 min / 0.4 mi",
+      "lat": 51.597,
+      "lon": -0.02,
+      "groundRentPA": null,
+      "serviceChargePA": 2215,
+      "leaseYearsRemaining": 244,
+      "groundRentReview": "Council Tax band C. Ground rent and review terms are ask agent in Zoopla facts.",
+      "commuteWarning": null,
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/d4318ded470698d8cfee5da84b3b90c69aae1db5.jpg",
+        "https://lid.zoocdn.com/u/1024/768/d74c931daa2182872ce608829f6cbaeb9e52d493.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "793 sq ft, two bathrooms, lift and long covered balcony",
+          "244-year lease and \u00a375k under budget",
+          "Good storage and level access"
+        ],
+        "cons": [
+          "\u00a32,215 annual service charge is significant",
+          "Ground rent and review mechanism unpublished",
+          "Contemporary-block resale and running costs need checking"
+        ]
+      }
+    },
+    "zoopla-74242361": {
+      "id": "zoopla-74242361",
+      "address": "Thornbury Way, Walthamstow, London E17",
+      "postcode": "E17",
+      "price": 425000,
+      "priceText": "\u00a3425,000 (offers in region of)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 2,
+      "type": "Flat",
+      "tenure": "Leasehold (116 years; \u00a31,988 pa service charge; \u00a3300 pa ground rent)",
+      "description": "802 sq ft chain-free first-floor apartment with 26-foot open-plan reception/kitchen, 18-foot private balcony, two double bedrooms, family bathroom plus shower room, communal garden and residents parking.",
+      "agent": "Central Estate Agents",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74242361/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 15/09/2026",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-09-15",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20 min (walk/bus + rail)",
+      "nearestStation": "Blackhorse Road (Victoria line + Overground)",
+      "walkToStation": "~18 min / 0.9 mi",
+      "lat": 51.604,
+      "lon": -0.042,
+      "groundRentPA": 300,
+      "serviceChargePA": 1988,
+      "leaseYearsRemaining": 116,
+      "groundRentReview": "Council Tax band C. Ground-rent review date is ask agent.",
+      "commuteWarning": "Borderline journey; confirm it works in practice.",
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/4d8c53b0bbb9fa764913d8a290c2cfb0f888b183.jpg",
+        "https://lid.zoocdn.com/u/1024/768/1e75c2b506a77ca8b678ab1b7b5658250d969609.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "\u00a3100k under budget for 802 sq ft with two bathrooms",
+          "Chain free, large private balcony and residents parking",
+          "Good storage and two double bedrooms"
+        ],
+        "cons": [
+          "Borderline commute caps the score",
+          "\u00a32,288 annual ground rent plus service charge",
+          "First floor and no lift mentioned"
+        ]
+      }
+    },
+    "zoopla-74246435": {
+      "id": "zoopla-74246435",
+      "address": "Brennan House, High Road Leyton, Leyton E10",
+      "postcode": "E10",
+      "price": 400000,
+      "priceText": "\u00a3400,000 (guide price)",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 2,
+      "type": "Flat",
+      "tenure": "Leasehold (112 years; \u00a31,486 pa service charge; \u00a3410 pa ground rent)",
+      "description": "887 sq ft first-floor two-bed, two-bath apartment in a modest modern block, with a 380 sq ft open-plan kitchen/reception, Juliette balcony, large entrance hall and storage. One minute from Leyton Midland Road and five minutes from Francis Road.",
+      "agent": "E10 Homes",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74246435/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 15/09/2026",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-09-15",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~18 min (walk + Overground + Victoria line change)",
+      "nearestStation": "Leyton Midland Road (Overground)",
+      "walkToStation": "~1 min / 0.1 mi",
+      "lat": 51.56,
+      "lon": -0.01,
+      "groundRentPA": 410,
+      "serviceChargePA": 1486,
+      "leaseYearsRemaining": 112,
+      "groundRentReview": "Council Tax band C. Zoopla shows ground-rent review date as ask agent.",
+      "commuteWarning": "Borderline journey; confirm it works in practice.",
+      "floorplan": null,
+      "photos": [],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "887 sq ft and two bathrooms at \u00a3125k under budget",
+          "One-minute walk to Leyton Midland Road and near Francis Road",
+          "Large open-plan living space and good storage"
+        ],
+        "cons": [
+          "Borderline interchange commute caps the score",
+          "\u00a31,896 annual fixed charges",
+          "112-year lease and only a Juliette balcony"
+        ]
+      }
+    },
+    "zoopla-74242130": {
+      "id": "zoopla-74242130",
+      "address": "Templeton Avenue, Chingford, London E4",
+      "postcode": " E4",
+      "price": 500000,
+      "priceText": "\u00a3500,000",
+      "priceBadge": "in-budget",
+      "beds": 3,
+      "baths": 1,
+      "type": "End-terrace house",
+      "tenure": "Freehold",
+      "description": "Three-bedroom end-terrace house with separate kitchen, lounge/diner opening to a well-maintained garden, family bathroom, loft storage and private driveway.",
+      "agent": "William Rose",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74242130/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 15/09/2026",
+      "firstSeen": "2026-09-15",
+      "lastSeen": "2026-09-15",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~25 min (walk/bus + Chingford branch)",
+      "nearestStation": "Chingford (Overground terminus)",
+      "walkToStation": "~18 min / 0.9 mi",
+      "lat": 51.632,
+      "lon": -0.011,
+      "groundRentPA": 0,
+      "serviceChargePA": 0,
+      "leaseYearsRemaining": null,
+      "groundRentReview": null,
+      "commuteWarning": "Borderline journey; confirm it works in practice.",
+      "floorplan": null,
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/df14cc0029badc249cce07539543ee81136fdd79.jpg",
+        "https://lid.zoocdn.com/u/1024/768/577fa122d80113b9a4d448b4772588376edb2da8.jpg"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Freehold three-bed end-terrace with garden and private driveway",
+          "\u00a325k under budget and loft-storage potential",
+          "Separate kitchen and family-sized lounge/diner"
+        ],
+        "cons": [
+          "Borderline station access and commute cap the score",
+          "One bathroom and no stated floor area",
+          "Condition, EPC and any extension potential need viewing"
         ]
       }
     }
