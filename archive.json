@@ -295,6 +295,17 @@
       ],
       "listingIds": [],
       "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. No qualifying new listings posted. Existing live listings reconfirmed had only lastSeen changed."
+    },
+    {
+      "date": "2026-09-16",
+      "portalsChecked": [
+        "OnTheMarket",
+        "Zoopla"
+      ],
+      "listingIds": [
+        "zoopla-74251861"
+      ],
+      "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. One qualifying new listing was fully inspected. Zoopla exact listed dates governed freshness; promoted out-of-area, shared-ownership, retirement, relisted, reduced and over-budget stock was excluded. Existing live listings returned by the portals already had lastSeen set to today. Floorplan was extracted only from the aria-labelled Floor plan images gallery."
     }
   ],
   "listings": {
@@ -4213,6 +4224,61 @@
           "One bathroom and no stated floor area",
           "Condition, EPC and any extension potential need viewing"
         ]
+      }
+    },
+    "zoopla-74251861": {
+        "id": "zoopla-74251861",
+        "address": "Hoffmans Road, Walthamstow, London E17",
+        "postcode": "E17",
+        "price": 500000,
+        "priceText": "\u00a3500,000",
+        "priceBadge": "in-budget",
+        "beds": 2,
+        "baths": 2,
+        "type": "Flat",
+        "tenure": "Leasehold (117 years; \u00a33,100 pa service charge; \u00a3450 ground rent)",
+        "description": "Situated on the third floor, this stunning 2 bedroom flat boasts a bright and airy reception room and open plan kitchen, 2 bedrooms and a lovely private balcony. The area offers great choice of local amenities such as local shops and supermarkets, restaurants and great transport links. Many green areas and parks are close by. Please use the reference CHPK5122196 when contacting Foxtons.",
+        "agent": "Foxtons - Walthamstow",
+        "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74251861/",
+        "sourcePortal": "Zoopla",
+        "dateAddedText": "Added 16/09/2026",
+        "firstSeen": "2026-09-16",
+        "lastSeen": "2026-09-16",
+        "commuteBadge": "pass",
+        "commuteToWMC": "~12 min (walk + 1 stop, Victoria line)",
+        "nearestStation": "Blackhorse Road (Victoria line + Overground)",
+        "walkToStation": "~8 min / 0.4 mi",
+        "lat": 51.586,
+        "lon": -0.033,
+        "groundRentPA": 450,
+        "serviceChargePA": 3100,
+        "leaseYearsRemaining": 117,
+        "groundRentReview": "Council Tax band TBC. Zoopla shows the ground-rent next-review date as ask agent; no review period is published.",
+        "commuteWarning": null,
+        "floorplan": "https://lid.zoocdn.com/u/1024/768/c1e4d91a64d45f86456a537238e4de8a70b72da1.png:p",
+        "photos": [
+          "https://lid.zoocdn.com/u/1024/768/143102592a692518c07d7347d66b9e748923f029.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/964f3ae11a8f638167e3a7a068dbf1fbf8263c49.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/594bfd34c1b70ce51181e846ace97c364549a34e.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/8c30b40e21d85ed179640b114a6693774ccb234d.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/f70c1443200903e2bfb32aca113f3bae26cec7fb.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/8267ace6a26903a3cf254a509cbabd64e4cdd081.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/68af2a751bce718dcde5b0572c321a001f6b23bb.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/7b5fc25f8bdbadf3c45fe9b39f4504855fa4e325.jpg:p",
+          "https://lid.zoocdn.com/u/1024/768/01789e8472e5d547dacdf8ef0d1d6ac948c10571.jpg:p"
+        ],
+        "opinion": {
+          "score": 6,
+          "pros": [
+            "778 sq ft with two bathrooms, private balcony and secure allocated parking",
+            "About 0.4 miles from Blackhorse Road for a short walk-and-one-stop Victoria line trip",
+            "117-year lease"
+          ],
+          "cons": [
+            "\u00a33,550 annual service charge plus ground rent materially raises the effective cost",
+            "At \u00a3500k, it is close to the budget cap",
+            "Third floor with no lift stated; Council Tax and ground-rent review terms are unpublished"
+          ]
       }
     }
   }
