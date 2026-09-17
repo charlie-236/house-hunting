@@ -306,6 +306,19 @@
         "zoopla-74251861"
       ],
       "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. One qualifying new listing was fully inspected. Zoopla exact listed dates governed freshness; promoted out-of-area, shared-ownership, retirement, relisted, reduced and over-budget stock was excluded. Existing live listings returned by the portals already had lastSeen set to today. Floorplan was extracted only from the aria-labelled Floor plan images gallery."
+    },
+    {
+      "date": "2026-09-17",
+      "portalsChecked": [
+        "OnTheMarket",
+        "Zoopla"
+      ],
+      "listingIds": [
+        "zoopla-73533020",
+        "zoopla-74252101",
+        "zoopla-74254068"
+      ],
+      "notesForRun": "Full refresh: all ten OnTheMarket two- and three-bed facets and Zoopla newest-first pages 1-2 across E17, E4 and E10. Three qualifying new listings, all exact-listed on 16 September, were fully inspected. Zoopla exact listed dates governed freshness; auction, shared-ownership, promoted out-of-area, retirement, relisted, reduced and over-budget stock was excluded. Floorplans were extracted only from the aria-labelled Floor plan images gallery."
     }
   ],
   "listings": {
@@ -353,7 +366,7 @@
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 8,
         "pros": [
@@ -408,7 +421,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -464,7 +477,7 @@
       "commuteBadge": "pass",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 8,
         "pros": [
@@ -529,7 +542,7 @@
       "commuteBadge": "stretch",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -595,7 +608,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -661,7 +674,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "at-budget-edge",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 5,
         "pros": [
@@ -728,7 +741,7 @@
       "commuteBadge": "pass",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 5,
         "pros": [
@@ -848,7 +861,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "above-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 4,
         "pros": [
@@ -1704,7 +1717,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1811,7 +1824,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "at-budget-edge",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1864,7 +1877,7 @@
       "commuteBadge": "borderline",
       "priceBadge": "in-budget",
       "firstSeen": "2026-08-24",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "opinion": {
         "score": 6,
         "pros": [
@@ -1900,7 +1913,7 @@
       "sourcePortal": "OnTheMarket",
       "dateAddedText": "Less than 7 days ago",
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "Estimated 15-20 min, not Zoopla-confirmed -- nearest station (Lea Bridge) has no direct one-seat route to Walthamstow Central; verify before viewing",
       "nearestStation": "Lea Bridge (Overground, Lea Valley lines)",
@@ -2094,7 +2107,7 @@
       "sourcePortal": "OnTheMarket",
       "dateAddedText": "Added yesterday",
       "firstSeen": "2026-08-26",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "Walthamstow Central is under 100 yards away -- about as good as this commute gets",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -2442,7 +2455,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 28/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d no direct route from Leyton to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
@@ -2499,7 +2512,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 26/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~17 min (walk + 2 stops, change at Blackhorse Road)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -2671,7 +2684,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 27/08/2026",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~16 min (walk + 7 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Highams Park (Overground)",
@@ -2779,7 +2792,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change) \u00e2\u20ac\u201d Leyton is Central line, no direct route to Walthamstow Central",
       "nearestStation": "Leyton (Central line)",
@@ -2839,7 +2852,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + change from Leyton)",
       "nearestStation": "Leyton (Central line)",
@@ -2895,7 +2908,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + change) \u00e2\u20ac\u201d stations are under a mile but not close",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -3125,7 +3138,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~14-16 min (walk) \u00e2\u20ac\u201d listing claims a short walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3183,7 +3196,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 02/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~10 min (walk + 1 stop, Victoria line)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -3240,7 +3253,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 01/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch, user-confirmed OK in practice",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3300,7 +3313,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20-22 min (walk/bus + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3359,7 +3372,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 30/08/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + 10 min train) \u00e2\u20ac\u201d Chingford branch",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3417,7 +3430,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min walk",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3467,7 +3480,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 03/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min (walk + 1 stop from St James Street)",
       "nearestStation": "St James Street (Overground)",
@@ -3516,7 +3529,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 02/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~8 min walk",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3663,7 +3676,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk + bus/train)",
       "nearestStation": "Leyton (Central line)",
@@ -3712,7 +3725,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 04/09/2026",
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20-25 min (walk/bus + Chingford branch)",
       "nearestStation": "Chingford (Overground terminus)",
@@ -3761,7 +3774,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 06/09/2026",
       "firstSeen": "2026-09-06",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + Overground + Victoria line change)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -3812,7 +3825,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 06/09/2026",
       "firstSeen": "2026-09-10",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~12 min (walk + 1 stop, Victoria line)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -3862,7 +3875,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 12/09/2026",
       "firstSeen": "2026-09-13",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min walk/bus",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -3910,7 +3923,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 12/09/2026",
       "firstSeen": "2026-09-13",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min walk",
       "nearestStation": "Walthamstow Central (Victoria line + Overground)",
@@ -4006,7 +4019,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 15/09/2026",
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min (walk + 1 stop, Overground)",
       "nearestStation": "Wood Street (Overground)",
@@ -4054,7 +4067,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 15/09/2026",
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "pass",
       "commuteToWMC": "~15 min (walk + 1 stop, Overground)",
       "nearestStation": "Wood Street (Overground)",
@@ -4102,7 +4115,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 15/09/2026",
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~20 min (walk/bus + rail)",
       "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -4150,7 +4163,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 15/09/2026",
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~18 min (walk + Overground + Victoria line change)",
       "nearestStation": "Leyton Midland Road (Overground)",
@@ -4195,7 +4208,7 @@
       "sourcePortal": "Zoopla",
       "dateAddedText": "Added 15/09/2026",
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-16",
+      "lastSeen": "2026-09-17",
       "commuteBadge": "borderline",
       "commuteToWMC": "~25 min (walk/bus + Chingford branch)",
       "nearestStation": "Chingford (Overground terminus)",
@@ -4243,7 +4256,7 @@
         "sourcePortal": "Zoopla",
         "dateAddedText": "Added 16/09/2026",
         "firstSeen": "2026-09-16",
-        "lastSeen": "2026-09-16",
+        "lastSeen": "2026-09-17",
         "commuteBadge": "pass",
         "commuteToWMC": "~12 min (walk + 1 stop, Victoria line)",
         "nearestStation": "Blackhorse Road (Victoria line + Overground)",
@@ -4279,6 +4292,150 @@
             "At \u00a3500k, it is close to the budget cap",
             "Third floor with no lift stated; Council Tax and ground-rent review terms are unpublished"
           ]
+      }
+    },
+    "zoopla-73533020": {
+      "id": "zoopla-73533020",
+      "address": "Wren House, 4 Frank Searle Passage, London E17",
+      "postcode": "E17",
+      "price": 525000,
+      "priceText": "\u00a3525,000",
+      "priceBadge": "at-budget-edge",
+      "beds": 3,
+      "baths": 2,
+      "type": "Flat",
+      "tenure": "Ask agent (\u00a33,800 pa service charge; ground rent not published)",
+      "description": "First-floor three-bedroom apartment in the Blackhorse View development, with approximately 915 sq ft of internal space, dual-aspect light, open-plan kitchen/living space, private balcony, communal gardens and rooftop terrace. It is close to Walthamstow Wetlands and Blackhorse Road station.",
+      "agent": "Ernest-Brooks International",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/73533020/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 16/09/2026",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
+      "commuteBadge": "pass",
+      "commuteToWMC": "~7 min (walk + 1 stop, Victoria line)",
+      "nearestStation": "Blackhorse Road (Victoria line + Overground)",
+      "walkToStation": "Immediate / shown as 0 miles",
+      "lat": 51.5875,
+      "lon": -0.04,
+      "groundRentPA": null,
+      "serviceChargePA": 3800,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "Zoopla records tenure as ask agent and does not publish ground rent or its review date/period. Council Tax band is not yet confirmed.",
+      "commuteWarning": null,
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/a1331071d2e980d019c2338d4e8e15892603367e.jpg:p",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/35f8e5b2bf58faccfb8ea4368699515df67df10b.jpg:p",
+        "https://lid.zoocdn.com/u/1024/768/2a74c4c1424208cdf05c2be4bc82d3b4668bfeca.jpg:p"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "915 sq ft with three bedrooms, two bathrooms, a balcony and dual aspect",
+          "Immediate access to Blackhorse Road gives a strong Victoria line commute",
+          "EPC B, rooftop terrace and landscaped communal gardens"
+        ],
+        "cons": [
+          "At the full \u00a3525k budget cap",
+          "\u00a33,800 annual service charge is material",
+          "Tenure, ground-rent terms and Council Tax band are unpublished"
+        ]
+      }
+    },
+    "zoopla-74252101": {
+      "id": "zoopla-74252101",
+      "address": "Primrose Road, Leyton, London E10",
+      "postcode": "E10",
+      "price": 525000,
+      "priceText": "\u00a3525,000",
+      "priceBadge": "at-budget-edge",
+      "beds": 2,
+      "baths": 1,
+      "type": "Terraced house",
+      "tenure": "Freehold",
+      "description": "Freshly redecorated mid-terrace Victorian cottage with open-plan living/dining space, two double bedrooms, a modern period-style bathroom and a secluded courtyard garden. New electrical circuits were installed in 2025. It is about a 10-minute walk from Leyton Midland Road and under 20 minutes from Leyton Underground.",
+      "agent": "Eeleven",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74252101/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 16/09/2026",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~20 min (walk + Overground + Victoria line change)",
+      "nearestStation": "Leyton Midland Road (Overground)",
+      "walkToStation": "~10 min / 0.4 mi",
+      "lat": 51.554,
+      "lon": -0.008,
+      "groundRentPA": 0,
+      "serviceChargePA": 0,
+      "leaseYearsRemaining": null,
+      "groundRentReview": "Freehold. Council Tax band B.",
+      "commuteWarning": "Borderline interchange journey; confirm it works in practice.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/2c1f1d06e3832e0b6578fef7d2dde7a59432bde0.jpg:p",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/da49a85b84b6f93f72d62aea776d89f9c717a1d5.jpg:p",
+        "https://lid.zoocdn.com/u/1024/768/d9caaf0fd5d91700cf40f882dd94292464cd263b.jpg:p"
+      ],
+      "opinion": {
+        "score": 7,
+        "pros": [
+          "Freehold Victorian house with a private courtyard garden",
+          "Freshly redecorated, with two double bedrooms and electrical upgrades in 2025",
+          "No service charge or ground rent, and Council Tax band B"
+        ],
+        "cons": [
+          "At the full \u00a3525k budget cap",
+          "The realistic walk-and-interchange commute is borderline and caps the score",
+          "No floor area is published"
+        ]
+      }
+    },
+    "zoopla-74254068": {
+      "id": "zoopla-74254068",
+      "address": "Heathcote Grove, North Chingford E4",
+      "postcode": "E4",
+      "price": 315000,
+      "priceText": "\u00a3315,000",
+      "priceBadge": "in-budget",
+      "beds": 2,
+      "baths": 1,
+      "type": "Flat",
+      "tenure": "Leasehold (approximately 130 years; \u00a32,100 pa service charge; peppercorn ground rent)",
+      "description": "Chain-free ground-floor two-bedroom apartment of approximately 660 sq ft, with a spacious living room, modern fitted kitchen and bathroom, double glazing, gas central heating and a garage en bloc. It is about 0.9 miles from Chingford station.",
+      "agent": "Coultons Estate Agents",
+      "listingUrl": "https://www.zoopla.co.uk/for-sale/details/74254068/",
+      "sourcePortal": "Zoopla",
+      "dateAddedText": "Added 16/09/2026",
+      "firstSeen": "2026-09-17",
+      "lastSeen": "2026-09-17",
+      "commuteBadge": "borderline",
+      "commuteToWMC": "~25 min (walk + Chingford branch + Victoria line change)",
+      "nearestStation": "Chingford (Overground terminus)",
+      "walkToStation": "~18 min / 0.9 mi",
+      "lat": 51.632,
+      "lon": -0.011,
+      "groundRentPA": 0,
+      "serviceChargePA": 2100,
+      "leaseYearsRemaining": 130,
+      "groundRentReview": "Ground rent is described as peppercorn. Zoopla records the ground-rent amount and next review date as ask agent; Council Tax band C.",
+      "commuteWarning": "Borderline station walk and interchange journey; confirm it works in practice.",
+      "floorplan": "https://lid.zoocdn.com/u/1024/768/4336ae5c1241e99b4c8dee0337f50b776cf53850.jpg:p",
+      "photos": [
+        "https://lid.zoocdn.com/u/1024/768/c6babed46ef4947d7674ab745a38c5714ea94030.jpg:p",
+        "https://lid.zoocdn.com/u/1024/768/719b14754611a2df2bf82afd816f34c0261d05db.jpg:p"
+      ],
+      "opinion": {
+        "score": 6,
+        "pros": [
+          "\u00a3210k under budget for a chain-free ground-floor two-bed with garage",
+          "Approximately 130-year lease, modern kitchen and bathroom, and EPC C",
+          "660 sq ft provides a stated, practical two-bedroom layout"
+        ],
+        "cons": [
+          "Borderline 0.9-mile station walk and interchange commute",
+          "\u00a32,100 annual service charge",
+          "Ground-rent review terms remain unpublished"
+        ]
       }
     }
   }
