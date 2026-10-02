@@ -143,6 +143,20 @@ mistake. Scoping to the gallery container is what makes it safe.
 Navigating to `?console=open&tab=floor_plans` and extracting in a single
 JS evaluation yields description, key facts, photos and floorplan together.
 
+### 4. Gallery completeness validation — mandatory
+
+Before adding or retaining a listing, open its public Images gallery and read
+the displayed total from `Property photo X of N` alt text or gallery labels.
+Scroll **every** property-gallery `img` node to force lazy loading, capture and
+deduplicate every image URL, then assert the captured count is exactly `N`.
+Do not publish a one-photo/sample gallery. If any gallery image fails to load
+or the count cannot be reconciled, exclude that listing and report why.
+
+For floorplans, trust only images inside
+`aria-label="Floor plan images"` after opening
+`?console=open&tab=floor_plans`; otherwise record `null`. Never infer a
+floorplan from an image filename or EPC artwork.
+
 ---
 
 ## The quality bar — what to exclude
