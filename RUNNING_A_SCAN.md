@@ -43,18 +43,23 @@ copy wins — take theirs.
 
 ---
 
-## The prompt this run answers
+## The current scan brief (reset 2 October 2026)
 
-> Search OnTheMarket and Zoopla across Walthamstow/Blackhorse Road (E17),
-> Chingford/Highams Park (E4), and Leyton (E10) for 2-3 bed listings under
-> ~£525k posted in the last 2 weeks. For each candidate, update `lastSeen` or
-> add it fresh with an `"opinion"` object (score 1-10 + pros/cons) scored
-> against `criteria.opinionCriteria` in `archive.json`, applying the same
-> quality bar as before (exclude mismarketed / stale / over-budget /
-> bad-commute). Append a `runs` entry, run `python3 build_page.py`, and commit.
-> Flag immediately anything scoring 8/10+; otherwise stay quiet.
-
----
+> **Destructive reset authorised:** rebuild `archive.json` from only this scan;
+> do not retain any earlier listings or runs, and never edit `status.json`.
+> Search only **E4, E5, E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19 and
+> N22** for genuinely open-market 2–3-bed listings at or below about **£525k**.
+> Freshness is the **last seven calendar days** through the run date, controlled
+> by Zoopla’s exact newest-first `Listed on` date. Prioritise roughly a
+> **12-minute / 0.6-mile walk** to Underground, Overground or Elizabeth line
+> stations and direct routes; a realistic interchange/borderline commute is
+> capped at **7/10**. Exclude shared ownership, Homewise/lifetime/retirement,
+> stale/relisted/reduced, mismarketed, promoted out-of-postcode and over-budget
+> stock. For every retained listing, open the full public detail page, read the
+> complete description and structured facts, open
+> `?console=open&tab=floor_plans` and read images only within
+> `aria-label="Floor plan images"`, then navigate and scroll every gallery
+> image. Build with `status.json` present, but do not modify it.
 
 ## Where to search, and what each source is good for
 
@@ -76,32 +81,20 @@ Zoopla needs a **browser** (it is not reliably WebFetch-able). Cards are
 > **Promoted listings are not area-filtered.** The Leyton search has returned a
 > property in NW10. Always check the postcode on the detail page before adding.
 
-### OnTheMarket — only for confirming a listing is still live
+### OnTheMarket — supplementary public coverage only
 
-OnTheMarket's search pages are **useless for spotting new stock**. They sort by
-relevance, not date, and the `sort-field` parameter is disallowed by their
-robots.txt. On 5 Sep the facet pages returned an identical first page to a week
-earlier, while Zoopla found ~36 listings added in that window. Its "Added < 7
-days" buckets are also unreliable for relisted properties.
-
-Use these (bare facet URLs — parameterised searches are robots-disallowed;
-detail pages at `/details/<id>/` are fetchable):
+Open the unauthenticated public 2- and 3-bed facets for **each** current
+postcode, for example:
 
 ```
-https://www.onthemarket.com/for-sale/2-bed-property/walthamstow/
-https://www.onthemarket.com/for-sale/3-bed-property/walthamstow/
-https://www.onthemarket.com/for-sale/2-bed-property/chingford/
-https://www.onthemarket.com/for-sale/3-bed-property/chingford/
-https://www.onthemarket.com/for-sale/2-bed-property/leyton/
-https://www.onthemarket.com/for-sale/3-bed-property/leyton/
-https://www.onthemarket.com/for-sale/2-bed-property/highams-park/
-https://www.onthemarket.com/for-sale/3-bed-property/highams-park/
-https://www.onthemarket.com/for-sale/2-bed-property/blackhorse-road-station/
-https://www.onthemarket.com/for-sale/3-bed-property/blackhorse-road-station/
+https://www.onthemarket.com/for-sale/2-bed-property/e4/
+https://www.onthemarket.com/for-sale/3-bed-property/e4/
 ```
 
-**Search all ten.** The Blackhorse Road 3-bed facet went unrun for three
-consecutive scans and was hiding in-budget E17 three-beds.
+Repeat for E4, E5, E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19 and N22.
+Record a missing or unusable facet as a coverage gap. OnTheMarket relevance
+ordering and its “added” buckets are not trustworthy for dates, so it must
+never override Zoopla’s listed date.
 
 ---
 
@@ -161,8 +154,7 @@ JS evaluation yields description, key facts, photos and floorplan together.
 - **Retirement properties** with age restrictions.
 - **Over budget** — above roughly £525k. A small number of notable
   over-budget listings are kept deliberately for comparison; do not add more.
-- **Outside the confirmed areas** — E11 (Leytonstone), E15 (Stratford), N17
-  (Tottenham Hale) are all out. E17, E4 and E10 are in.
+- **Outside the 14 reset postcodes** — all districts other than E4, E5, E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19 and N22 are out.
 - **Relisted-but-stale.** OnTheMarket may show "Added < 7 days" for a property
   Zoopla shows as `Back to market`, originally listed months ago. Trust Zoopla's
   date. These are not new.
@@ -174,9 +166,9 @@ JS evaluation yields description, key facts, photos and floorplan together.
 
 ## Editing `archive.json`
 
-### Additive only
+### Reset exception and normal updates
 
-Runs must never rewrite history. Touch `lastSeen` on an existing listing and
+The 2 October 2026 run was an explicitly authorised destructive reset. After that reset, runs must never rewrite history. Touch `lastSeen` on an existing listing and
 nothing else; add new listings; append one `runs` entry. Assert it:
 
 ```python

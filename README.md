@@ -10,6 +10,30 @@
 (needs an internet connection for photos and the map tiles/library, since those
 load from OnTheMarket / Zoopla's photo CDN, cdnjs.cloudflare.com and cartocdn.com).
 
+## Deploying to Azure App Service
+
+The page itself is static, but a pure Azure Storage static website cannot save
+the shared favorite, followed-up, and rejected states. Deploy this repository
+to **Azure App Service (Linux, Python 3.12)** instead: it serves the same
+static files and the small status API from `server.py`.
+
+From the repository root, with the Azure CLI signed in:
+
+```sh
+az webapp up --name <globally-unique-app-name> --resource-group <resource-group> --location uksouth --runtime "PYTHON:3.12" --sku B1
+az webapp config appsettings set --name <globally-unique-app-name> --resource-group <resource-group> --settings STATUS_DIR=/home/data WEBSITES_ENABLE_APP_SERVICE_STORAGE=true
+az webapp config set --name <globally-unique-app-name> --resource-group <resource-group> --startup-file "python server.py"
+az webapp restart --name <globally-unique-app-name> --resource-group <resource-group>
+```
+
+`/home/data/status.json` is the single shared record store. It persists across
+deployments and restarts while App Service storage is enabled. On its first
+start, the server seeds that file from the repository's `status.json`; later
+deployments do not overwrite the live state. Keep this app on one instance:
+the JSON-file store does not coordinate simultaneous writes across scaled-out
+instances. The supplied GitHub Actions workflow can deploy subsequent pushes
+after its Azure secrets are configured.
+
 ## Serving it on the local network (pm2)
 
 To make it reachable from any device on the home network (phone, laptop, etc.)
@@ -49,16 +73,20 @@ it prints), then `pm2 save` again. Useful commands afterwards:
 `pm2 status`, `pm2 logs house-hunt`, `pm2 restart house-hunt`,
 `pm2 delete house-hunt` (to stop serving it).
 
-## Confirmed target areas (24 Aug 2026)
+## Current primary search scope (reset 2 Oct 2026)
 
-Walthamstow (E17, including the Blackhorse Road vicinity) and Chingford /
-Highams Park (E4) are both user-confirmed acceptable commute areas — treat
-listings there as in-scope even where Zoopla's own travel-time calculator
-doesn't surface them (it doesn't return E4 at all, for reasons unknown; the
-user knows the direct Chingford branch Overground works fine in practice).
-Leyton (E10) has turned up genuine Zoopla-verified matches too. Clapton (E5)
-and South Tottenham (N15/N17) are still fair game to search but nothing
-there is currently confirmed — see `currentOverride` below.
+The tracker was destructively reset on **2 October 2026** at the user’s direction:
+all prior properties and run history were removed from `archive.json`. Its only
+primary areas are **E4, E5, E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19
+and N22**. Retain only genuinely open-market 2–3-bed listings at or below the
+approximately **£525k** guide budget which Zoopla shows as listed in the last
+seven calendar days.
+
+Prioritise homes within about **12 minutes / 0.6 mi** walk of an Underground,
+Overground or Elizabeth line station. Direct routes are preferred. An assessed
+interchange/borderline route may remain useful, but its opinion score is capped
+at **7/10**. Zoopla’s newest-first results and exact listed date control
+freshness; OnTheMarket is a supplementary live-stock check only.
 
 ## How new listings age: current vs. archive
 
@@ -142,7 +170,10 @@ something rejected clears the other two (and vice versa).
 
 This state is stored **server-side** in `status.json`, written by
 `server.py`'s API — not in browser `localStorage`, and not in
-`archive.json`. Practically that means:
+`archive.json`. On Azure, the live file is `/home/data/status.json`; locally it
+remains beside `server.py` unless `STATUS_DIR` is set. Each save updates only
+that property's current state and timestamp; it does not retain a vote-history
+log. Practically that means:
 
 - It is shared across every device and browser that reaches the same
   server, so a reject marked on your phone shows up on the laptop.
