@@ -7,7 +7,7 @@
       "House"
     ],
     "budget": 525000,
-    "commuteTarget": "Direct rail/Underground/Overground routes preferred; interchange/borderline routes score no higher than 7",
+    "commuteTarget": "Useful Underground, Overground or Elizabeth line access; no destination-specific commute target or score cap",
     "stationWalkTarget": "Approximately 12 min / 0.6 mi walk to an Underground, Overground or Elizabeth line station",
     "freshness": "Listed 26 September–2 October 2026 (last seven calendar days)",
     "postcodes": [
@@ -29,7 +29,7 @@
     "opinionCriteria": [
       "Genuinely open-market 2-3 bed listing at or below the £525k guide budget",
       "Walk to an Underground, Overground or Elizabeth line station, prioritising approximately 12 minutes / 0.6 miles",
-      "Direct route quality preferred; realistic interchange/borderline commute scores no higher than 7",
+      "Station proximity and route usefulness as part of the overall judgement, with no destination-specific commute score cap",
       "Tenure, remaining lease, service charge, ground rent and review terms",
       "Livable space, layout, outdoor space, parking and condition",
       "Chain status, auction/marketing quirks and improvement potential"
@@ -54,8 +54,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Chingford",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.630901,
@@ -65,7 +63,6 @@
       "leaseYearsRemaining": 939,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/3f06cd69635171dfd4946f20bdd9faf0744a6831.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/3f06cd69635171dfd4946f20bdd9faf0744a6831.jpg:p"
@@ -97,8 +94,7 @@
         ],
         "cons": [
           "Structured service charge is £1,100/year.",
-          "Structured ground rent is £200/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £200/year."
         ]
       }
     },
@@ -120,8 +116,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Highams Park",
       "walkToStation": "Zoopla straight-line 1.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.615994,
@@ -131,7 +125,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/26be4c8998098851584e9a5f2fc4b38029d9549f.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/26be4c8998098851584e9a5f2fc4b38029d9549f.jpg:p"
@@ -171,8 +164,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -194,8 +186,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Highams Park",
       "walkToStation": "Zoopla straight-line 0.9 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.620979,
@@ -205,7 +195,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/a2aec9ef0f50e5f247727916cbb22ca90200e158.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/a2aec9ef0f50e5f247727916cbb22ca90200e158.jpg:p"
@@ -256,8 +245,7 @@
         ],
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -279,8 +267,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Highams Park",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.602958,
@@ -290,7 +276,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/a24bc14d841348481ff417f3ed11da3b7fe5ed3a.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/a24bc14d841348481ff417f3ed11da3b7fe5ed3a.jpg:p"
@@ -329,8 +314,7 @@
         ],
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -352,8 +336,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Ponders End",
       "walkToStation": "Zoopla straight-line 1.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.627558,
@@ -363,7 +345,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/bc1bc404287df0e2c56bc66c260ef99d6aba1507.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/bc1bc404287df0e2c56bc66c260ef99d6aba1507.jpg:p"
@@ -404,8 +385,7 @@
           "Structured tenure is freehold."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -427,8 +407,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Chingford",
       "walkToStation": "Zoopla straight-line 0.6 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.630035,
@@ -438,7 +416,6 @@
       "leaseYearsRemaining": 112,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/631e9db062db9719af8b633889942198636eaf6c.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/631e9db062db9719af8b633889942198636eaf6c.jpg:p"
@@ -479,8 +456,7 @@
         ],
         "cons": [
           "Structured service charge is £2,500/year.",
-          "Structured ground rent is £360/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £360/year."
         ]
       }
     },
@@ -502,8 +478,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Highams Park",
       "walkToStation": "Zoopla straight-line 0.7 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.619152,
@@ -513,7 +487,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d20f4d66da0daed33911a2da9b3e82c822f4d8b7.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d20f4d66da0daed33911a2da9b3e82c822f4d8b7.jpg:p"
@@ -548,8 +521,7 @@
           "Description states the sale is chain free."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -571,8 +543,6 @@
       "dateAddedText": "Added 26/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Highams Park",
       "walkToStation": "Zoopla straight-line 0.9 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.619457,
@@ -582,7 +552,6 @@
       "leaseYearsRemaining": 110,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/61b4b4601ba16a79e912581b000ea14e3e7f2864.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/61b4b4601ba16a79e912581b000ea14e3e7f2864.jpg:p"
@@ -615,8 +584,7 @@
         ],
         "cons": [
           "Structured service charge is £3,095/year.",
-          "Structured ground rent is £150/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £150/year."
         ]
       }
     },
@@ -638,8 +606,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Hackney Downs",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.551429,
@@ -649,7 +615,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "TBC",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/0a1090d621a53b1e5ce04922190337ac4f208b8c.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/0a1090d621a53b1e5ce04922190337ac4f208b8c.png:p"
@@ -674,8 +639,7 @@
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
           "Structured service charge is £1,440/year.",
-          "Structured ground rent is £10/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £10/year."
         ]
       }
     },
@@ -697,8 +661,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Dalston Kingsland",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.55148,
@@ -708,7 +670,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "A band has not yet been confirmed.",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/5a301b8e2b98fc5496eb17b23254a09011facf7d.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/5a301b8e2b98fc5496eb17b23254a09011facf7d.jpg:p"
@@ -734,8 +695,7 @@
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
           "Structured service charge is unpublished (Ask agent).",
-          "Structured ground rent is £100/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £100/year."
         ]
       }
     },
@@ -757,8 +717,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Dalston Junction",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.547342,
@@ -768,7 +726,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d07dceb300f546fd75131f6f2f9a0329de387886.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d07dceb300f546fd75131f6f2f9a0329de387886.jpg:p"
@@ -792,8 +749,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -815,8 +771,6 @@
       "dateAddedText": "Added 02/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Leyton Midland Road",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.573367,
@@ -826,7 +780,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "TBC",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/2bb43d97191d78ac640a1b799b1086c6131823b5.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/2bb43d97191d78ac640a1b799b1086c6131823b5.png:p"
@@ -848,8 +801,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is £1,000/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is £1,000/year."
         ]
       }
     },
@@ -871,8 +823,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Leytonstone",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.574447,
@@ -882,7 +832,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Council tax band not yet known",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/b7668f7041fec74d6da37424edf18345c2feac9e.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/b7668f7041fec74d6da37424edf18345c2feac9e.jpg:p"
@@ -908,8 +857,7 @@
           "Price leaves meaningful headroom below the guide budget."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -931,8 +879,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Leyton",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.562265,
@@ -942,7 +888,6 @@
       "leaseYearsRemaining": 939,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/5406ae435f727207e4288eb63c0c9476f2b79c0a.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/5406ae435f727207e4288eb63c0c9476f2b79c0a.jpg:p"
@@ -982,8 +927,7 @@
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
           "Structured service charge is unpublished (Ask agent).",
-          "Structured ground rent is £15/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £15/year."
         ]
       }
     },
@@ -1005,8 +949,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Leyton",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.560826,
@@ -1016,7 +958,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/1922cab258d993b7587c3f5da7b3b0a37da72975.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/1922cab258d993b7587c3f5da7b3b0a37da72975.jpg:p"
@@ -1043,8 +984,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1066,8 +1006,6 @@
       "dateAddedText": "Added 26/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Leyton Midland Road",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.56734,
@@ -1077,7 +1015,6 @@
       "leaseYearsRemaining": 140,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/020995d2dbb022bfa0b01b14703d120318f592b9.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/020995d2dbb022bfa0b01b14703d120318f592b9.jpg:p"
@@ -1126,8 +1063,7 @@
           "Description states private outdoor space."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1149,8 +1085,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Victoria line (one stop) + short walk",
       "nearestStation": "Blackhorse Road (Victoria line / Overground)",
       "walkToStation": "Zoopla straight-line 0.3 mi; route time needs verification",
       "lat": 51.590526,
@@ -1160,7 +1094,6 @@
       "leaseYearsRemaining": 122,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1200/900/5faa8d59f813752dcf09476397537421bf099b4b.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/5faa8d59f813752dcf09476397537421bf099b4b.jpg:p"
@@ -1230,8 +1163,6 @@
       "dateAddedText": "Added 02/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "St James Street (London)",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.577889,
@@ -1241,7 +1172,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/23413994da59212ced5ccabdc22a02203bcb5e24.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/23413994da59212ced5ccabdc22a02203bcb5e24.jpg:p"
@@ -1270,8 +1200,7 @@
           "Structured tenure is share of freehold."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1293,8 +1222,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Lea Bridge",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.57172,
@@ -1304,7 +1231,6 @@
       "leaseYearsRemaining": 101,
       "groundRentReview": "next review 1st Jan 2029; Every 25 years",
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d4cbbc2c2411ee98004e22329a6938e4af877581.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d4cbbc2c2411ee98004e22329a6938e4af877581.jpg:p"
@@ -1332,8 +1258,7 @@
         ],
         "cons": [
           "Structured service charge is unpublished (Ask agent).",
-          "Structured ground rent is £350/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £350/year."
         ]
       }
     },
@@ -1355,8 +1280,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central",
       "walkToStation": "Zoopla straight-line 0.3 mi; walking route still to verify",
       "lat": 51.578365,
@@ -1366,7 +1289,6 @@
       "leaseYearsRemaining": 999,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": null,
       "floorplan": null,
       "floorplans": [],
       "photos": [
@@ -1409,8 +1331,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Street",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.587364,
@@ -1420,7 +1340,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/8d9c114911927b136457693dd3557e69d0fbc0ae.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/8d9c114911927b136457693dd3557e69d0fbc0ae.png:p"
@@ -1448,8 +1367,7 @@
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1471,8 +1389,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Victoria line (one stop) + short walk",
       "nearestStation": "Blackhorse Road (Victoria line / Overground)",
       "walkToStation": "Zoopla straight-line 0.4 mi; route time needs verification",
       "lat": 51.587959,
@@ -1482,7 +1398,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1200/900/a0f070be979e03c0ae1cfd786b3f8f1c2afe821b.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/a0f070be979e03c0ae1cfd786b3f8f1c2afe821b.jpg:p"
@@ -1535,8 +1450,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central",
       "walkToStation": "Zoopla straight-line 0.1 mi; walking route still to verify",
       "lat": 51.58237,
@@ -1546,7 +1459,6 @@
       "leaseYearsRemaining": 242,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1200/900/0f04f20dbf769fde2ccad9392e8a227acb4ff438.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/0f04f20dbf769fde2ccad9392e8a227acb4ff438.jpg:p"
@@ -1604,8 +1516,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central",
       "walkToStation": "Zoopla straight-line 0.6 mi; walking route still to verify",
       "lat": 51.591236,
@@ -1615,7 +1525,6 @@
       "leaseYearsRemaining": 134,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1200/900/3c5eef1e917bf1acec43d561cc9683d0625f1b98.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/3c5eef1e917bf1acec43d561cc9683d0625f1b98.jpg:p"
@@ -1671,8 +1580,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Walthamstow Queens Road",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.57991,
@@ -1682,7 +1589,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/c6a1e82d86488be920fce7af8396d2b83aee16c9.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/c6a1e82d86488be920fce7af8396d2b83aee16c9.jpg:p"
@@ -1731,8 +1637,7 @@
         ],
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1754,8 +1659,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Walthamstow Queens Road",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.57991,
@@ -1765,7 +1668,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/bf8c3155a1293353836975e86767603a7e00ffd9.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/bf8c3155a1293353836975e86767603a7e00ffd9.jpg:p"
@@ -1824,8 +1726,7 @@
         ],
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1847,8 +1748,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Walthamstow Queens Road",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.576504,
@@ -1858,7 +1757,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/1164305a99ab9cdc85ceda5b5de7943007779ec2.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/1164305a99ab9cdc85ceda5b5de7943007779ec2.jpg:p"
@@ -1887,8 +1785,7 @@
           "Description states private outdoor space."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1910,8 +1807,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Lea Bridge",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.572332,
@@ -1921,7 +1816,6 @@
       "leaseYearsRemaining": 145,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/e1f12a7b25ac49fa5083f99dfe4b147f73c48913.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/e1f12a7b25ac49fa5083f99dfe4b147f73c48913.jpg:p"
@@ -1948,8 +1842,7 @@
           "Structured tenure is leasehold (145 years)."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -1971,8 +1864,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "pass",
-      "commuteToWMC": "Walk to Walthamstow Central",
       "nearestStation": "Walthamstow Central",
       "walkToStation": "Zoopla straight-line 0.5 mi; walking route still to verify",
       "lat": 51.587963,
@@ -1982,7 +1873,6 @@
       "leaseYearsRemaining": 176,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": null,
       "floorplan": "https://lid.zoocdn.com/u/1200/900/f597deed84a903a2638e1fa5b2e1aec1a19bbbfd.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/f597deed84a903a2638e1fa5b2e1aec1a19bbbfd.jpg:p"
@@ -2047,8 +1937,6 @@
       "dateAddedText": "Added 26/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Street",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.587249,
@@ -2058,7 +1946,6 @@
       "leaseYearsRemaining": 243,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/a4d34f4f1602cbd6e7ecf790835c749d7dd888c7.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/a4d34f4f1602cbd6e7ecf790835c749d7dd888c7.jpg:p"
@@ -2087,8 +1974,7 @@
           "Description states private outdoor space."
         ],
         "cons": [
-          "Structured service charge is £2,215/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is £2,215/year."
         ]
       }
     },
@@ -2110,8 +1996,6 @@
       "dateAddedText": "Added 26/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Street",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.594171,
@@ -2121,7 +2005,6 @@
       "leaseYearsRemaining": 113,
       "groundRentReview": null,
       "councilTaxBand": "A band has not yet been confirmed.",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/1a0d086c8499ebc5b057781a1fa04b73c2041343.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/1a0d086c8499ebc5b057781a1fa04b73c2041343.jpg:p"
@@ -2156,8 +2039,7 @@
           "Price leaves meaningful headroom below the guide budget."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2179,8 +2061,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Finsbury Park",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.563318,
@@ -2190,7 +2070,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "TBC",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d7a5319d02c9580ae9527b35f7bb5b50bdaeb16c.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d7a5319d02c9580ae9527b35f7bb5b50bdaeb16c.png:p"
@@ -2221,8 +2100,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2244,8 +2122,6 @@
       "dateAddedText": "Added 27/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Holloway Road",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.551145,
@@ -2255,7 +2131,6 @@
       "leaseYearsRemaining": 232,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": null,
       "floorplans": [],
       "photos": [
@@ -2275,8 +2150,7 @@
           "Structured tenure is leasehold (232 years)."
         ],
         "cons": [
-          "Structured service charge is £3,600/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is £3,600/year."
         ]
       }
     },
@@ -2298,8 +2172,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Hornsey",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.582801,
@@ -2309,7 +2181,6 @@
       "leaseYearsRemaining": 974,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/a4ffd6d7f6a90d97fd353e320901e685a79cf62b.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/a4ffd6d7f6a90d97fd353e320901e685a79cf62b.jpg:p"
@@ -2338,8 +2209,7 @@
         ],
         "cons": [
           "Structured service charge is £3,812/year.",
-          "Structured ground rent is £387/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £387/year."
         ]
       }
     },
@@ -2361,8 +2231,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Hornsey",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.58885,
@@ -2372,7 +2240,6 @@
       "leaseYearsRemaining": 115,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/cd4dce93336d16496693ed3334deb50db96abfda.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/cd4dce93336d16496693ed3334deb50db96abfda.jpg:p"
@@ -2403,8 +2270,7 @@
         ],
         "cons": [
           "Structured service charge is £2,600/year.",
-          "Structured ground rent is £300/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £300/year."
         ]
       }
     },
@@ -2426,8 +2292,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Dungeness Station (RHDR)",
       "walkToStation": "Zoopla straight-line 5735.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": -29.034808,
@@ -2437,7 +2301,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "A band has not yet been confirmed.",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/ea180d9c15fe65d39cc3f1547e65317827827c98.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/ea180d9c15fe65d39cc3f1547e65317827827c98.jpg:p"
@@ -2462,8 +2325,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2485,8 +2347,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Hornsey",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.587284,
@@ -2496,7 +2356,6 @@
       "leaseYearsRemaining": 994,
       "groundRentReview": null,
       "councilTaxBand": "D",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/611124f5d9df1e4c3bbcb03a7643d9c09c483813.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/611124f5d9df1e4c3bbcb03a7643d9c09c483813.jpg:p"
@@ -2527,8 +2386,7 @@
         ],
         "cons": [
           "Structured service charge is £2,200/year.",
-          "Structured ground rent is £500/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £500/year."
         ]
       }
     },
@@ -2550,8 +2408,6 @@
       "dateAddedText": "Added 02/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Stamford Hill",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.577051,
@@ -2561,7 +2417,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "B",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/c2cfffe5dd9c97b21a1678876aa2724cc241b73f.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/c2cfffe5dd9c97b21a1678876aa2724cc241b73f.jpg:p"
@@ -2596,8 +2451,7 @@
           "Structured tenure is share of freehold."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2619,8 +2473,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Stoke Newington",
       "walkToStation": "Zoopla straight-line 0.5 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.562366,
@@ -2630,7 +2482,6 @@
       "leaseYearsRemaining": 149,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d11d1b6b44275b230debc6a048bebbc332b8a847.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d11d1b6b44275b230debc6a048bebbc332b8a847.jpg:p"
@@ -2667,8 +2518,7 @@
           "Description states private outdoor space."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2690,8 +2540,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Stoke Newington",
       "walkToStation": "Zoopla straight-line 0.2 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.563069,
@@ -2701,7 +2549,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/5ecc32c440b0b2d076cec012818b40e2490438bc.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/5ecc32c440b0b2d076cec012818b40e2490438bc.png:p"
@@ -2729,8 +2576,7 @@
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
           "Structured service charge is £1,800/year.",
-          "Structured ground rent is £9/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £9/year."
         ]
       }
     },
@@ -2752,8 +2598,6 @@
       "dateAddedText": "Added 30/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "White Hart Lane",
       "walkToStation": "Zoopla straight-line 0.8 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.599686,
@@ -2763,7 +2607,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "TBC",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/4ba7e4221ec3bb1a5f497ef3e12bbad8844b801f.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/4ba7e4221ec3bb1a5f497ef3e12bbad8844b801f.png:p"
@@ -2792,8 +2635,7 @@
         ],
         "cons": [
           "At the full £525k guide budget before buying and running costs.",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2815,8 +2657,6 @@
       "dateAddedText": "Added 29/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Northumberland Park",
       "walkToStation": "Zoopla straight-line 0.3 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.599381,
@@ -2826,7 +2666,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "A band has not yet been confirmed.",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/472bcc9e0ca921df903a62e3895a404ed6b75f1b.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/472bcc9e0ca921df903a62e3895a404ed6b75f1b.jpg:p"
@@ -2857,8 +2696,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2880,8 +2718,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "stretch",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Green",
       "walkToStation": "Zoopla straight-line 0.8 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.602571,
@@ -2891,7 +2727,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/b0b8b2bd023752fd49426a101a44a79d5c5d9545.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/b0b8b2bd023752fd49426a101a44a79d5c5d9545.jpg:p"
@@ -2933,8 +2768,7 @@
         ],
         "cons": [
           "Structured tenure is unpublished (Ask agent).",
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -2956,8 +2790,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Bruce Grove",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.595699,
@@ -2967,7 +2799,6 @@
       "leaseYearsRemaining": 153,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/74e451ff421e48e8f6f4d9014195aaf9e800abf6.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/74e451ff421e48e8f6f4d9014195aaf9e800abf6.jpg:p"
@@ -2998,8 +2829,7 @@
         ],
         "cons": [
           "Structured service charge is unpublished (Ask agent).",
-          "Structured ground rent is £25/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £25/year."
         ]
       }
     },
@@ -3021,8 +2851,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "White Hart Lane",
       "walkToStation": "Zoopla straight-line 0.6 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.599223,
@@ -3032,7 +2860,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "C",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/1455c5d622dc762029988c92d29bc94b4f414792.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/1455c5d622dc762029988c92d29bc94b4f414792.jpg:p",
@@ -3081,8 +2908,7 @@
           "Price leaves meaningful headroom below the guide budget."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -3104,8 +2930,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Archway",
       "walkToStation": "Zoopla straight-line 0.1 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.56374,
@@ -3115,7 +2939,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/d69c71cbdbf97e95c7b8ab9d492e2df859038d92.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/d69c71cbdbf97e95c7b8ab9d492e2df859038d92.jpg:p"
@@ -3136,8 +2959,7 @@
           "Structured tenure is share of freehold."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -3159,8 +2981,6 @@
       "dateAddedText": "Added 01/10/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Green",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.597,
@@ -3170,7 +2990,6 @@
       "leaseYearsRemaining": null,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/75329ac4360c25829e36d167d242bb7d6a1adc9b.png:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/75329ac4360c25829e36d167d242bb7d6a1adc9b.png:p"
@@ -3200,8 +3019,7 @@
           "Description states the sale is chain free."
         ],
         "cons": [
-          "Structured service charge is unpublished (Ask agent).",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured service charge is unpublished (Ask agent)."
         ]
       }
     },
@@ -3223,8 +3041,6 @@
       "dateAddedText": "Added 28/09/2026",
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
-      "commuteBadge": "borderline",
-      "commuteToWMC": "Interchange / travel time not verified",
       "nearestStation": "Wood Green",
       "walkToStation": "Zoopla straight-line 0.4 mi; route to Walthamstow Central is not travel-time verified",
       "lat": 51.599533,
@@ -3234,7 +3050,6 @@
       "leaseYearsRemaining": 102,
       "groundRentReview": null,
       "councilTaxBand": "Ask agent",
-      "commuteWarning": "A direct route to Walthamstow Central was not verified; score capped at 7.",
       "floorplan": "https://lid.zoocdn.com/u/1200/900/da3381b9a8e7a7425f749fd26bfad29ac4cc6bc0.jpg:p",
       "floorplans": [
         "https://lid.zoocdn.com/u/1200/900/da3381b9a8e7a7425f749fd26bfad29ac4cc6bc0.jpg:p"
@@ -3269,8 +3084,7 @@
         ],
         "cons": [
           "Structured service charge is £2,230/year.",
-          "Structured ground rent is £10/year.",
-          "A direct route to Walthamstow Central was not verified; score capped at 7."
+          "Structured ground rent is £10/year."
         ]
       }
     }

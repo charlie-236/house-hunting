@@ -45,15 +45,16 @@ copy wins — take theirs.
 
 ## The current scan brief (reset 2 October 2026)
 
-> **Destructive reset authorised:** rebuild `archive.json` from only this scan;
-> do not retain any earlier listings or runs, and never edit `status.json`.
+> **Reset complete:** `archive.json` contains only North/North-East London
+> listings found after the 2 October 2026 reset; never edit `status.json`.
 > Search only **E4, E5, E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19 and
 > N22** for genuinely open-market 2–3-bed listings at or below about **£525k**.
 > Freshness is the **last seven calendar days** through the run date, controlled
 > by Zoopla’s exact newest-first `Listed on` date. Prioritise roughly a
 > **12-minute / 0.6-mile walk** to Underground, Overground or Elizabeth line
-> stations and direct routes; a realistic interchange/borderline commute is
-> capped at **7/10**. Exclude shared ownership, Homewise/lifetime/retirement,
+> stations. Assess station proximity and route usefulness, but do **not** use a
+> destination-specific score or cap a score for requiring an interchange.
+> Exclude shared ownership, Homewise/lifetime/retirement,
 > stale/relisted/reduced, mismarketed, promoted out-of-postcode and over-budget
 > stock. For every retained listing, open the full public detail page, read the
 > complete description and structured facts, open
@@ -69,9 +70,9 @@ Zoopla sorts by date and shows an exact `Listed on` date per card. Use it to
 decide what is new.
 
 ```
-https://www.zoopla.co.uk/for-sale/property/walthamstow/?beds_min=2&beds_max=3&price_max=525000&results_sort=newest_listings
-https://www.zoopla.co.uk/for-sale/property/leyton/?beds_min=2&beds_max=3&price_max=525000&results_sort=newest_listings
-https://www.zoopla.co.uk/for-sale/property/chingford/?beds_min=2&beds_max=3&price_max=525000&results_sort=newest_listings
+https://www.zoopla.co.uk/for-sale/property/e4/?beds_min=2&beds_max=3&price_max=525000&results_sort=newest_listings
+https://www.zoopla.co.uk/for-sale/property/e5/?beds_min=2&beds_max=3&price_max=525000&results_sort=newest_listings
+...repeat for E8, E10, E17, N4, N5, N7, N8, N15, N16, N17, N19 and N22
 ```
 
 Add `&pn=2` for page 2 — needed to re-confirm older listings still being live.
@@ -248,13 +249,12 @@ listing from current matches regardless of freshness.
 ### Scoring
 
 Score 1-10 against `criteria.opinionCriteria` in `archive.json` — price vs the
-£525k guide, commute quality to Walthamstow Central, walk to station, tenure,
+£525k guide, useful station access, walk to station, tenure,
 livable space, outdoor space, condition, chain/format quirks, extension
 potential.
 
 Be consistent with what is already scored rather than inventing a new scale:
-8s have gone to strong tenure plus a genuine `pass` commute; a `borderline`
-commute realistically caps a listing at 7 however good the rest is. **Never
+8s should reflect a strong overall home and useful station access. **Never
 write pros/cons for a listing you have not actually opened and read** — if
 there is not time to assess everything, add what you assessed and list the rest
 plainly in the summary as unassessed.

@@ -1,4 +1,4 @@
-# Walthamstow House Hunt tracker
+# North London House Hunt tracker
 
 > **Running a scan from a clone, without access to Charlie's machine?**
 > Read [`RUNNING_A_SCAN.md`](RUNNING_A_SCAN.md) first — it covers the git-based
@@ -83,10 +83,11 @@ approximately **£525k** guide budget which Zoopla shows as listed in the last
 seven calendar days.
 
 Prioritise homes within about **12 minutes / 0.6 mi** walk of an Underground,
-Overground or Elizabeth line station. Direct routes are preferred. An assessed
-interchange/borderline route may remain useful, but its opinion score is capped
-at **7/10**. Zoopla’s newest-first results and exact listed date control
-freshness; OnTheMarket is a supplementary live-stock check only.
+Overground or Elizabeth line station. Score station proximity and practical
+connectivity as part of the overall assessment, without a destination-specific
+commute test or interchange-based score cap. Zoopla’s newest-first results and
+exact listed date control freshness; OnTheMarket is a supplementary live-stock
+check only.
 
 ## How new listings age: current vs. archive
 
@@ -123,15 +124,9 @@ from the `runs` log itself, in `is_new()`.
 
 ## Google Maps links
 
-Every card and modal has two links, built from the listing's `lat`/`lon`:
-
-- **View on Google Maps** — pins the property itself.
-- **Directions to Walthamstow Central** — opens Google Maps directions from the
-  property to Walthamstow Central Station, defaulting to transit mode.
-
-These are computed in `build_page.py` (and mirrored in the modal's inline JS)
-from `lat`/`lon`, so nothing needs to be stored per-listing beyond the
-coordinates that already exist.
+Every card and modal has a **View on Google Maps** link. It uses the listing
+address, rather than the approximate stored coordinates, so Google can geocode
+the property accurately.
 
 ## Claude's opinion
 
@@ -145,9 +140,8 @@ against the same rubric every time (also recorded in `archive.json`'s
 `criteria.opinionCriteria`):
 
 - Price vs the £525k guide budget
-- Commute quality/reliability to Walthamstow Central (confirmed vs estimated;
-  walk+bus is weaker than walk+train)
-- Walk distance to the nearest station
+- Station proximity and route usefulness
+- Walk distance to the nearest Underground, Overground or Elizabeth line station
 - Tenure — freehold/share of freehold preferred; for leasehold, years
   remaining, ground rent, service charge
 - Livable space — square footage where stated, bed/bath count, layout
@@ -206,7 +200,7 @@ switch). Automating around that would mean giving up the property photos
 and the map (see below), which isn't a fair trade. So for now, refreshing
 the tracker is a manual step: open a new chat and paste in the run prompt
 Charlie was given when this was set up (search chat history for "daily
-automated scan for Charlie's Walthamstow house-hunt tracker" to find it
+automated scan for Charlie's North London house-hunt tracker" to find it
 again, or just ask Claude to re-generate it from this README's
 description of what a run does). The scheduled task itself still exists,
 disabled, in case device binding becomes possible later.

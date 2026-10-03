@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Builds index.html from archive.json for the Walthamstow house-hunt tracker.
+Builds index.html from archive.json for the North London house-hunt tracker.
 
 Usage:
     python3 build_page.py
@@ -13,8 +13,6 @@ import html
 from pathlib import Path
 from datetime import datetime, timedelta
 from urllib.parse import quote
-
-WMC_MAPS_DEST = quote("Walthamstow Central Station, London")
 
 ROOT = Path(__file__).parent
 DATA_PATH = ROOT / "archive.json"
@@ -154,11 +152,6 @@ def is_new(l):
 # on its own -- the daily update only ever needs to touch lastSeen/firstSeen.
 current_ids = {lid for lid, l in listings.items() if is_current(l)}
 
-badge_labels = {
-    "pass": ("Within target", "badge-pass"),
-    "borderline": ("Verify commute", "badge-borderline"),
-    "stretch": ("Likely over 15 min", "badge-stretch"),
-}
 price_badge_labels = {
     "in-budget": ("In budget", "pbadge-good"),
     "at-budget-edge": ("At budget edge", "pbadge-mid"),
@@ -186,9 +179,13 @@ def gmaps_view_url(l):
     # address is far more accurate than anything we can guess.
     return f"https://www.google.com/maps/search/?api=1&query={quote(l['address'])}"
 
-def gmaps_directions_url(l):
-    return (f"https://www.google.com/maps/dir/?api=1&origin={quote(l['address'])}"
-            f"&destination={WMC_MAPS_DEST}&travelmode=transit")
+def card_description(description, limit=280):
+    """Keep cards scannable while the modal retains the complete source text."""
+    collapsed = " ".join(description.split())
+    if len(collapsed) <= limit:
+        return collapsed
+    cutoff = collapsed.rfind(" ", 0, limit - 3)
+    return f"{collapsed[:cutoff if cutoff > 0 else limit - 3].rstrip()}..."
 
 def listing_card(l, seen_dates=None):
     photos = l.get("photos") or []
@@ -202,7 +199,6 @@ def listing_card(l, seen_dates=None):
         thumbs = (f'<button type="button" class="floorplan-selector" aria-label="Open floorplan" '
                   f"onclick='event.stopPropagation(); openFloorplan({json.dumps(floorplan_url)}); return false;'>"
                   f'<span aria-hidden="true">📐</span><span>Floor plan</span></button>') + thumbs
-    commute_label, commute_class = badge_labels.get(l["commuteBadge"], ("Unknown", ""))
     price_label, price_class = price_badge_labels.get(l["priceBadge"], ("", ""))
     if floorplan_url:
         floorplan_html = (f'<a class="fp-link" href="{html.escape(floorplan_url)}" '
@@ -230,7 +226,6 @@ def listing_card(l, seen_dates=None):
 
     maps_html = (f'<div class="maps-links">'
                  f'<a href="{gmaps_view_url(l)}" target="_blank" rel="noopener">📍 View on Google Maps</a>'
-                 f'<a href="{gmaps_directions_url(l)}" target="_blank" rel="noopener">🧭 Directions to Walthamstow Central</a>'
                  f'</div>')
 
     bits = lease_bits(l)
@@ -238,10 +233,6 @@ def listing_card(l, seen_dates=None):
     if bits:
         lease_html = ('<div class="lease-details">🔑 ' + " &middot; ".join(
             f'<span class="ld-k">{html.escape(k)}:</span> {html.escape(v)}' for k, v in bits) + '</div>')
-
-    commute_warning_html = ""
-    if l.get("commuteWarning"):
-        commute_warning_html = f'<div class="commute-warning">⚠️ {html.escape(l["commuteWarning"])}</div>'
 
     tm = total_monthly_cost(l)
     unknowns = []
@@ -257,7 +248,7 @@ def listing_card(l, seen_dates=None):
 
     return f"""
     <article class="card" data-id="{l['id']}" data-price="{l['price']}" data-beds="{l['beds']}"
-             data-commute="{l['commuteBadge']}" data-lat="{l['lat']}" data-lon="{l['lon']}"
+             data-lat="{l['lat']}" data-lon="{l['lon']}"
              data-first-seen="{l['firstSeen']}" data-score="{score if score is not None else -1}"
              data-total-monthly="{tm['total']:.0f}" tabindex="0">
       <div class="card-media">
@@ -281,13 +272,9 @@ def listing_card(l, seen_dates=None):
         <div class="meta">{l['beds']} bed &middot; {l['baths']} bath &middot; {html.escape(l['type'])} &middot; {html.escape(l['tenure'])}</div>
         {lease_html}
         {total_monthly_html}
-        <div class="badges">
-          <span class="badge {commute_class}">{commute_label}: {html.escape(l['commuteToWMC'])}</span>
-        </div>
-        {commute_warning_html}
         <div class="station">🚉 {html.escape(l['nearestStation'])} &mdash; {html.escape(l['walkToStation'])}</div>
         {maps_html}
-        <p class="desc">{html.escape(l['description'])}</p>
+        <p class="desc">{html.escape(card_description(l['description']))}</p>
         <div class="card-footer">
           <div class="fp">{floorplan_html}</div>
           <div class="added">Added: {html.escape(l['dateAddedText'])} &middot; {html.escape(l['agent'])}</div>
@@ -332,7 +319,7 @@ map_points = [
     {
         "id": l["id"], "lat": l["lat"], "lon": l["lon"], "price": l["priceText"],
         "address": l["address"], "beds": l["beds"], "type": l["type"],
-        "url": l["listingUrl"], "commute": l["commuteBadge"],
+        "url": l["listingUrl"],
         "photo": (l["photos"][0] if l.get("photos") else "")
     }
     for l in current_listings
@@ -346,7 +333,7 @@ run_history_rows = "\n".join(
 
 total_ever_seen = len(listings)
 
-HTML = f"""<title>Walthamstow House Hunt</title>
+HTML = f"""<title>North London House Hunt</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
@@ -494,11 +481,6 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   .status-excluded {{ color: var(--border-fg); }}
   .lease-details {{ font-size: 0.8rem; color: var(--text-dim); }}
   .lease-details .ld-k {{ font-weight: 600; }}
-  .commute-warning {{
-    font-size: 0.76rem; font-weight: 600; line-height: 1.45;
-    color: var(--stretch-fg); background: var(--stretch-bg);
-    border-radius: 6px; padding: 5px 9px;
-  }}
   .main-photo {{ width: 100%; height: 190px; object-fit: cover; display: block; background: var(--surface-2); }}
   .photo-fallback {{ height: 190px; display: flex; align-items: center; justify-content: center; background: var(--surface-2); color: var(--text-dim); font-size: 0.8rem; }}
   .thumbs {{ display: flex; gap: 4px; padding: 6px; overflow-x: auto; background: var(--surface-2); }}
@@ -528,7 +510,10 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   .maps-links {{ display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.78rem; margin: -2px 0 2px; }}
   .maps-links a {{ color: var(--accent); text-decoration: none; font-weight: 600; }}
   .maps-links a:hover {{ text-decoration: underline; }}
-  .desc {{ font-size: 0.86rem; color: var(--text); margin: 2px 0 4px; }}
+  .desc {{
+    font-size: 0.86rem; color: var(--text); margin: 2px 0 4px; line-height: 1.55;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
+  }}
   .card-footer {{ display: flex; justify-content: space-between; align-items: baseline; font-size: 0.75rem; color: var(--text-dim); gap: 10px; flex-wrap: wrap; }}
   .fp-link {{ color: var(--accent); text-decoration: none; font-weight: 600; }}
   .fp-none {{ color: var(--text-dim); }}
@@ -622,7 +607,6 @@ HTML = f"""<title>Walthamstow House Hunt</title>
   .modal-info .meta {{ font-size: 0.9rem; margin-bottom: 8px; }}
   .modal-info .badges {{ margin-bottom: 10px; }}
   .modal-info .lease-details {{ font-size: 0.88rem; margin-bottom: 8px; }}
-  .modal-info .commute-warning {{ font-size: 0.82rem; margin-bottom: 10px; }}
   .modal-info .station {{ font-size: 0.88rem; margin-bottom: 4px; }}
   .modal-info .maps-links {{ margin-bottom: 12px; }}
   .modal-info .desc {{ font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px; }}
@@ -743,8 +727,8 @@ HTML = f"""<title>Walthamstow House Hunt</title>
 
 <header class="top">
   <div class="top-inner">
-    <h1>🏡 Walthamstow House Hunt</h1>
-    <div class="subtitle">Daily-refreshed tracker of 2-3 bed flats and houses within a 10-15 minute public-transport journey of Walthamstow Central, and within walking distance of an Underground or Overground station. Last run: <b>{fmt_date(latest_run_date)}</b>. Listings tagged <span class="new-ribbon-inline">NEW</span> were first found by the latest run and stop being tagged as soon as another run happens; anything not turned up by a run in {STALE_DAYS}+ days is assumed sold or withdrawn and moves to the archive automatically. Each listing also has a <b>🤖 Claude's opinion</b> score (1-10) with pros/cons in its detail view — sort by it, or open a card for the full breakdown.</div>
+    <h1>🏡 North London House Hunt</h1>
+    <div class="subtitle">Daily-refreshed tracker of 2-3 bed flats and houses near Underground, Overground or Elizabeth line stations across the primary North/North-East London area. Last run: <b>{fmt_date(latest_run_date)}</b>. Listings tagged <span class="new-ribbon-inline">NEW</span> were first found by the latest run and stop being tagged as soon as another run happens; anything not turned up by a run in {STALE_DAYS}+ days is assumed sold or withdrawn and moves to the archive automatically. Each listing also has a <b>🤖 Claude's opinion</b> score (1-10) with pros/cons in its detail view — sort by it, or open a card for the full breakdown.</div>
     <div class="criteria-row">
       <span><b>{criteria['beds']} beds</b></span>
       <span><b>{' / '.join(criteria['types'])}</b></span>
@@ -777,7 +761,6 @@ HTML = f"""<title>Walthamstow House Hunt</title>
         <option value="total-asc">Total monthly: low to high</option>
         <option value="beds-desc">Bedrooms: most first</option>
       </select>
-      <label class="chk"><input type="checkbox" id="hideStretch"> Hide "likely over 15 min"</label>
       <label class="chk"><input type="checkbox" id="hideRejected"> Hide rejected</label>
     </div>
 
@@ -810,7 +793,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     {archive_html}
   </section>
 
-  <p class="caveat">Commute and walk times are estimated from known station/line geography, not a live TfL journey-planner query — treat "verify commute" / "likely over 15 min" tags as prompts to double-check on Google or TfL Journey Planner before booking a viewing. Listings currently sourced from OnTheMarket only: Rightmove and Zoopla block automated fetching, so anything listed only there won't appear here yet.</p>
+  <p class="caveat">Station walks and route descriptions are estimates from known station/line geography, not a live TfL journey-planner query — check Google Maps or TfL Journey Planner before booking a viewing. Listings currently sourced from OnTheMarket only: Rightmove and Zoopla block automated fetching, so anything listed only there won't appear here yet.</p>
 </main>
 
 <footer>Built for Charlie's house search &middot; data last refreshed {fmt_date(latest_run_date)}</footer>
@@ -845,9 +828,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
   const mapPoints = {json.dumps(map_points)};
-  const WMC = {{lat: 51.5825, lon: -0.0201}};
   const allListings = {json.dumps(listings)};
-  const badgeLabels = {json.dumps(badge_labels)};
   const priceBadgeLabels = {json.dumps(price_badge_labels)};
   function scoreTier(score) {{
     if (score === null || score === undefined) return 'pbadge-mid';
@@ -1017,9 +998,6 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     const inner = bits.map(([k, v]) => `<span class="ld-k">${{k}}:</span> ${{v}}`).join(' &middot; ');
     return `<div class="lease-details">🔑 ${{inner}}</div>`;
   }}
-  function commuteWarningHtml(l) {{
-    return l.commuteWarning ? `<div class="commute-warning">⚠️ ${{l.commuteWarning}}</div>` : '';
-  }}
   function totalMonthlyInline(c) {{
     const notes = [];
     if (c.serviceUnknown) notes.push('service charge');
@@ -1113,7 +1091,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
       mapInitialised = true;
       return;
     }}
-    map = L.map('map').setView([WMC.lat, WMC.lon], 13);
+    map = L.map('map').setView([51.56, -0.04], 11);
     // Plain OSM tile servers now require a Referer header, which file:// pages
     // don't send, so they block every tile ("Access blocked... Referer is
     // required"). CARTO's basemap tiles are free, keyless, and don't enforce
@@ -1124,20 +1102,14 @@ HTML = f"""<title>Walthamstow House Hunt</title>
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }}).addTo(map);
 
-    const wmcIcon = L.divIcon({{
-      html: '<div style="background:#2f6f4f;color:#fff;border-radius:50%;width:16px;height:16px;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>',
-      className: '', iconSize: [16,16], iconAnchor: [8,8]
-    }});
-    L.marker([WMC.lat, WMC.lon], {{icon: wmcIcon}}).addTo(map)
-      .bindPopup('<strong>Walthamstow Central</strong><br>Reference point');
-
+    const bounds = [];
     mapPoints.forEach(p => {{
-      const color = p.commute === 'pass' ? '#2f6f4f' : (p.commute === 'borderline' ? '#b5652e' : '#a13a2b');
       const icon = L.divIcon({{
-        html: `<div style="background:${{color}};color:#fff;border-radius:50% 50% 50% 0;width:22px;height:22px;transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>`,
+        html: '<div style="background:#2f6f4f;color:#fff;border-radius:50% 50% 50% 0;width:22px;height:22px;transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>',
         className: '', iconSize: [22,22], iconAnchor: [11,22]
       }});
       const marker = L.marker([p.lat, p.lon], {{icon}}).addTo(map);
+      bounds.push([p.lat, p.lon]);
       // Hover/tap shows a quick preview tooltip (no click needed to see it, and it
       // never intercepts the click), so clicking the pin itself can go straight to
       // the same full detail modal the list cards use -- matching how the list view
@@ -1148,6 +1120,7 @@ HTML = f"""<title>Walthamstow House Hunt</title>
       );
       marker.on('click', () => {{ openModal(p.id); }});
     }});
+    if (bounds.length) map.fitBounds(bounds, {{padding: [28, 28], maxZoom: 13}});
     mapInitialised = true;
   }}
 
@@ -1172,17 +1145,14 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     cards.forEach(c => grid.appendChild(c));
   }});
 
-  // Hide stretch commute / hide rejected (combined so neither checkbox clobbers the other)
+  // Hide rejected listings without coupling visibility to a destination-specific commute.
   function applyFilters() {{
-    const hideStretch = document.getElementById('hideStretch').checked;
     const hideRejected = document.getElementById('hideRejected').checked;
     document.querySelectorAll('#cardGrid .card').forEach(c => {{
-      const isStretch = c.dataset.commute === 'stretch';
       const isRejected = !!(statuses[c.dataset.id] && statuses[c.dataset.id].rejected);
-      c.style.display = ((hideStretch && isStretch) || (hideRejected && isRejected)) ? 'none' : '';
+      c.style.display = (hideRejected && isRejected) ? 'none' : '';
     }});
   }}
-  document.getElementById('hideStretch').addEventListener('change', applyFilters);
   document.getElementById('hideRejected').addEventListener('change', applyFilters);
 
   // Thumbnail swap
@@ -1214,6 +1184,12 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     return slides;
   }}
 
+  function escapeHtml(value) {{
+    return String(value).replace(/[&<>"']/g, char => ({{
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }})[char]);
+  }}
+
   function openModal(id, startIndex) {{
     const listing = allListings[id];
     if (!listing) return;
@@ -1235,12 +1211,10 @@ HTML = f"""<title>Walthamstow House Hunt</title>
     }});
 
     // Info panel
-    const commute = badgeLabels[listing.commuteBadge] || ['Unknown', ''];
     const priceB = priceBadgeLabels[listing.priceBadge] || ['', ''];
     // Use the address text, not our own lat/lon -- those are hand-estimated approximations
     // (see Known limitations) and Google's own geocoding of the real address is more accurate.
     const gmapsView = `https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(listing.address)}}`;
-    const gmapsDir = `https://www.google.com/maps/dir/?api=1&origin=${{encodeURIComponent(listing.address)}}&destination=${{encodeURIComponent('Walthamstow Central Station, London')}}&travelmode=transit`;
     const op = listing.opinion;
     const opinionHtml = op ? `
       <div class="opinion-block">
@@ -1249,13 +1223,13 @@ HTML = f"""<title>Walthamstow House Hunt</title>
           <span class="pbadge ${{scoreTier(op.score)}}">${{op.score}}/10</span>
         </div>
         <div class="opinion-cols">
-          <div class="opinion-col pros"><h4>Pros</h4><ul>${{op.pros.map(p => `<li>${{p}}</li>`).join('')}}</ul></div>
-          <div class="opinion-col cons"><h4>Cons</h4><ul>${{op.cons.map(c => `<li>${{c}}</li>`).join('')}}</ul></div>
+          <div class="opinion-col pros"><h4>Pros</h4><ul>${{op.pros.map(p => `<li>${{escapeHtml(p)}}</li>`).join('')}}</ul></div>
+          <div class="opinion-col cons"><h4>Cons</h4><ul>${{op.cons.map(c => `<li>${{escapeHtml(c)}}</li>`).join('')}}</ul></div>
         </div>
       </div>` : '';
     modalInfo.innerHTML = `
       <div class="price-row">
-        <span class="price">${{listing.priceText}}</span>
+        <span class="price">${{escapeHtml(listing.priceText)}}</span>
         <span class="pbadge ${{priceB[1]}}">${{priceB[0]}}</span>
         ${{op ? `<span class="pbadge ${{scoreTier(op.score)}}">🤖 ${{op.score}}/10</span>` : ''}}
         <div class="status-btns modal-status-btns" data-id="${{listing.id}}">
@@ -1264,24 +1238,19 @@ HTML = f"""<title>Walthamstow House Hunt</title>
           <button class="status-btn" data-key="rejected" title="Not interested" aria-pressed="false"><span aria-hidden="true">✕</span><span class="status-label">Reject</span></button>
         </div>
       </div>
-      <h2>${{listing.address}}</h2>
-      <div class="meta">${{listing.beds}} bed &middot; ${{listing.baths}} bath &middot; ${{listing.type}} &middot; ${{listing.tenure}}</div>
+      <h2>${{escapeHtml(listing.address)}}</h2>
+      <div class="meta">${{listing.beds}} bed &middot; ${{listing.baths}} bath &middot; ${{escapeHtml(listing.type)}} &middot; ${{escapeHtml(listing.tenure)}}</div>
       ${{leaseDetailsHtml(listing)}}
-      <div class="badges">
-        <span class="badge ${{commute[1]}}">${{commute[0]}}: ${{listing.commuteToWMC}}</span>
-      </div>
-      ${{commuteWarningHtml(listing)}}
-      <div class="station">🚉 ${{listing.nearestStation}} &mdash; ${{listing.walkToStation}}</div>
+      <div class="station">🚉 ${{escapeHtml(listing.nearestStation)}} &mdash; ${{escapeHtml(listing.walkToStation)}}</div>
       <div class="maps-links">
         <a href="${{gmapsView}}" target="_blank" rel="noopener">📍 View on Google Maps</a>
-        <a href="${{gmapsDir}}" target="_blank" rel="noopener">🧭 Directions to Walthamstow Central</a>
       </div>
-      <p class="desc">${{listing.description}}</p>
+      <p class="desc">${{escapeHtml(listing.description)}}</p>
       <div class="opinion-block total-monthly-block" data-id="${{listing.id}}"></div>
       ${{opinionHtml}}
       <div class="modal-footer-row">
-        <div class="added">Added: ${{listing.dateAddedText}} &middot; ${{listing.agent}}</div>
-        <a class="view-listing" href="${{listing.listingUrl}}" target="_blank" rel="noopener">View full listing on ${{listing.sourcePortal}} ↗</a>
+        <div class="added">Added: ${{escapeHtml(listing.dateAddedText)}} &middot; ${{escapeHtml(listing.agent)}}</div>
+        <a class="view-listing" href="${{listing.listingUrl}}" target="_blank" rel="noopener">View full listing on ${{escapeHtml(listing.sourcePortal)}} ↗</a>
       </div>
     `;
     applyStatusToCard(listing.id);
